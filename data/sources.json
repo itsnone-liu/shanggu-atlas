@@ -143,6 +143,70 @@
    "url": "https://life.jlu.edu.cn/info/1041/6040.htm",
    "year": 2023,
    "note": "N系沿贝加尔-东北亚廊道的迁徙证据链"
+  },
+  {
+   "id": "cellgenomics2025",
+   "kind": "paper",
+   "title": "The genomic history of East Asian Middle Neolithic millet- and rice-agricultural populations（Cell Genomics）",
+   "url": "https://doi.org/10.1016/j.xgen.2025.100976",
+   "year": 2025,
+   "note": "新石器中期粟作-稻作人群基因组史：仰韶扩张与南北基因混合的核心证据"
+  },
+  {
+   "id": "bmcbiol2025yangshao",
+   "kind": "paper",
+   "title": "The demic expansion of Yangshao culture inferred from ancient human genomes（BMC Biology）",
+   "url": "https://doi.org/10.1186/s12915-025-02286-9",
+   "year": 2025,
+   "note": "仰韶文化人口性扩张(demic expansion)的古基因组直接实证"
+  },
+  {
+   "id": "bmcbiol2026han",
+   "kind": "paper",
+   "title": "Reconstructing the genetic formation of Han Chinese from ancient genomes（BMC Biology）",
+   "url": "https://doi.org/10.1186/s12915-026-02541-7",
+   "year": 2026,
+   "note": "汉族遗传结构形成：仰韶-龙山骨架+南北混合"
+  },
+  {
+   "id": "pnas2019sintibetan",
+   "kind": "paper",
+   "title": "Dated language phylogenies shed light on the ancestry of Sino-Tibetan（PNAS）",
+   "url": "https://doi.org/10.1073/pnas.1817972116",
+   "year": 2019,
+   "note": "汉藏语系约5.9k BP中国北方粟作农业起源假说（与四川9000年假说竞争）"
+  },
+  {
+   "id": "chenxingcan2025",
+   "kind": "paper",
+   "title": "陈星灿：庙底沟类型的扩张促成了早期中国文化圈的形成",
+   "url": "https://www.yumen.gov.cn/yuMen/c110718/202509/97ebbd9a6d7f472392dbe2030e8a792e.shtml",
+   "year": 2025,
+   "note": "庙底沟扩张=早期中国第一次文化整合的权威表述"
+  },
+  {
+   "id": "hanjianyeMDG",
+   "kind": "paper",
+   "title": "韩建业：庙底沟时代与早期中国",
+   "url": "http://www.silkroads.org.cn/portal.php?mod=view&aid=57112",
+   "year": 2020,
+   "note": "庙底沟时代的文化圈与'早期中国'概念"
+  },
+  {
+   "id": "mdgh2025",
+   "kind": "paper",
+   "title": "庙底沟化与二里头化：考古所见华夏族群与华夏传统的形成与演进（中国历史研究院）",
+   "url": "http://hrczh.cass.cn/sxqy/kgx/202502/t20250228_5853236.shtml",
+   "year": 2025,
+   "note": "'庙底沟化'作为华夏族群第一次成型的机制分析"
+  },
+  {
+   "id": "lingjiatan2023",
+   "kind": "news",
+   "title": "走进远古城市 玉见凌家滩：14次考古发掘出土文物3000多件（安徽网）",
+   "url": "http://m.ahwang.cn/ios/p/2495089.html",
+   "year": 2023,
+   "note": "凌家滩遗址概况：玉龟玉版玉人、祭坛巨构"
   }
  ]
 }

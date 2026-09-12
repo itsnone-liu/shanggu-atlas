@@ -1,0 +1,708 @@
+{
+ "act": 4,
+ "title": "仰韶大扩张与炎黄投影：第一次中国",
+ "time": {
+  "from": 7000,
+  "to": 4500,
+  "unit": "BP"
+ },
+ "entities": [
+  {
+   "id": "culture:yangshao_banpo",
+   "type": "culture",
+   "name": "仰韶文化半坡类型",
+   "aliases": [
+    "Banpo",
+    "半坡类型"
+   ],
+   "time": {
+    "from": 6900,
+    "to": 6000,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "关中-晋南-豫西（半坡-姜寨为代表）"
+   },
+   "confidence": "A",
+   "summary": "仰韶早期：环壕聚落（姜寨向心式布局）、人面鱼纹彩陶、粟作仓储社会化；聚落平等色彩浓，是庙底沟大扩张前的发动机预热阶段。",
+   "claims": [
+    {
+     "claim": "半坡类型人群=裴李岗-大地湾系粟作人群的关中聚合体，构成庙底沟扩张的人口基底",
+     "confidence": "B",
+     "source_ids": [
+      "hanjianye2020",
+      "cellgenomics2025"
+     ]
+    }
+   ],
+   "tags": [
+    "仰韶",
+    "主线"
+   ]
+  },
+  {
+   "id": "culture:yangshao_miaodigou",
+   "type": "culture",
+   "name": "仰韶文化庙底沟类型",
+   "aliases": [
+    "Miaodigou",
+    "庙底沟期"
+   ],
+   "time": {
+    "from": 6000,
+    "to": 5300,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "豫西-晋南核心，影响区远达甘青/河套/湖北/内蒙"
+   },
+   "confidence": "A",
+   "summary": "中国史前第一次文化大整合：花瓣纹彩陶席卷大半个中国（'庙底沟化'），双鋬鬲、重唇口尖底瓶标准化；陈星灿称其扩张'促成了早期中国文化圈的最初形成'，韩建业称之为'最早的中国'文化底盘。",
+   "claims": [
+    {
+     "claim": "庙底沟扩张是人口性扩张（demic）而非单纯文化传播：古基因组显示仰韶人群向四方实际迁徙",
+     "confidence": "A",
+     "source_ids": [
+      "bmcbiol2025yangshao",
+      "cellgenomics2025"
+     ]
+    },
+    {
+     "claim": "庙底沟化=华夏族群的第一次成型（庙底沟化→二里头化为前后两大族群整合浪潮）",
+     "confidence": "B",
+     "source_ids": [
+      "mdgh2025",
+      "chenxingcan2025"
+     ]
+    },
+    {
+     "claim": "彩陶'华'（花）纹与后世'华夏'之名存在语源关联",
+     "confidence": "D",
+     "source_ids": [
+      "chenxingcan2025"
+     ],
+     "note": "浪漫假说：出处为河南省文物局叙事，证据链弱"
+    }
+   ],
+   "tags": [
+    "仰韶",
+    "主线",
+    "A锚点"
+   ]
+  },
+  {
+   "id": "site:xipo",
+   "type": "site",
+   "name": "西坡遗址",
+   "aliases": [
+    "灵宝西坡"
+   ],
+   "time": {
+    "from": 5800,
+    "to": 5300,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "point",
+    "lon": 110.65,
+    "lat": 34.52
+   },
+   "confidence": "A",
+   "summary": "庙底沟期豫西中心聚落：特大房址（F105室内516㎡的'大房子'）+ 首批大型墓葬（麻布殓尸、玉钺随葬）——仰韶社会从平等聚落跃向等级社会的转折点。",
+   "claims": [
+    {
+     "claim": "西坡大墓制度=庙底沟社会复杂化的起点，为act5陶寺王权提供了直接前身模板",
+     "confidence": "B",
+     "source_ids": [
+      "hanjianyeMDG"
+     ]
+    }
+   ],
+   "tags": [
+    "仰韶",
+    "社会复杂化"
+   ]
+  },
+  {
+   "id": "culture:majiayao",
+   "type": "culture",
+   "name": "马家窑文化",
+   "aliases": [
+    "Majiayao",
+    "马厂·半山"
+   ],
+   "time": {
+    "from": 5300,
+    "to": 4000,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "甘青高原河谷（洮河-湟水-大通河）"
+   },
+   "confidence": "A",
+   "summary": "仰韶西支在甘青的独立发展：彩陶艺术的巅峰（舞蹈纹盆、蛙神纹），粟作农业推向青藏高原边缘，是此后西北人群（齐家-卡约-羌系）的摇篮。",
+   "claims": [
+    {
+     "claim": "马家窑人群≈汉藏语系西支（藏缅语族祖先）的考古对应：汉藏语系约5.9k BP在北方粟作人群中分化后西支上高原",
+     "confidence": "C",
+     "source_ids": [
+      "pnas2019sintibetan",
+      "cellgenomics2025"
+     ],
+     "note": "与'汉藏语系四川9000年起源说'竞争；宗日遗址古DNA是关键检验点，出处待补"
+    }
+   ],
+   "tags": [
+    "甘青",
+    "藏缅",
+    "主线"
+   ]
+  },
+  {
+   "id": "culture:lingjiatan",
+   "type": "culture",
+   "name": "凌家滩遗址",
+   "aliases": [
+    "Lingjiatan"
+   ],
+   "time": {
+    "from": 5800,
+    "to": 5300,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "point",
+    "lon": 118.01,
+    "lat": 31.46
+   },
+   "confidence": "A",
+   "summary": "巢湖之滨的玉教中心：玉龟+原始八卦玉版（中国最早的天圆地方宇宙模型实物）、玉人立像、玛瑙钺，重达数吨的巨石祭坛——与红山遥相呼应又直接滋养良渚。",
+   "claims": [
+    {
+     "claim": "凌家滩玉版八角纹=式盘/洛书雏形，是中国宇宙论最早的实物表达",
+     "confidence": "C",
+     "source_ids": [
+      "lingjiatan2023"
+     ]
+    },
+    {
+     "claim": "凌家滩人群承接崧泽传统，其玉礼制度被良渚直接继承（凌家滩→良渚玉器制度连续性）",
+     "confidence": "B",
+     "source_ids": [
+      "lingjiatan2023",
+      "shangshan2025zj"
+     ]
+    }
+   ],
+   "tags": [
+    "玉",
+    "宇宙论",
+    "A锚点"
+   ]
+  },
+  {
+   "id": "culture:qujialing",
+   "type": "culture",
+   "name": "屈家岭文化",
+   "aliases": [
+    "Qujialing"
+   ],
+   "time": {
+    "from": 5300,
+    "to": 4500,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "长江中游（汉水-两湖），鼎盛期北抵豫西南"
+   },
+   "confidence": "A",
+   "summary": "大溪的继承者与放大器：城址群爆发（十余座城）、蛋壳彩陶、大型分间房屋；稻作农业支撑的人口高地，向北进入南阳盆地与仰韶人群直接接触——南方稻作集团的第一次大北扩。",
+   "claims": [
+    {
+     "claim": "屈家岭北进豫西南与仰韶文化形成拉锯地带，此接触带=炎黄与南方集团战争传说的地理舞台（激进层）",
+     "confidence": "D",
+     "source_ids": [
+      "hanjianye2020"
+     ],
+     "note": "用户核心假说的空间锚：南阳-汉水接触带"
+    },
+    {
+     "claim": "屈家岭城址群的普遍化与气候变化（水位波动加剧）导致的防洪协作需求相关",
+     "confidence": "C",
+     "source_ids": [],
+     "note": "出处待补"
+    }
+   ],
+   "tags": [
+    "长江中游",
+    "城",
+    "北扩",
+    "主线"
+   ]
+  },
+  {
+   "id": "pop:yangshao_people",
+   "type": "population",
+   "name": "仰韶人群",
+   "time": {
+    "from": 7000,
+    "to": 5000,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "黄河中游为核心"
+   },
+   "confidence": "A",
+   "summary": "古基因组定义的人群实体：以O2系为主干、融合少量西部狩猎采集成分的粟作人群，庙底沟期向四方实际迁徙扩张，构成现代汉族北方成分的主体骨架。",
+   "claims": [
+    {
+     "claim": "仰韶人群是现代汉族最重要的祖先来源之一：北方汉族≈仰韶-龙山连续+南方汉族额外含古南方成分",
+     "confidence": "A",
+     "source_ids": [
+      "cellgenomics2025",
+      "bmcbiol2026han"
+     ]
+    }
+   ],
+   "tags": [
+    "古DNA",
+    "主线",
+    "A锚点"
+   ]
+  },
+  {
+   "id": "pop:sino_tibetan",
+   "type": "population",
+   "name": "汉藏语系人群",
+   "aliases": [
+    "Sino-Tibetan",
+    "原始汉藏语人群"
+   ],
+   "time": {
+    "from": 7000,
+    "to": 5000,
+    "unit": "BP",
+    "approx": true
+   },
+   "location": {
+    "type": "region",
+    "desc": "黄河中上游（北方起源说）/川西-藏东（南方起源说）"
+   },
+   "confidence": "B",
+   "summary": "语言谱系与考古-基因三角互证的主战场：PNAS 2019 谱系定年支持原始汉藏语约5.9k BP随粟作农业从北方分化（仰韶-马家窑载体），与'四川早期分化说'竞争。",
+   "claims": [
+    {
+     "claim": "汉藏语系随粟作农业扩张（北方说）：仰韶东支→汉语祖先，马家窑西支→藏缅语族祖先",
+     "confidence": "B",
+     "source_ids": [
+      "pnas2019sintibetan",
+      "cellgenomics2025"
+     ]
+    },
+    {
+     "claim": "另一种可能：汉藏语系在黄河-长江上游间更早分化（9k BP），仰韶期只是二次扩散",
+     "confidence": "C",
+     "source_ids": [
+      "pnas2019sintibetan"
+     ]
+    }
+   ],
+   "tags": [
+    "语言学",
+    "主线"
+   ]
+  },
+  {
+   "id": "tech:rice_north_expansion",
+   "type": "tech",
+   "name": "稻作北扩进程",
+   "time": {
+    "from": 6000,
+    "to": 4300,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "route",
+    "desc": "长江中游→南阳盆地→豫西南→海岱南部（粟稻混作带形成）"
+   },
+   "confidence": "B",
+   "summary": "气候大暖期（全新世大暖期鼎盛）背景下稻作适宜区北移：大汶口晚期南部出现稻作证据、屈家岭-石家河人群把稻田推进到北纬33-34度线，粟稻混作带在淮汉之间形成。",
+   "claims": [
+    {
+     "claim": "大暖期鼎盛期稻作北界比现代更靠北，是南方集团北扩的自然推力；暖期末的转冷（5.5-5.0ka起）则反转此进程",
+     "confidence": "C",
+     "source_ids": [
+      "speleothem82"
+     ],
+     "note": "激进层的物理引擎：暖期北进冷期南退=炎黄战争的气候节拍"
+    }
+   ],
+   "tags": [
+    "农业传播",
+    "激进层",
+    "主线"
+   ]
+  },
+  {
+   "id": "myth_person:yandi",
+   "type": "myth_person",
+   "name": "炎帝",
+   "aliases": [
+    "神农氏",
+    "烈山氏"
+   ],
+   "time": {
+    "from": null,
+    "to": null,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "文献层：姜水（宝鸡）/湖北随州/湖南炎陵等多地"
+   },
+   "confidence": "E",
+   "summary": "五行框架下的南方火德帝王，战国文献与神农合流。其'姜'姓与羌-西戎系统同源词根，传说地望却遍布南北——典型的层累合并人物。",
+   "claims": [
+    {
+     "claim": "炎帝=姜姓集团（甘青-渭水上游，马家窑-齐家方向的羌系人群）记忆投影；与黄帝姬姓集团同源异支",
+     "confidence": "D",
+     "source_ids": [],
+     "note": "传统考据主流方向之一"
+    },
+    {
+     "claim": "炎帝的南方渊源（随州/炎陵）是稻作集团记忆在战国文献中的沉淀",
+     "confidence": "D",
+     "source_ids": [],
+     "note": "激进层：与神农南方说叠加"
+    }
+   ],
+   "tags": [
+    "神话投影",
+    "激进层"
+   ]
+  },
+  {
+   "id": "myth_person:huangdi",
+   "type": "myth_person",
+   "name": "黄帝",
+   "aliases": [
+    "轩辕氏",
+    "有熊氏"
+   ],
+   "time": {
+    "from": null,
+    "to": null,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "文献层：轩辕之丘/涿鹿/新郑"
+   },
+   "confidence": "E",
+   "summary": "五帝之首、华夏共祖叙事的核心。战国齐学（邹衍五德终始）与汉代大一统叙事的关键推手，把多元起源压缩为单一始祖。",
+   "claims": [
+    {
+     "claim": "黄帝=仰韶-庙底沟北方粟作集团大扩张的历史记忆压缩为一位始祖",
+     "confidence": "D",
+     "source_ids": [
+      "mdgh2025"
+     ],
+     "note": "'庙底沟化'考古叙事与黄帝叙事的同构性"
+    },
+    {
+     "claim": "黄帝姬姓与周人祖先叙事绑定：周人东进后重写历史，把自身来源接到黄帝",
+     "confidence": "C",
+     "source_ids": [],
+     "note": "顾颉刚'层累地造成的中国古史'经典结论"
+    }
+   ],
+   "tags": [
+    "神话投影",
+    "激进层"
+   ]
+  },
+  {
+   "id": "myth_person:chiyou",
+   "type": "myth_person",
+   "name": "蚩尤",
+   "aliases": [
+    "九黎之君"
+   ],
+   "time": {
+    "from": null,
+    "to": null,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "文献层：东夷之地/涿鹿战场"
+   },
+   "confidence": "E",
+   "summary": "战神形象、失败者叙事的原型：铜头铁额、作兵伐黄帝，败于涿鹿被分葬——历代被压抑又被民间崇拜的'他者'之王。",
+   "claims": [
+    {
+     "claim": "蚩尤=大汶口-东夷集团的记忆投影：海岱系与中原系的长期冲突浓缩为一场决战",
+     "confidence": "D",
+     "source_ids": []
+    },
+    {
+     "claim": "蚩尤'作兵'传说或反映海岱系（大汶口晚期）在武器工艺上的优势",
+     "confidence": "D",
+     "source_ids": []
+    }
+   ],
+   "tags": [
+    "神话投影",
+    "东夷"
+   ]
+  },
+  {
+   "id": "myth_event:yandi_huangdi_wars",
+   "type": "myth_event",
+   "name": "炎黄三次战争（阪泉·涿鹿）",
+   "aliases": [
+    "阪泉之战",
+    "涿鹿之战"
+   ],
+   "time": {
+    "from": null,
+    "to": null,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "文献层：冀中南（阪泉/涿鹿）"
+   },
+   "confidence": "E",
+   "summary": "文献层：炎帝与黄帝三战于阪泉、蚩尤与黄帝战于涿鹿——华夏共同体诞生叙事中的'创世战争'。",
+   "claims": [
+    {
+     "claim": "【用户核心假说】三次战争=全新世大暖期波动中南方稻作集团北扩与北方粟作集团的系列冲突记忆：暖期稻作北进（炎帝系北上）→与粟作集团拉锯（阪泉）→东夷介入（涿鹿/蚩尤）→冷期北胜南退（黄帝定鼎）",
+     "confidence": "D",
+     "source_ids": [],
+     "note": "图谱原创激进假说：气候节拍×粟稻接触带×三战叙事结构同构；对应的考古实体链=屈家岭北进/大汶口西进/庙底沟化"
+    },
+    {
+     "claim": "战争地点在冀中南而非南方=记忆随胜利者（北方集团）的政治地理被重新定位",
+     "confidence": "D",
+     "source_ids": []
+    }
+   ],
+   "tags": [
+    "神话投影",
+    "核心假说",
+    "激进层"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "from": "culture:yangshao_banpo",
+   "to": "culture:peiligang",
+   "type": "derives_from",
+   "confidence": "B",
+   "source_ids": [
+    "hanjianye2020"
+   ]
+  },
+  {
+   "from": "culture:yangshao_miaodigou",
+   "to": "culture:yangshao_banpo",
+   "type": "derives_from",
+   "confidence": "A",
+   "source_ids": [
+    "chenxingcan2025"
+   ]
+  },
+  {
+   "from": "site:xipo",
+   "to": "culture:yangshao_miaodigou",
+   "type": "located_at",
+   "confidence": "A",
+   "source_ids": [
+    "hanjianyeMDG"
+   ]
+  },
+  {
+   "from": "culture:majiayao",
+   "to": "culture:yangshao_miaodigou",
+   "type": "derives_from",
+   "confidence": "A",
+   "source_ids": [
+    "hanjianyeMDG"
+   ]
+  },
+  {
+   "from": "pop:yangshao_people",
+   "to": "pop:millet_farmer_groups",
+   "type": "derives_from",
+   "confidence": "A",
+   "source_ids": [
+    "cellgenomics2025"
+   ]
+  },
+  {
+   "from": "culture:yangshao_miaodigou",
+   "to": "pop:yangshao_people",
+   "type": "derives_from",
+   "confidence": "A",
+   "source_ids": [
+    "bmcbiol2025yangshao"
+   ]
+  },
+  {
+   "from": "pop:sino_tibetan",
+   "to": "tech:millet_domestication",
+   "type": "driven_by",
+   "confidence": "B",
+   "source_ids": [
+    "pnas2019sintibetan"
+   ]
+  },
+  {
+   "from": "culture:majiayao",
+   "to": "pop:sino_tibetan",
+   "type": "corresponds_to",
+   "confidence": "C",
+   "source_ids": [
+    "pnas2019sintibetan"
+   ]
+  },
+  {
+   "from": "culture:lingjiatan",
+   "to": "culture:songze",
+   "type": "derives_from",
+   "confidence": "B",
+   "source_ids": [
+    "lingjiatan2023"
+   ]
+  },
+  {
+   "from": "culture:qujialing",
+   "to": "culture:daxi",
+   "type": "derives_from",
+   "confidence": "A",
+   "source_ids": [
+    "hanjianye2020"
+   ]
+  },
+  {
+   "from": "tech:rice_north_expansion",
+   "to": "climate_event:8_2ka",
+   "type": "contemporary_with",
+   "confidence": "B",
+   "source_ids": [
+    "speleothem82"
+   ],
+   "note": "大暖期背景下的持续进程"
+  },
+  {
+   "from": "myth_person:huangdi",
+   "to": "pop:yangshao_people",
+   "type": "corresponds_to",
+   "confidence": "D",
+   "source_ids": [
+    "mdgh2025"
+   ]
+  },
+  {
+   "from": "myth_person:yandi",
+   "to": "culture:majiayao",
+   "type": "corresponds_to",
+   "confidence": "D",
+   "source_ids": []
+  },
+  {
+   "from": "myth_person:chiyou",
+   "to": "culture:dawenkou",
+   "type": "corresponds_to",
+   "confidence": "D",
+   "source_ids": []
+  },
+  {
+   "from": "myth_event:yandi_huangdi_wars",
+   "to": "tech:rice_north_expansion",
+   "type": "corresponds_to",
+   "confidence": "D",
+   "source_ids": []
+  },
+  {
+   "from": "myth_event:yandi_huangdi_wars",
+   "to": "culture:qujialing",
+   "type": "corresponds_to",
+   "confidence": "D",
+   "source_ids": []
+  },
+  {
+   "from": "myth_event:yandi_huangdi_wars",
+   "to": "culture:yangshao_miaodigou",
+   "type": "corresponds_to",
+   "confidence": "D",
+   "source_ids": [
+    "mdgh2025"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "story:potato_flower",
+   "title": "花瓣纹的帝国：庙底沟化",
+   "thread": [
+    "culture:yangshao_banpo",
+    "site:xipo",
+    "culture:yangshao_miaodigou",
+    "culture:majiayao"
+   ],
+   "summary": "从姜寨的向心聚落到西坡的大房子与大墓，再到花瓣纹席卷半个中国、西支在甘青绽放成马家窑彩陶绝唱——第一次'中国化'是粟作人口的真实流动。",
+   "branch_points": [
+    {
+     "at": "culture:yangshao_miaodigou",
+     "question": "庙底沟扩张靠人口迁徙还是文化模仿？古DNA投了前者一票——如果反过来看呢？",
+     "alt": "story:cultural_only_spread"
+    }
+   ]
+  },
+  {
+   "id": "story:jade_triangle",
+   "title": "玉三角：红山·凌家滩·良渚前夜",
+   "thread": [
+    "culture:hongshan",
+    "culture:lingjiatan",
+    "culture:songze"
+   ],
+   "summary": "五千年前的玉的世界体系：北方的龙、巢湖的八卦玉版、太湖的璜——在城与青铜之前，玉礼器先完成了跨区域的'中国精神圈'。",
+   "branch_points": [
+    {
+     "at": "culture:lingjiatan",
+     "question": "玉版八角纹是历法工具还是宇宙模型？",
+     "alt": "story:luoshu_origin"
+    }
+   ]
+  },
+  {
+   "id": "story:three_wars",
+   "title": "三次战争：气候节拍下的南北冲突（核心激进叙事）",
+   "thread": [
+    "tech:rice_north_expansion",
+    "culture:qujialing",
+    "myth_person:yandi",
+    "myth_person:huangdi",
+    "myth_person:chiyou",
+    "myth_event:yandi_huangdi_wars"
+   ],
+   "summary": "大暖期把稻田推向北方，冷波动又把它们拉回——炎帝的北上是气候推的，黄帝的反攻也是。阪泉与涿鹿，是粟稻接触带八百年拉锯被压缩成的两场决战记忆。",
+   "branch_points": [
+    {
+     "at": "myth_event:yandi_huangdi_wars",
+     "question": "传说把战场定在河北——是记忆的漂移，还是真有一场北方的决战？",
+     "alt": "story:warplace_shift"
+    }
+   ]
+  }
+ ]
+}
