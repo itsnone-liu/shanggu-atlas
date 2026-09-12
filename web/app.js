@@ -87,7 +87,7 @@ function drawEntities(svg) {
     node.setAttribute("class", "ent");
     node.dataset.id = e.id;
     const left = x > W - 130, top = y < 34;
-    node.innerHTML = (SHAPES[e.type] || SHAPES.site)(c) +
+    node.innerHTML = `<circle r="15" fill="transparent"/>` + (SHAPES[e.type] || SHAPES.site)(c) +
       `<text x="${left ? -10 : 10}" y="${top ? 20 : 4}" text-anchor="${left ? "end" : "start"}">${e.name}</text>`;
     node.setAttribute("transform", `translate(${x.toFixed(1)},${y.toFixed(1)})`);
     node.addEventListener("click", () => showEntity(e.id));
@@ -175,9 +175,15 @@ function srcLinks(list) {
   if (!list || !list.length) return `<span style="color:#6b7684">（出处待补）</span>`;
   return list.map(s => `<a href="${s.url}" target="_blank" title="${(s.note || "").replace(/"/g, "&quot;")}">${(s.title || "").slice(0, 40)}…</a>`).join("");
 }
+function openSheet(title) {
+  $("#panel").classList.add("open");
+  if (title) $("#sheet-title").textContent = title;
+}
+function closeSheet() { $("#panel").classList.remove("open"); }
 function showEntity(id) {
   const e = byId[id]; if (!e) return;
   if (state.story) exitStory();
+  openSheet(e.name);
   const t = e.time;
   const tstr = t && t.from != null ? `${t.from.toLocaleString()} – ${(t.to || t.from).toLocaleString()} BP` : "文献层（无年代）";
   let h = `<div class="e-title"><h2>${e.name}</h2><span class="badge ${e.confidence}">${e.confidence}</span><span class="badge act">第${e._act}幕</span></div>`;
@@ -210,10 +216,12 @@ function storyList() {
   for (const st of S) h += `<button data-s="${st.id}"><div class="sp-t">${st.title}</div><div class="sp-a">第${st._act}幕 · ${st.thread.length} 站${(st.branch_points || []).length ? " · ✦分支点" : ""}</div></button>`;
   $("#panel-inner").innerHTML = h + `</div>`;
   document.querySelectorAll(".story-pick button").forEach(b => b.onclick = () => playStory(b.dataset.s));
+  openSheet("选择叙事线");
 }
 function playStory(sid) {
   const st = S.find(x => x.id === sid); if (!st) return;
   state.story = st; state.step = 0; state.visited = new Set();
+  openSheet(st.title);
   renderStory();
 }
 function exitStory() { state.story = null; refreshMap(); storyList(); }
@@ -234,7 +242,8 @@ function renderStory() {
   if (bp) h += `<div class="branch"><div class="q">✦ 分支：${bp.question}</div><div class="opts"><button data-b="main">继续主线（${e.name}）</button><button data-b="alt">另一种可能 →《${bp.alt.replace("story:", "")}》</button></div></div>`;
   h += `<div class="st-nav"><button id="st-exit">退出</button><button id="st-prev" ${state.step === 0 ? "disabled" : ""}>← 上一站</button><button class="primary" id="st-next" ${state.step >= st.thread.length - 1 ? "disabled" : ""}>下一站 →</button></div>`;
   $("#panel-inner").innerHTML = h;
-  $("#st-exit").onclick = exitStory;
+  $("#st-exit").onclick = () => { exitStory(); closeSheet(); };
+  openSheet(`${st.title} · ${state.step + 1}/${st.thread.length}`);
   $("#st-prev").onclick = () => { if (state.step > 0) { state.step--; renderStory(); } };
   const goNext = () => { if (state.step < st.thread.length - 1) { state.step++; renderStory(); } };
   $("#st-next").onclick = goNext;
@@ -287,6 +296,21 @@ $("#mode-story").onclick = () => { setMode("story"); storyList(); };
 $("#show-myth").onchange = ev => { showMyth = ev.target.checked; refreshMap(); };
 $("#t-slider").addEventListener("input", onSlide);
 $("#play").onclick = togglePlay;
+
+/* ---------- 手机抽屉交互 ---------- */
+$("#sheet-handle").addEventListener("click", () => {
+  if ($("#panel").classList.contains("open")) closeSheet(); else openSheet();
+});
+(() => {
+  const panel = $("#panel"); let y0 = null;
+  panel.addEventListener("touchstart", e => { if (e.touches.length === 1) y0 = e.touches[0].clientY; }, { passive: true });
+  panel.addEventListener("touchmove", e => {
+    if (y0 == null || !panel.classList.contains("open")) return;
+    const dy = e.touches[0].clientY - y0;
+    if (dy > 90) { closeSheet(); y0 = null; }
+  }, { passive: true });
+  panel.addEventListener("touchend", () => { y0 = null; }, { passive: true });
+})();
 
 /* ---------- 启动 ---------- */
 const svg = $("#map");

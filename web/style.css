@@ -161,3 +161,47 @@ main { flex:1; display:flex; min-height:0; }
   position:absolute; font-size:9px; color:#f0a24a; transform:translateX(-50%);
   cursor:pointer; white-space:nowrap;
 }
+
+/* ================= 手机版（≤760px）：底部抽屉 + 紧凑布局 ================= */
+#sheet-handle { display:none; }
+@media (max-width: 760px) {
+  header { padding:8px 10px; }
+  .brand { gap:8px; }
+  .logo { width:32px; height:32px; font-size:16px; border-radius:7px; }
+  h1 { font-size:16px; }
+  .brand p { display:none; }
+  nav .tab { padding:6px 10px; font-size:12px; margin-left:4px; }
+  #controls { padding:5px 8px; gap:8px; }
+  #act-chips button { font-size:10px; padding:2px 7px; }
+  #legend .lg:has(.sh) { display:none; }   /* 手机只留置信度色，类型形状图例隐藏 */
+  #myth-toggle label { font-size:11px; }
+
+  main { flex-direction:column; }
+  #map-wrap { flex:1; }
+  #search { width:44%; font-size:12px; top:8px; left:8px; }
+  #time-readout { top:8px; right:8px; padding:4px 9px; }
+  #time-label { font-size:13px; }
+
+  /* 详情/叙事面板 → 底部抽屉 */
+  #panel {
+    position:fixed; left:0; right:0; bottom:0; width:100%; height:64vh;
+    transform:translateY(calc(100% - 46px)); transition:transform .28s ease;
+    border-left:none; border-top:1px solid #2b3440; border-radius:16px 16px 0 0;
+    z-index:40; padding:0 14px 16px; box-shadow:0 -8px 30px #0009;
+  }
+  #panel.open { transform:translateY(0); }
+  #sheet-handle {
+    display:block; position:sticky; top:0; margin:0 -14px 10px; padding:10px 0 6px;
+    background:#10151c; border-radius:16px 16px 0 0; text-align:center; cursor:pointer;
+    touch-action:manipulation;
+  }
+  #sheet-handle::before {
+    content:""; display:block; width:44px; height:4.5px; border-radius:3px;
+    background:#3a4656; margin:0 auto 5px;
+  }
+  #sheet-handle span { font-size:12px; color:#8b98a8; }
+  .e-title h2 { font-size:18px; }
+  .st-title { font-size:16px; }
+  .st-nav button, .branch button { padding:11px; font-size:14px; }  /* 触摸目标加大 */
+  #timeline { padding:6px 10px 10px; }
+}
