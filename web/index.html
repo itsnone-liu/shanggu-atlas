@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>上古图谱 · 中国上古文明演化</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="brand"><span class="logo">山</span>
+    <div><h1>上古图谱</h1><p>中国上古文明演化 · 五万年因果长河</p></div>
+  </div>
+  <nav>
+    <button id="mode-map" class="tab active">时空图谱</button>
+    <button id="mode-story" class="tab">叙事线</button>
+  </nav>
+</header>
+
+<section id="controls">
+  <div id="act-chips"></div>
+  <div id="legend">
+    <span class="lg"><i class="dot A"></i>A 实证</span><span class="lg"><i class="dot B"></i>B 主流</span>
+    <span class="lg"><i class="dot C"></i>C 竞争假说</span><span class="lg"><i class="dot D"></i>D 推测</span>
+    <span class="lg"><i class="dot E"></i>E 传说/文献层</span>
+    <span class="sep"></span>
+    <span class="lg"><i class="sh sh-site"></i>遗址</span><span class="lg"><i class="sh sh-cul"></i>文化</span>
+    <span class="lg"><i class="sh sh-pop"></i>人群/技术</span><span class="lg"><i class="sh sh-cli"></i>气候/事件</span>
+    <span class="lg"><i class="sh sh-my"></i>神话投影</span>
+  </div>
+  <div id="myth-toggle"><label><input type="checkbox" id="show-myth"> 显示神话层</label></div>
+</section>
+
+<main>
+  <div id="map-wrap">
+    <svg id="map" viewBox="0 0 1000 708"></svg>
+    <input id="search" type="text" placeholder="搜索实体…">
+    <div id="time-readout"><b id="time-label"></b><span id="time-sub"></span></div>
+  </div>
+  <aside id="panel">
+    <div id="panel-inner"><p class="hint">点击地图上的点，或播放一条叙事线。</p></div>
+  </aside>
+</main>
+
+<footer id="timeline">
+  <button id="play" title="播放">▶</button>
+  <div id="tl-scroll">
+    <div id="tl-acts"></div>
+    <div id="tl-cursor"></div>
+    <input type="range" id="t-slider" min="3000" max="50000" step="50" value="12000">
+    <div id="tl-events"></div>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
