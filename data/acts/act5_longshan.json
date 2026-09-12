@@ -1,0 +1,726 @@
+{
+ "act": 5,
+ "title": "龙山万邦：4.2ka 大变局、洪水与尧舜禹",
+ "time": {
+  "from": 5300,
+  "to": 3700,
+  "unit": "BP"
+ },
+ "entities": [
+  {
+   "id": "climate_event:4_2ka",
+   "type": "climate_event",
+   "name": "4.2ka 干冷事件",
+   "aliases": [
+    "4.2 ka event",
+    "全新世中期干旱化"
+   ],
+   "time": {
+    "from": 4300,
+    "to": 3900,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "全球性（北大涛动/季风减弱），中国北方干冷化、南方降水格局紊乱"
+   },
+   "confidence": "A",
+   "summary": "全新世中期最重要的气候转折：季风减弱导致北方干旱化、中低纬多个早期文明同期转型或衰落。中国语境下与良渚衰变、石家河衰落、龙山时代社会重组在时间上高度耦合。",
+   "claims": [
+    {
+     "claim": "4.2ka事件的时空不均一性显著：不同石笋/湖泊记录显示的区域响应差异大，需避免'一场气候事件埋葬多个文明'的简化叙事",
+     "confidence": "B",
+     "source_ids": [
+      "speleothem82",
+      "lzmuseum42ka"
+     ]
+    },
+    {
+     "claim": "良渚晚期持续强降雨（非单纯干旱）导致稻田系统减产与水管理体制过载",
+     "confidence": "B",
+     "source_ids": [
+      "ecnu_liangzhu"
+     ]
+    }
+   ],
+   "tags": [
+    "气候",
+    "主线",
+    "A锚点"
+   ]
+  },
+  {
+   "id": "culture:liangzhu",
+   "type": "culture",
+   "name": "良渚文化",
+   "aliases": [
+    "Liangzhu",
+    "良渚古城"
+   ],
+   "time": {
+    "from": 5300,
+    "to": 4300,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "环太湖（杭州余良渚古城为核心）"
+   },
+   "confidence": "A",
+   "summary": "东亚第一个被确认的区域性早期国家（世界遗产）：古城+外围11条水坝的水利系统、反山王陵玉琮王与统一神徽、社会四层分化、瑶山祭坛——不靠青铜不靠城墙巨构，靠水与玉完成的国家化。",
+   "claims": [
+    {
+     "claim": "良渚衰变是环境触发的系统性衰退：石笋记录的持续暴雨期与水稻减产、聚落收缩同步，其后再叠加干旱化终结",
+     "confidence": "B",
+     "source_ids": [
+      "ecnu_liangzhu",
+      "lzmuseum42ka"
+     ]
+    },
+    {
+     "claim": "良渚玉礼系统（琮璧钺）北上进入陕北（石峁出土琮）与江汉，观念遗产被后世中原王朝礼制吸收",
+     "confidence": "B",
+     "source_ids": [
+      "shimao_ca2021",
+      "hanjianye2020"
+     ]
+    },
+    {
+     "claim": "良渚人群（O1系）衰落后南退分流，参与南岛语系人群与华南'几何印纹陶'传统的形成",
+     "confidence": "C",
+     "source_ids": [
+      "yang2020",
+      "fznews2020"
+     ]
+    }
+   ],
+   "tags": [
+    "太湖",
+    "玉",
+    "国家起源",
+    "主线",
+    "A锚点"
+   ]
+  },
+  {
+   "id": "culture:shijiahe",
+   "type": "culture",
+   "name": "石家河文化",
+   "aliases": [
+    "Shijiahe",
+    "后石家河"
+   ],
+   "time": {
+    "from": 4600,
+    "to": 3900,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "长江中游（天门石家河城址群为核心）"
+   },
+   "confidence": "A",
+   "summary": "屈家岭的放大版：120万㎡主城+聚落群网络、专业化制玉（谭家岭后石家河玉器：神面、凤、虎头像达到史前玉雕巅峰）、数百万件红陶杯的规模化生产——长江中游史前社会的最后高峰。",
+   "claims": [
+    {
+     "claim": "石家河晚期衰落=4.2ka气候恶化+中原集团南下冲击（禹伐三苗传说的考古对应候选）的双重打击",
+     "confidence": "C",
+     "source_ids": [
+      "jianghanflood2023",
+      "hanjianye2020"
+     ]
+    },
+    {
+     "claim": "后石家河玉器群与中原/陕北龙山期玉器（陶寺-石峁）存在技术同源，玉观念沿汉水-南阳通道北上",
+     "confidence": "B",
+     "source_ids": [
+      "hanjianye2020"
+     ]
+    }
+   ],
+   "tags": [
+    "长江中游",
+    "玉",
+    "主线"
+   ]
+  },
+  {
+   "id": "culture:wangwan3",
+   "type": "culture",
+   "name": "王湾三期文化",
+   "aliases": [
+    "王湾三期",
+    "煤山类型"
+   ],
+   "time": {
+    "from": 4600,
+    "to": 3800,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "豫西-洛阳盆地（王城岗/瓦店/煤山）"
+   },
+   "confidence": "A",
+   "summary": "中原龙山的核心：登封王城岗（'禹都阳城'候选，距传世阳城地望咫尺）、禹州瓦店大型环壕聚落、暴发式的城址化与人口集聚——从'文化洼地'跃升为区域中心，为二里头登场搭好舞台。",
+   "claims": [
+    {
+     "claim": "王湾三期对外扩张（尤其南下江汉导致石家河体系解体）与'禹伐三苗'传说的时空耦合",
+     "confidence": "C",
+     "source_ids": [
+      "jianghanflood2023"
+     ]
+    },
+    {
+     "claim": "王城岗小城+大城两期结构对应'鲧作城'→'禹都'的文献层累",
+     "confidence": "D",
+     "source_ids": []
+    }
+   ],
+   "tags": [
+    "中原",
+    "主线"
+   ]
+  },
+  {
+   "id": "site:taosi",
+   "type": "site",
+   "name": "陶寺遗址",
+   "aliases": [
+    "Taosi",
+    "尧都平阳候选"
+   ],
+   "time": {
+    "from": 4300,
+    "to": 3900,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "point",
+    "lon": 111.51,
+    "lat": 35.88
+   },
+   "confidence": "A",
+   "summary": "晋南临汾盆地的都邑级聚落：280万㎡中期大城、世界最早观象台（20节气节令观测系统）、朱书扁壶文字（'文'字可识）、铜铃、宫城与仓储区——'最初中国'最强候选，多数研究者联系尧都平阳。",
+   "claims": [
+    {
+     "claim": "陶寺观象台=《尚书·尧典》'历象日月星辰敬授民时'的制度实证：王权与观象授时绑定",
+     "confidence": "B",
+     "source_ids": [
+      "taosi_whb"
+     ]
+    },
+    {
+     "claim": "陶寺中晚期之交宫城暴力毁弃（墓葬劫掠、沟中弃置人骨）对应权力更替——与'禅让'叙事相反的暴力篡夺证据",
+     "confidence": "B",
+     "source_ids": [
+      "taosi_whb"
+     ],
+     "note": "激进层核心对照：禅让vs篡夺"
+    },
+    {
+     "claim": "朱书文字与甲骨文之间的八百年空档仍是悬案：陶寺符号是否进入汉字谱系未定",
+     "confidence": "C",
+     "source_ids": [
+      "taosi_whb"
+     ]
+    }
+   ],
+   "tags": [
+    "晋南",
+    "尧",
+    "A锚点",
+    "主线"
+   ]
+  },
+  {
+   "id": "site:shimao",
+   "type": "site",
+   "name": "石峁遗址",
+   "aliases": [
+    "Shimao",
+    "皇城台"
+   ],
+   "time": {
+    "from": 4300,
+    "to": 3800,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "point",
+    "lon": 110.49,
+    "lat": 38.98
+   },
+   "confidence": "A",
+   "summary": "陕北黄土高原的巨石之城：400万㎡超大体量、皇城台大台基石雕神面、口簧（最早簧乐器）、纴木技术、人头祭祀坑——与陶寺同时期的北方超级权力中心，玉器出土地点遍布后续诸文化。",
+   "claims": [
+    {
+     "claim": "石峁-陶寺构成南北双中心（或共主联盟），石峁毁灭期与陶寺晚期毁弃期接近，双城之谜是龙山末期最大悬案",
+     "confidence": "C",
+     "source_ids": [
+      "shimao_ca2021",
+      "taosi_whb"
+     ]
+    },
+    {
+     "claim": "石峁人群含北方草原成分+仰韶本地成分混合，其兴衰与4.2ka期农牧交错带的移动性社会崛起相关",
+     "confidence": "C",
+     "source_ids": [
+      "shimao_ca2021"
+     ],
+     "note": "古DNA出处待补：石峁个体基因组论文"
+    }
+   ],
+   "tags": [
+    "陕北",
+    "巨城",
+    "A锚点"
+   ]
+  },
+  {
+   "id": "culture:shandong_longshan",
+   "type": "culture",
+   "name": "山东龙山文化（海岱龙山）",
+   "aliases": [
+    "山东龙山",
+    "两城镇-桐林系"
+   ],
+   "time": {
+    "from": 4600,
+    "to": 4000,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "海岱（两城镇/桐林/尧王城城址群）"
+   },
+   "confidence": "A",
+   "summary": "大汶口直系继承者：蛋壳黑陶（0.2mm壁厚的工艺极限）、成组酒器制度化、兽面纹玉圭、卜骨传统开始——东夷集团的最盛期，也是虞夏之际东方势力的实体。",
+   "claims": [
+    {
+     "claim": "海岱龙山卜骨传统→二里岗-殷墟甲骨占卜体系的直系前身（骨卜而非龟卜先行）",
+     "confidence": "B",
+     "source_ids": [
+      "hanjianye2020"
+     ]
+    },
+    {
+     "claim": "有虞氏（舜集团）=海岱龙山政治体的记忆投影",
+     "confidence": "D",
+     "source_ids": []
+    }
+   ],
+   "tags": [
+    "海岱",
+    "主线"
+   ]
+  },
+  {
+   "id": "culture:qijia",
+   "type": "culture",
+   "name": "齐家文化",
+   "aliases": [
+    "Qijia"
+   ],
+   "time": {
+    "from": 4200,
+    "to": 3600,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "甘青（陇中-河湟）"
+   },
+   "confidence": "A",
+   "summary": "马家窑的后继与转型：中国最早的青铜器群之一（铜镜、铜刀）出现，粟作+羊牛畜牧混合经济，乱骨葬与齐家玉璧——4.2ka后甘青社会'农牧兼营化'的开端，act6青铜技术东传的通道。",
+   "claims": [
+    {
+     "claim": "齐家青铜（砷铜/红铜）与欧亚草原青铜技术东传相关，是中原青铜时代的前奏通道",
+     "confidence": "B",
+     "source_ids": [
+      "hanjianye2020"
+     ],
+     "note": "act6展开：西北通道vs北亚通道"
+    }
+   ],
+   "tags": [
+    "甘青",
+    "青铜",
+    "跨幕"
+   ]
+  },
+  {
+   "id": "event:great_flood",
+   "type": "climate_event",
+   "name": "大洪水（~前1920）",
+   "aliases": [
+    "Great Flood",
+    "史前大洪水"
+   ],
+   "time": {
+    "from": 4000,
+    "to": 3900,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "候选一：黄河上游积石峡（溃决洪水）；候选二：江汉平原（长江中游）"
+   },
+   "confidence": "B",
+   "summary": "两个独立研究指向同一段记忆：Science 2016 论证积石峡堰塞湖溃决洪水（~前1920，流量达每秒40万m³级）；2023年研究主张大洪水原型在江汉平原。洪水与'鲧禹治水'叙事的耦合是夏史研究最具争议的交叉点。",
+   "claims": [
+    {
+     "claim": "积石峡溃决洪水（前1920±）在时间与量级上支持'鲧作城-禹治水'传说的历史内核",
+     "confidence": "C",
+     "source_ids": [
+      "science2016flood"
+     ],
+     "note": "Science论文本身数据扎实，但'支持夏朝历史性'的推论链被广泛质疑（年代比二里头早200年）"
+    },
+    {
+     "claim": "江汉平原洪水假说：石家河衰亡期的水患记忆与大禹征三苗叙事叠加成'治水'母题",
+     "confidence": "C",
+     "source_ids": [
+      "jianghanflood2023"
+     ]
+    },
+    {
+     "claim": "'治水社会'作为国家起源动因（魏特夫式水利国家假说）在考古上不成立：良渚水利远早于国家成型、二里头无大型水利工程",
+     "confidence": "C",
+     "source_ids": [],
+     "note": "对流行叙事的反思claim；出处待补"
+    }
+   ],
+   "tags": [
+    "洪水",
+    "主线",
+    "A锚点"
+   ]
+  },
+  {
+   "id": "myth_person:yao",
+   "type": "myth_person",
+   "name": "尧",
+   "aliases": [
+    "唐尧",
+    "帝尧"
+   ],
+   "time": {
+    "from": null,
+    "to": null,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "文献层：平阳（临汾）"
+   },
+   "confidence": "E",
+   "summary": "五帝叙事中的圣王：观象授时、设官分职、禅让舜。陶寺与临汾-平阳地望、观象台与授时叙事的双重耦合使尧成为'最有考古运气'的传说帝王。",
+   "claims": [
+    {
+     "claim": "尧=陶寺政体的记忆投影：地望（平阳=临汾）、制度（观象授时）双耦合",
+     "confidence": "C",
+     "source_ids": [
+      "taosi_whb"
+     ]
+    }
+   ],
+   "tags": [
+    "神话投影"
+   ]
+  },
+  {
+   "id": "myth_person:shun",
+   "type": "myth_person",
+   "name": "舜",
+   "aliases": [
+    "虞舜",
+    "有虞氏"
+   ],
+   "time": {
+    "from": null,
+    "to": null,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "文献层：虞地（豫东-鲁西南）/晋南"
+   },
+   "confidence": "E",
+   "summary": "孝德典范与'禅让'叙事的另一半：东夷出身（'舜，东夷之人也'——孟子）、渔陶耕历山的多地传说——人格化的东西方集团联盟记忆。",
+   "claims": [
+    {
+     "claim": "舜=海岱系（有虞氏）政治体与中原集团联盟的记忆投影：尧舜联盟=晋南-海岱双中心结构的神化",
+     "confidence": "D",
+     "source_ids": []
+    }
+   ],
+   "tags": [
+    "神话投影"
+   ]
+  },
+  {
+   "id": "myth_person:yu",
+   "type": "myth_person",
+   "name": "禹",
+   "aliases": [
+    "夏禹",
+    "大禹"
+   ],
+   "time": {
+    "from": null,
+    "to": null,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "文献层：阳城（登封）/会稽"
+   },
+   "confidence": "E",
+   "summary": "治水圣王与夏王朝奠基者叙事：三过家门、划九州、铸九鼎——从治水者到天下共主，是'国家诞生'被压缩成的个人传记。",
+   "claims": [
+    {
+     "claim": "禹=王湾三期扩张集团（登封王城岗-禹州瓦店一带）的记忆投影：'禹都阳城'地望与王城岗大城耦合",
+     "confidence": "C",
+     "source_ids": [
+      "jianghanflood2023"
+     ]
+    },
+    {
+     "claim": "大禹治水母题=多重真实水患记忆（积石峡/江汉/黄河泛滥）在周代叙事中的合并",
+     "confidence": "C",
+     "source_ids": [
+      "science2016flood",
+      "jianghanflood2023"
+     ]
+    }
+   ],
+   "tags": [
+    "神话投影",
+    "主线"
+   ]
+  },
+  {
+   "id": "myth_event:shanrang",
+   "type": "myth_event",
+   "name": "禅让",
+   "aliases": [
+    "尧舜禅让"
+   ],
+   "time": {
+    "from": null,
+    "to": null,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "文献层：晋南-中原"
+   },
+   "confidence": "E",
+   "summary": "尧→舜→禹的和平权力交接叙事，战国诸子（尤其儒家墨家）的理想化装置，与《竹书纪年》'舜囚尧'的篡夺叙事在文献内部就已对立。",
+   "claims": [
+    {
+     "claim": "禅让vs篡夺的文献对立恰与考古相对应：陶寺宫城暴力毁弃=权力更替的非和平证据；'禅让'是周代士人政治理想投射",
+     "confidence": "D",
+     "source_ids": [
+      "taosi_whb"
+     ],
+     "note": "激进层：把文献内部矛盾与考古暴力证据对齐"
+    },
+    {
+     "claim": "禅让叙事的地理结构（晋南-豫东-豫西轮替）反映的是'多元共主联盟'而非单线王朝",
+     "confidence": "D",
+     "source_ids": []
+    }
+   ],
+   "tags": [
+    "神话投影",
+    "激进层"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "from": "culture:liangzhu",
+   "to": "culture:lingjiatan",
+   "type": "derives_from",
+   "confidence": "B",
+   "source_ids": [
+    "lingjiatan2023"
+   ]
+  },
+  {
+   "from": "culture:liangzhu",
+   "to": "climate_event:4_2ka",
+   "type": "driven_by",
+   "confidence": "B",
+   "source_ids": [
+    "ecnu_liangzhu",
+    "lzmuseum42ka"
+   ],
+   "note": "衰变的环境触发"
+  },
+  {
+   "from": "culture:shijiahe",
+   "to": "culture:qujialing",
+   "type": "derives_from",
+   "confidence": "A",
+   "source_ids": [
+    "hanjianye2020"
+   ]
+  },
+  {
+   "from": "culture:shijiahe",
+   "to": "climate_event:4_2ka",
+   "type": "driven_by",
+   "confidence": "C",
+   "source_ids": [
+    "lzmuseum42ka"
+   ]
+  },
+  {
+   "from": "culture:wangwan3",
+   "to": "culture:yangshao_miaodigou",
+   "type": "derives_from",
+   "confidence": "B",
+   "source_ids": [
+    "hanjianye2020"
+   ]
+  },
+  {
+   "from": "culture:shandong_longshan",
+   "to": "culture:dawenkou",
+   "type": "derives_from",
+   "confidence": "A",
+   "source_ids": [
+    "hanjianye2020"
+   ]
+  },
+  {
+   "from": "culture:qijia",
+   "to": "culture:majiayao",
+   "type": "derives_from",
+   "confidence": "A",
+   "source_ids": [
+    "hanjianye2020"
+   ]
+  },
+  {
+   "from": "site:taosi",
+   "to": "site:shimao",
+   "type": "contemporary_with",
+   "confidence": "A",
+   "source_ids": [
+    "shimao_ca2021",
+    "taosi_whb"
+   ]
+  },
+  {
+   "from": "event:great_flood",
+   "to": "climate_event:4_2ka",
+   "type": "driven_by",
+   "confidence": "B",
+   "source_ids": [
+    "science2016flood",
+    "jianghanflood2023"
+   ]
+  },
+  {
+   "from": "myth_person:yao",
+   "to": "site:taosi",
+   "type": "corresponds_to",
+   "confidence": "C",
+   "source_ids": [
+    "taosi_whb"
+   ]
+  },
+  {
+   "from": "myth_person:shun",
+   "to": "culture:shandong_longshan",
+   "type": "corresponds_to",
+   "confidence": "D",
+   "source_ids": []
+  },
+  {
+   "from": "myth_person:yu",
+   "to": "culture:wangwan3",
+   "type": "corresponds_to",
+   "confidence": "C",
+   "source_ids": [
+    "jianghanflood2023"
+   ]
+  },
+  {
+   "from": "myth_event:shanrang",
+   "to": "site:taosi",
+   "type": "corresponds_to",
+   "confidence": "D",
+   "source_ids": [
+    "taosi_whb"
+   ]
+  },
+  {
+   "from": "myth_person:yu",
+   "to": "event:great_flood",
+   "type": "corresponds_to",
+   "confidence": "C",
+   "source_ids": [
+    "science2016flood"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "story:water_kingdom",
+   "title": "水利王国：成于水，殁于水",
+   "thread": [
+    "culture:lingjiatan",
+    "culture:liangzhu",
+    "climate_event:4_2ka"
+   ],
+   "summary": "凌家滩的玉版画出宇宙，良渚人用十一条坝驯服了溪流——四千年前的持续暴雨压垮了这套精密的水之国：修水坝的人，被水打败。",
+   "branch_points": [
+    {
+     "at": "culture:liangzhu",
+     "question": "如果暴雨没有来，良渚会长成青铜帝国吗？",
+     "alt": "story:liangzhu_alt"
+    }
+   ]
+  },
+  {
+   "id": "story:double_capitals",
+   "title": "双城之谜：陶寺与石峁",
+   "thread": [
+    "site:taosi",
+    "site:shimao",
+    "climate_event:4_2ka"
+   ],
+   "summary": "晋南的观象台王与陕北的石城之王同时崛起又几乎同时崩塌——一南一北两个超级权力中心，龙山末期的最大悬案。",
+   "branch_points": [
+    {
+     "at": "site:shimao",
+     "question": "石峁是陶寺的盟友、对手，还是同一政权的两京？",
+     "alt": "story:shimao_identity"
+    }
+   ]
+  },
+  {
+   "id": "story:flood_and_yu",
+   "title": "大洪水与大禹",
+   "thread": [
+    "climate_event:4_2ka",
+    "event:great_flood",
+    "myth_person:yu",
+    "myth_event:shanrang"
+   ],
+   "summary": "积石峡的溃坝、江汉的泽国、黄河的泛流——几个真实的水患在周人的讲述里合并成一场洪水，和一个治水的人。王朝的诞生故事，是气候灾难的文学压缩。",
+   "branch_points": [
+    {
+     "at": "event:great_flood",
+     "question": "禅让是美德叙事还是暴力篡夺的美化？陶寺的乱骨说是后者。",
+     "alt": "story:shanrang_vs_coup"
+    }
+   ]
+  }
+ ]
+}
