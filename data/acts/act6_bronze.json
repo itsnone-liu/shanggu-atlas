@@ -1,0 +1,193 @@
+{
+  "act": 6,
+  "title": "二里头与早商：青铜王权的诞生",
+  "time": {"from": 3900, "to": 3300, "unit": "BP"},
+  "entities": [
+    {
+      "id": "site:xinzhai",
+      "type": "site",
+      "name": "新砦遗址",
+      "aliases": ["新砦期"],
+      "time": {"from": 3900, "to": 3800, "unit": "BP"},
+      "location": {"type": "point", "lon": 113.55, "lat": 34.52},
+      "confidence": "A",
+      "summary": "王湾三期与二里头之间的过渡期大聚落：三重环壕、兽面纹陶器盖（夔龙先声）、东方因素（造律台-后冈系）显著涌入——'最早中国'诞生前夜的混血现场。",
+      "claims": [
+        {"claim": "新砦期的东方因素涌入对应'夷羿代夏'（太康失国-少康中兴）传说的考古候选背景", "confidence": "D", "source_ids": [], "note": "激进层：后羿代夏=东夷集团西进的记忆"}
+      ],
+      "tags": ["过渡期", "主线"]
+    },
+    {
+      "id": "site:erlitou",
+      "type": "site",
+      "name": "二里头遗址",
+      "aliases": ["Erlitou", "二里头都邑"],
+      "time": {"from": 3800, "to": 3500, "unit": "BP"},
+      "location": {"type": "point", "lon": 112.69, "lat": 34.71},
+      "confidence": "A",
+      "summary": "洛阳盆地首个超大型都邑：中国最早的宫城（中轴线布局鼻祖）、最早的城市主干道网、绿松石龙形器（'超级国宝'）、最早的青铜礼器群（爵斝鼎铃）。许宏定位为'最早的中国（广域王权国家）'，是否等于文献中的'夏'仍在激辩。",
+      "claims": [
+        {"claim": "二里头=最早的广域王权国家，其核心遗产（宫室制度、青铜礼器制度、绿松石工艺）被商周全盘继承", "confidence": "A", "source_ids": ["xuhong2019"]},
+        {"claim": "二里头姓不姓'夏'：孙庆伟（夏都说：文献-考古耦合可认定）vs 许宏（不可知论：无当时文字自证）——本图谱同时收录两说，置信度B各自挂账", "confidence": "B", "source_ids": ["henu2019", "xuhong2019"]},
+        {"claim": "二里头人群基因组=中原龙山人群直系延续，王朝更替是上层权力转移而非人群替换", "confidence": "B", "source_ids": ["cellgenomics2025", "bmcbiol2026han"]}
+      ],
+      "tags": ["洛阳", "青铜", "主线", "A锚点"]
+    },
+    {
+      "id": "culture:xiaqiyuan",
+      "type": "culture",
+      "name": "下七垣文化",
+      "aliases": ["先商文化"],
+      "time": {"from": 3800, "to": 3600, "unit": "BP"},
+      "location": {"type": "region", "desc": "豫北冀南（漳河流域为核心）"},
+      "confidence": "A",
+      "summary": "商人先公时代的考古实体：绳纹鬲传统（束颈分裆鬲的故乡）、质朴实用的器物风格与二里头礼制形成鲜明对照——从边地部落到王朝颠覆者的六百年蛰伏。",
+      "claims": [
+        {"claim": "下七垣=商人先公文化（契-汤十四世的考古候选），鬲随商征伐扩散半个中国，成为早商身份标志器", "confidence": "B", "source_ids": ["hanjianye2020"]}
+      ],
+      "tags": ["先商", "主线"]
+    },
+    {
+      "id": "site:zhengzhou_shang",
+      "type": "site",
+      "name": "郑州商城",
+      "aliases": ["郑亳说", "二里冈期都邑"],
+      "time": {"from": 3600, "to": 3300, "unit": "BP"},
+      "location": {"type": "point", "lon": 113.66, "lat": 34.75},
+      "confidence": "A",
+      "summary": "早商主都（亳都候选）：城垣周长近7公里、宫殿区、铸铜-制骨-制陶作坊环城、杜岭方鼎出土——二里冈文化以此为中心爆炸式扩张，覆盖范围数倍于二里头。",
+      "claims": [
+        {"claim": "郑州商城=商汤所都之亳（郑亳说）vs 偃师商城为亳（西亳说）的百年公案，多数现任学者倾向郑亳", "confidence": "C", "source_ids": ["hanjianye2020"]},
+        {"claim": "二里冈扩张是资源驱动的帝国网络：金属（铜锡）、盐（中条山-河东池盐）的战略获取塑造了早商空间结构", "confidence": "B", "source_ids": ["jwp2019panlongcheng"]}
+      ],
+      "tags": ["早商", "主线", "A锚点"]
+    },
+    {
+      "id": "site:yanshi_shang",
+      "type": "site",
+      "name": "偃师商城",
+      "aliases": ["西亳说", "偃师尸乡沟"],
+      "time": {"from": 3600, "to": 3300, "unit": "BP"},
+      "location": {"type": "point", "lon": 112.79, "lat": 34.72},
+      "confidence": "A",
+      "summary": "二里头东北6公里的商代早期城址：军事色彩浓的小城+后建大城，紧邻二里头——无论是否'西亳'，它都是监视/接管二里头体系的桥头堡。",
+      "claims": [
+        {"claim": "偃师商城的始建年代紧随二里头衰落，城址对峙关系是'夏商更替'最直观的空间证据", "confidence": "B", "source_ids": ["xuhong2019"]}
+      ],
+      "tags": ["早商"]
+    },
+    {
+      "id": "site:panlongcheng",
+      "type": "site",
+      "name": "盘龙城遗址",
+      "aliases": ["Panlongcheng"],
+      "time": {"from": 3500, "to": 3300, "unit": "BP"},
+      "location": {"type": "point", "lon": 114.26, "lat": 30.48},
+      "confidence": "A",
+      "summary": "长江中游的商代据点城市：武汉黄陂，城垣+宫殿+贵族墓（李家嘴大墓青铜器媲美中原），地方化的青铜生产——商帝国控制铜矿带（鄂东南-赣北铜绿山方向）的南方枢纽。",
+      "claims": [
+        {"claim": "盘龙城是早商金属资源战略的支点：郑州的青铜生产依赖长江中游铜矿输送，盘龙城即'铜路'咽喉", "confidence": "A", "source_ids": ["jwp2019panlongcheng"]},
+        {"claim": "盘龙城衰亡于白家庄期（约前1300s）与商势力南撤/长江流域本土势力（吴城/新干）崛起同步", "confidence": "B", "source_ids": ["jwp2019panlongcheng"]}
+      ],
+      "tags": ["长江中游", "青铜", "主线", "A锚点"]
+    },
+    {
+      "id": "culture:sanxingdui",
+      "type": "culture",
+      "name": "三星堆文化",
+      "aliases": ["Sanxingdui", "古蜀"],
+      "time": {"from": 3700, "to": 3100, "unit": "BP"},
+      "location": {"type": "point", "lon": 104.20, "lat": 30.99},
+      "confidence": "A",
+      "summary": "成都平原的古蜀巨型城址：3.6km²城墙体系、与二里冈同期的青铜技术与陶器往来、独树一帜的神像体系（纵目面具、大立人、神树）——跨幕文化，城址兴于本幕，祭祀坑属act7。",
+      "claims": [
+        {"claim": "三星堆青铜技术来自中原-长江中游体系（尊罍容器组合直接师承二里冈-殷墟风格）而后本土化爆发", "confidence": "B", "source_ids": ["arsasiat1988", "jwp2019panlongcheng"]},
+        {"claim": "三星堆高放射性成因铅器物与殷墟部分青铜器共享矿源（西南矿带），商与蜀存在金属贸易联系", "confidence": "B", "source_ids": ["jas2022lead"]},
+        {"claim": "古蜀人群=本地宝墩系人群+黄河上游（马家窑-齐家方向）南下成分的混合", "confidence": "C", "source_ids": ["yang2020"], "note": "古DNA出处待补：三星堆个体基因组"}
+      ],
+      "tags": ["古蜀", "青铜", "跨幕", "主线"]
+    },
+    {
+      "id": "culture:baodun",
+      "type": "culture",
+      "name": "宝墩文化",
+      "aliases": ["宝墩城址群"],
+      "time": {"from": 4500, "to": 3700, "unit": "BP"},
+      "location": {"type": "region", "desc": "成都平原（新津宝墩等八座城址）"},
+      "confidence": "A",
+      "summary": "成都平原首批筑城社会：稻作人群在岷江冲积扇上的八座城址接力出现，4.0ka后渐次衰微并汇入三星堆——古蜀文明的史前地基。",
+      "claims": [
+        {"claim": "宝墩稻作人群与长江中游（石家河系）西进传播相关，构成三星堆的直系前身", "confidence": "B", "source_ids": ["hanjianye2020"]}
+      ],
+      "tags": ["成都平原"]
+    },
+    {
+      "id": "tech:bronze_introduction",
+      "type": "tech",
+      "name": "青铜技术与礼器化",
+      "time": {"from": 4200, "to": 3300, "unit": "BP"},
+      "location": {"type": "route", "desc": "欧亚草原→西北通道（河西-齐家）→中原；中原→长江→蜀"},
+      "confidence": "A",
+      "summary": "青铜从欧亚草原经西北通道进入甘青（铜铃/铜镜），在二里头完成决定性转向：从工具/装饰变成礼器（爵斝鼎的政治语法）——中国青铜文明的独特性正在'青铜的礼制化'。",
+      "claims": [
+        {"claim": "二里头-二里冈青铜礼器制度=把冶金技术转写为王权语言，与西方'青铜即武器/工具'路线分道", "confidence": "B", "source_ids": ["xuhong2019", "jwp2019panlongcheng"]}
+      ],
+      "tags": ["青铜", "主线", "A锚点"]
+    },
+    {
+      "id": "myth_event:xia_shang_transition",
+      "type": "myth_event",
+      "name": "商汤灭夏",
+      "aliases": ["鸣条之战", "夏商鼎革"],
+      "time": {"from": null, "to": null, "unit": "BP"},
+      "location": {"type": "region", "desc": "文献层：鸣条（豫西-晋南边界地带）"},
+      "confidence": "E",
+      "summary": "文献叙事：汤放桀于鸣条，夏亡商立——中国'王朝鼎革'叙事模板的第一次上演（天命转移观的起点）。",
+      "claims": [
+        {"claim": "考古上的'夏商更替'=二里头衰败+偃师/郑州商城兴起的过程，找不到单一'决战'层位；鸣条之战是后世对漫长权力转移的压缩叙事", "confidence": "C", "source_ids": ["xuhong2019"]},
+        {"claim": "若二里头即夏，则夏代纪年（前2070-前1600传统说）需下修约百年——夏商周断代工程结论的持续争议", "confidence": "C", "source_ids": ["henu2019"]}
+      ],
+      "tags": ["神话投影", "鼎革"]
+    }
+  ],
+  "relations": [
+    {"from": "site:xinzhai", "to": "culture:wangwan3", "type": "derives_from", "confidence": "A", "source_ids": ["hanjianye2020"]},
+    {"from": "site:erlitou", "to": "site:xinzhai", "type": "derives_from", "confidence": "A", "source_ids": ["hanjianye2020"]},
+    {"from": "site:zhengzhou_shang", "to": "culture:xiaqiyuan", "type": "derives_from", "confidence": "A", "source_ids": ["hanjianye2020"]},
+    {"from": "site:yanshi_shang", "to": "site:erlitou", "type": "contemporary_with", "confidence": "A", "source_ids": ["xuhong2019"]},
+    {"from": "site:panlongcheng", "to": "site:zhengzhou_shang", "type": "derives_from", "confidence": "A", "source_ids": ["jwp2019panlongcheng"], "note": "据点城=母都体系的南方延伸"},
+    {"from": "tech:bronze_introduction", "to": "culture:qijia", "type": "evidence_for", "confidence": "B", "source_ids": ["hanjianye2020"]},
+    {"from": "site:erlitou", "to": "tech:bronze_introduction", "type": "evidence_for", "confidence": "A", "source_ids": ["xuhong2019"]},
+    {"from": "culture:sanxingdui", "to": "culture:baodun", "type": "derives_from", "confidence": "A", "source_ids": ["hanjianye2020"]},
+    {"from": "culture:sanxingdui", "to": "site:panlongcheng", "type": "contemporary_with", "confidence": "A", "source_ids": ["jwp2019panlongcheng"]},
+    {"from": "myth_event:xia_shang_transition", "to": "site:erlitou", "type": "corresponds_to", "confidence": "C", "source_ids": ["xuhong2019"]},
+    {"from": "myth_event:xia_shang_transition", "to": "site:yanshi_shang", "type": "corresponds_to", "confidence": "C", "source_ids": ["xuhong2019"]}
+  ],
+  "stories": [
+    {
+      "id": "story:bronze_kings",
+      "title": "青铜即王权：从铜铃到方鼎",
+      "thread": ["culture:qijia", "tech:bronze_introduction", "site:erlitou", "site:zhengzhou_shang"],
+      "summary": "草原的铜铃走进黄土，在洛阳盆地变成礼器——爵斝鼎从此只讲一种语言：王权的语言。郑州的大城把这套语言喊到了半个中国那么远。",
+      "branch_points": [
+        {"at": "site:erlitou", "question": "二里头是'夏'吗——没有文字自证，你信文献还是信许宏的不可知论？", "alt": "story:xia_identity"}
+      ]
+    },
+    {
+      "id": "story:south_gate",
+      "title": "南方门户：铜路上的盘龙城",
+      "thread": ["site:zhengzhou_shang", "site:panlongcheng", "culture:sanxingdui"],
+      "summary": "商人的青铜胃口需要长江的铜。盘龙城作为'铜路'枢纽盛极一时，而在它身后更深的西南，古蜀人正把学来的技术铸成另一种神明。",
+      "branch_points": [
+        {"at": "culture:sanxingdui", "question": "三星堆的神像世界是独立发明还是商文明的镜像反题？", "alt": "story:shu_independent"}
+      ]
+    },
+    {
+      "id": "story:first_dynastic_change",
+      "title": "第一次鼎革：汤放桀",
+      "thread": ["myth_event:xia_shang_transition", "site:erlitou", "site:yanshi_shang", "site:zhengzhou_shang"],
+      "summary": "文献里是一战定天下的鸣条之战，考古里是两座城的兴衰接力——'天命转移'的叙事模板在真实的历史过程上建成，此后三千年反复重演。",
+      "branch_points": []
+    }
+  ]
+}
