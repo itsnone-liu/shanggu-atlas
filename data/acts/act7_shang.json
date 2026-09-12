@@ -1,0 +1,650 @@
+{
+ "act": 7,
+ "title": "殷商与牧野：信史之门在血与火中开启",
+ "time": {
+  "from": 3400,
+  "to": 3000,
+  "unit": "BP"
+ },
+ "entities": [
+  {
+   "id": "site:yinxu",
+   "type": "site",
+   "name": "殷墟",
+   "aliases": [
+    "Yinxu",
+    "洹北商城"
+   ],
+   "time": {
+    "from": 3300,
+    "to": 3000,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "point",
+    "lon": 114.32,
+    "lat": 36.12
+   },
+   "confidence": "A",
+   "summary": "商王朝最后两百余年的都城（盘庚迁殷后'更不徙都'）：36k㎡大遗址、洹北商城+小屯宫殿宗庙区+王陵区、妇好墓（未盗掘的武丁配偶墓，出土1928件器物）、15万片甲骨——中国信史时代的起点。",
+   "claims": [
+    {
+     "claim": "甲骨文是成熟的成文文字系统（字库约4500，可识约1/3），汉字直系祖先——中国信史自此开始",
+     "confidence": "A",
+     "source_ids": [
+      "xszz2019"
+     ]
+    },
+    {
+     "claim": "殷墟城市化的生理代价可测：平民牙釉质发育不全等应激指标显示系统性生存压力",
+     "confidence": "B",
+     "source_ids": [
+      "plos2016anyang"
+     ]
+    },
+    {
+     "claim": "晚商人祭规模数千计，且存在肢解与烹食行为（骨学证据），'礼'的另一面是极端暴力",
+     "confidence": "B",
+     "source_ids": [
+      "cannibal2023",
+      "hs2023sxd"
+     ],
+     "note": "敏感但实证充分"
+    }
+   ],
+   "tags": [
+    "晚商",
+    "信史",
+    "主线",
+    "A锚点"
+   ]
+  },
+  {
+   "id": "tech:oracle_script",
+   "type": "tech",
+   "name": "甲骨文",
+   "aliases": [
+    "殷墟文字",
+    "卜辞"
+   ],
+   "time": {
+    "from": 3300,
+    "to": 3000,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "安阳小屯（用途：王室占卜档案）"
+   },
+   "confidence": "A",
+   "summary": "刻在龟甲兽骨上的王室占卜记录：干支纪日、祭祀谱系、征伐田猎天气——王室的数据库。已有'今日雨'式的气象记录与完整的祖谱，使商王世系可与《史记》对表。",
+   "claims": [
+    {
+     "claim": "从贾湖刻符→大汶口陶文→陶寺朱书→二里岗刻辞→甲骨文的三千年谱系链中，只有最后一步被证明是文字；其余仍是'前文字符号'候选",
+     "confidence": "B",
+     "source_ids": [
+      "taosi_whb",
+      "qstheory2020"
+     ]
+    },
+    {
+     "claim": "甲骨文记录的商王世系与《史记·殷本纪》高度吻合（王国维1917《殷卜辞中所见先公先王考》），证明司马迁的晚商记载可靠",
+     "confidence": "A",
+     "source_ids": [
+      "xszz2019"
+     ]
+    }
+   ],
+   "tags": [
+    "文字",
+    "A锚点",
+    "主线"
+   ]
+  },
+  {
+   "id": "polity:late_shang",
+   "type": "polity",
+   "name": "晚商王权（武丁-帝辛）",
+   "time": {
+    "from": 3300,
+    "to": 3000,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "以安阳为核心，影响力网络达长江-渭河-陕北"
+   },
+   "confidence": "A",
+   "summary": "武丁中兴（妇好率军万人征伐羌方土方）、'帝-祖-先王'三层神权结构、内服外服制、青铜工业国家化——中国第一个有直接文字自证的王朝，也是一个人祭与辉煌并存的体系。",
+   "claims": [
+    {
+     "claim": "商的'国之大事在祀与戎'是字面事实：青铜与人力的大比例流向祭祀-军事复合体",
+     "confidence": "B",
+     "source_ids": [
+      "cannibal2023"
+     ]
+    },
+    {
+     "claim": "商文明是'神权-王权合一'的巅峰，其崩溃后的周人叙事（天命-德）是对商模式的系统性反题",
+     "confidence": "B",
+     "source_ids": [
+      "xszz2019"
+     ]
+    }
+   ],
+   "tags": [
+    "晚商",
+    "主线"
+   ]
+  },
+  {
+   "id": "climate_event:late_shang_deterioration",
+   "type": "climate_event",
+   "name": "商末气候恶化",
+   "aliases": [
+    "3.4-3.0ka 转冷转干"
+   ],
+   "time": {
+    "from": 3400,
+    "to": 3000,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "中国北方季风区"
+   },
+   "confidence": "B",
+   "summary": "全新世大暖期尾声的阶梯式恶化：气温下降、降水减少、象群栖息线南退（《吕氏春秋》'商人服象'到战国'豫州'之名的记忆层），农业生态承载力收缩叠加王权内耗。",
+   "claims": [
+    {
+     "claim": "商代后期气候转冷转干削弱了商王权的资源基础，是牧野之变的环境背景板（非唯一原因）",
+     "confidence": "C",
+     "source_ids": [
+      "speleothem82"
+     ],
+     "note": "气候决定论的边界：周同样处于该气候区却胜出"
+    }
+   ],
+   "tags": [
+    "气候",
+    "主线"
+   ]
+  },
+  {
+   "id": "site:sanxingdui_pits",
+   "type": "site",
+   "name": "三星堆祭祀坑",
+   "aliases": [
+    "一、二号坑",
+    "三至八号坑"
+   ],
+   "time": {
+    "from": 3200,
+    "to": 3000,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "point",
+    "lon": 104.2,
+    "lat": 30.99
+   },
+   "confidence": "A",
+   "summary": "八个祭祀坑：纵目面具（宽1.38m）、青铜大立人、神树、黄金面具、数百根象牙与海贝——碳十四集中商代晚期，与殷墟同时。器物组合（尊罍）师承中原-长江系，神像体系独绝天下。埋藏性质持续更新：祭祀区长期使用、器物分层埋放而非一次性毁弃。",
+   "claims": [
+    {
+     "claim": "祭祀坑年代确证商代晚期，古蜀文明与殷商同期并行而非'外来文明'",
+     "confidence": "A",
+     "source_ids": [
+      "hkcna2026sxd"
+     ]
+    },
+    {
+     "claim": "坑中器物存在有意打破-焚烧-分层埋放序列，更接近'结构性的祭祀终结仪式'而非战乱仓皇掩埋",
+     "confidence": "B",
+     "source_ids": [
+      "hkcna2026sxd"
+     ]
+    },
+    {
+     "claim": "三星堆最终衰变与金沙继起（约前1000）与区域洪水/政治重心移动相关",
+     "confidence": "C",
+     "source_ids": [
+      "hkcna2026sxd"
+     ]
+    }
+   ],
+   "tags": [
+    "古蜀",
+    "A锚点",
+    "主线"
+   ]
+  },
+  {
+   "id": "culture:wucheng",
+   "type": "culture",
+   "name": "吴城文化",
+   "aliases": [
+    "吴城",
+    "虎方候选"
+   ],
+   "time": {
+    "from": 3500,
+    "to": 3100,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "赣江中下游（樟树吴城）"
+   },
+   "confidence": "A",
+   "summary": "长江以南的青铜文化独立中心：有自己的青铜铸造（使用石范铸铜，与中原陶范技术不同源）、原始瓷;与盘龙城衰亡后的南方真空同步兴起。",
+   "claims": [
+    {
+     "claim": "吴城文化=甲骨文中的'虎方'候选：商王朝南方的主要政治对手之一",
+     "confidence": "C",
+     "source_ids": [
+      "dutenews_xdo"
+     ]
+    }
+   ],
+   "tags": [
+    "江南"
+   ]
+  },
+  {
+   "id": "site:xingan_dayangzhou",
+   "type": "site",
+   "name": "新干大洋洲大墓",
+   "aliases": [
+    "大洋洲商墓"
+   ],
+   "time": {
+    "from": 3300,
+    "to": 3200,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "point",
+    "lon": 115.39,
+    "lat": 27.77
+   },
+   "confidence": "A",
+   "summary": "赣江边的'江南商墓之冠'：475件青铜器（伏鸟双尾青铜虎、青铜甗王）、754件玉器——地方风格与殷商母题混铸，证明长江中游南岸存在与中原并立的青铜政治体。",
+   "claims": [
+    {
+     "claim": "大洋洲青铜器的'混合风格'=地方精英用中原技术词汇书写本地信仰（虎崇拜）",
+     "confidence": "B",
+     "source_ids": [
+      "dutenews_xdo"
+     ]
+    }
+   ],
+   "tags": [
+    "江南",
+    "青铜"
+   ]
+  },
+  {
+   "id": "polity:early_zhou",
+   "type": "polity",
+   "name": "先周与周原",
+   "aliases": [
+    "姬周",
+    "周原甲骨"
+   ],
+   "time": {
+    "from": 3400,
+    "to": 3000,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "关中西部周原（岐山-扶风）"
+   },
+   "confidence": "A",
+   "summary": "从豳地迁岐（古公亶父）的姬周集团：在周原吸收商式文字（周原甲骨）、青铜技术，联合羌系（姜姓）与西部诸戎——'小邦周'对'大邑商'的百年卧薪。",
+   "claims": [
+    {
+     "claim": "姬周贵族起源于陕北黄土高原（与石峁-李家崖方向人群有关），后南迁关中融合——'周人北来说'",
+     "confidence": "C",
+     "source_ids": [],
+     "note": "考古-基因证据渐增但未定论；出处待补"
+    },
+    {
+     "claim": "周原甲骨显示周人早在克商前已系统学习商文字与占卜制度",
+     "confidence": "A",
+     "source_ids": [
+      "xszz2019"
+     ]
+    }
+   ],
+   "tags": [
+    "周",
+    "主线"
+   ]
+  },
+  {
+   "id": "myth_event:muye",
+   "type": "myth_event",
+   "name": "牧野之战",
+   "aliases": [
+    "武王克商",
+    "前1046年1月20日"
+   ],
+   "time": {
+    "from": 3050,
+    "to": 3050,
+    "unit": "BP",
+    "approx": true
+   },
+   "location": {
+    "type": "point",
+    "lon": 113.9,
+    "lat": 35.2
+   },
+   "confidence": "A",
+   "summary": "利簋铭文'武王征商，唯甲子朝'与《尚书·牧誓》对表，碳十四与天象（岁星）回推锁定前1046年1月20日——中国上古史最重要的年代锚点，本图谱时间轴的终点。",
+   "claims": [
+    {
+     "claim": "牧野之战发生于前1046年1月20日（甲子日）：利簋铭文实证+断代工程多路线交叉定年",
+     "confidence": "A",
+     "source_ids": [
+      "xszz2019"
+     ],
+     "note": "仍有±若干年的学术分歧，但此为主流结论"
+    },
+    {
+     "claim": "'血流漂杵'与'前徒倒戈'是周人叙事的两面：敌方崩溃的道德化+武力征服的淡化",
+     "confidence": "C",
+     "source_ids": []
+    }
+   ],
+   "tags": [
+    "终点",
+    "A锚点",
+    "主线"
+   ]
+  },
+  {
+   "id": "myth_person:di_xin",
+   "type": "myth_person",
+   "name": "帝辛（纣王）",
+   "aliases": [
+    "商纣王",
+    "受"
+   ],
+   "time": {
+    "from": null,
+    "to": 3050,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "文献层：朝歌"
+   },
+   "confidence": "E",
+   "summary": "末代商王：甲骨文与金文中的'受'有征人方等真实战事记录；'酒池肉林/炮烙'等暴君叙事是周代以来层累追加的胜利者书写（子贡早有'纣之不善不如是之甚也'之疑）。",
+   "claims": [
+    {
+     "claim": "纣王恶行清单随时代递增：春秋+酗酒，战国+炮烙，汉+蚕室，晋+剖心——顾颉刚层累说的经典案例",
+     "confidence": "B",
+     "source_ids": []
+    },
+    {
+     "claim": "帝辛的真实困境：长期征伐东夷（人方）消耗国力+王室内斗+气候恶化，牧野之战时主力仍在东方",
+     "confidence": "B",
+     "source_ids": [
+      "xszz2019"
+     ]
+    }
+   ],
+   "tags": [
+    "神话投影"
+   ]
+  },
+  {
+   "id": "myth_event:fengshen",
+   "type": "myth_event",
+   "name": "封神叙事",
+   "aliases": [
+    "天命转移",
+    "封神演义母题"
+   ],
+   "time": {
+    "from": null,
+    "to": null,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "文学层：明代小说定型，母题始于周初"
+   },
+   "confidence": "E",
+   "summary": "'天命靡常，惟德是辅'——周人把牧野的军事胜利转写为道德-宇宙论叙事（天命观），这是中国政治哲学的创世时刻，也是三千年王朝鼎革合法性的模板。",
+   "claims": [
+    {
+     "claim": "天命观=对商神权体系的系统性反题：从'祀与戎'到'敬德保民'，周公制礼作乐奠定中华政教底盘",
+     "confidence": "B",
+     "source_ids": [
+      "xszz2019"
+     ]
+    },
+    {
+     "claim": "《封神演义》的封神榜结构=把商周之际的真实族群战争（姜姓羌系助周）神化为两派仙神大战",
+     "confidence": "D",
+     "source_ids": []
+    }
+   ],
+   "tags": [
+    "神话投影",
+    "激进层"
+   ]
+  },
+  {
+   "id": "site:jinsha",
+   "type": "site",
+   "name": "金沙遗址",
+   "aliases": [
+    "Jinsha"
+   ],
+   "time": {
+    "from": 3050,
+    "to": 2700,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "point",
+    "lon": 104.01,
+    "lat": 30.67
+   },
+   "confidence": "A",
+   "summary": "三星堆祭祀坑之后成都平原的新中心：太阳神鸟金箔（中国文化遗产标志）、小金面具、象牙祭祀区——古蜀祭祀传统从神像时代转入器物时代，延至春秋。",
+   "claims": [
+    {
+     "claim": "金沙继三星堆而起（约前1000），祭祀传统连续但神像体系消失——古蜀文明的'去神像化'转型",
+     "confidence": "B",
+     "source_ids": [
+      "hkcna2026sxd"
+     ]
+    }
+   ],
+   "tags": [
+    "古蜀",
+    "跨幕终点后"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "from": "site:yinxu",
+   "to": "site:zhengzhou_shang",
+   "type": "derives_from",
+   "confidence": "A",
+   "source_ids": [
+    "hanjianye2020"
+   ]
+  },
+  {
+   "from": "tech:oracle_script",
+   "to": "site:yinxu",
+   "type": "located_at",
+   "confidence": "A",
+   "source_ids": [
+    "xszz2019"
+   ]
+  },
+  {
+   "from": "polity:late_shang",
+   "to": "climate_event:late_shang_deterioration",
+   "type": "driven_by",
+   "confidence": "C",
+   "source_ids": [
+    "speleothem82"
+   ]
+  },
+  {
+   "from": "site:sanxingdui_pits",
+   "to": "culture:sanxingdui",
+   "type": "located_at",
+   "confidence": "A",
+   "source_ids": [
+    "hkcna2026sxd"
+   ]
+  },
+  {
+   "from": "site:sanxingdui_pits",
+   "to": "site:yinxu",
+   "type": "contemporary_with",
+   "confidence": "A",
+   "source_ids": [
+    "hkcna2026sxd"
+   ]
+  },
+  {
+   "from": "site:xingan_dayangzhou",
+   "to": "culture:wucheng",
+   "type": "derives_from",
+   "confidence": "A",
+   "source_ids": [
+    "dutenews_xdo"
+   ]
+  },
+  {
+   "from": "culture:wucheng",
+   "to": "site:panlongcheng",
+   "type": "contemporary_with",
+   "confidence": "A",
+   "source_ids": [
+    "jwp2019panlongcheng"
+   ]
+  },
+  {
+   "from": "polity:early_zhou",
+   "to": "climate_event:late_shang_deterioration",
+   "type": "contemporary_with",
+   "confidence": "B",
+   "source_ids": []
+  },
+  {
+   "from": "myth_event:muye",
+   "to": "polity:late_shang",
+   "type": "corresponds_to",
+   "confidence": "A",
+   "source_ids": [
+    "xszz2019"
+   ]
+  },
+  {
+   "from": "myth_event:muye",
+   "to": "polity:early_zhou",
+   "type": "corresponds_to",
+   "confidence": "A",
+   "source_ids": [
+    "xszz2019"
+   ]
+  },
+  {
+   "from": "myth_person:di_xin",
+   "to": "myth_event:muye",
+   "type": "corresponds_to",
+   "confidence": "E",
+   "source_ids": []
+  },
+  {
+   "from": "myth_event:fengshen",
+   "to": "myth_event:muye",
+   "type": "corresponds_to",
+   "confidence": "D",
+   "source_ids": [
+    "xszz2019"
+   ]
+  },
+  {
+   "from": "site:jinsha",
+   "to": "culture:sanxingdui",
+   "type": "derives_from",
+   "confidence": "A",
+   "source_ids": [
+    "hkcna2026sxd"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "story:oracle_gate",
+   "title": "信史之门：八千年符号长跑的终点",
+   "thread": [
+    "site:jiahu",
+    "culture:dawenkou",
+    "site:taosi",
+    "tech:oracle_script",
+    "site:yinxu"
+   ],
+   "summary": "从贾湖龟甲上的一划，到大汶口陶尊上的日月山，到陶寺扁壶上那个'文'字，再到安阳龟甲上四千五百个字——八千年，文字终于追上了文明。",
+   "branch_points": [
+    {
+     "at": "tech:oracle_script",
+     "question": "如果汉字的直系祖先不是殷墟而是另一个失落的系统呢？",
+     "alt": "story:lost_scripts"
+    }
+   ]
+  },
+  {
+   "id": "story:shu_burial",
+   "title": "神像的黄昏：古蜀人埋葬自己的神",
+   "thread": [
+    "culture:sanxingdui",
+    "site:sanxingdui_pits",
+    "site:yinxu"
+   ],
+   "summary": "商王朝在安阳用人的血问神，古蜀人在广汉用神的形象答——然后他们亲手打破、焚烧、埋下了这一切。两种神权，同一个青铜时代，几乎同时落幕。",
+   "branch_points": [
+    {
+     "at": "site:sanxingdui_pits",
+     "question": "这是改宗、亡国，还是一场计划了几十年的告别仪式？",
+     "alt": "story:shu_endgame"
+    }
+   ]
+  },
+  {
+   "id": "story:muye_morning",
+   "title": "甲子日的清晨：前1046年1月20日",
+   "thread": [
+    "climate_event:late_shang_deterioration",
+    "polity:late_shang",
+    "myth_person:di_xin",
+    "polity:early_zhou",
+    "myth_event:muye",
+    "myth_event:fengshen"
+   ],
+   "summary": "八百年的暖期结束了，大邑商的神也累了。甲子日清晨，朝歌城外的倒戈决定了一切——然后胜利者用三百年把这场惨胜写成'天命'。图谱的终点，也是中国政治文明三千年叙事的起点。",
+   "branch_points": [
+    {
+     "at": "myth_event:muye",
+     "question": "把'天命'和'德'从胜利者叙事中剥掉，牧野之战还剩什么？一场气候末世里的政变？",
+     "alt": "story:muye_stripped"
+    }
+   ]
+  }
+ ]
+}
