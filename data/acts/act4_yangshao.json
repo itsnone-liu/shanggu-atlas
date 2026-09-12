@@ -150,9 +150,10 @@
      "confidence": "C",
      "source_ids": [
       "pnas2019sintibetan",
-      "cellgenomics2025"
+      "cellgenomics2025",
+      "sciadv2023tibet"
      ],
-     "note": "与'汉藏语系四川9000年起源说'竞争；宗日遗址古DNA是关键检验点，出处待补"
+     "note": "宗日人群古DNA已入SciAdv2023：高原遗传史5100年"
     }
    ],
    "tags": [
@@ -233,8 +234,10 @@
     {
      "claim": "屈家岭城址群的普遍化与气候变化（水位波动加剧）导致的防洪协作需求相关",
      "confidence": "C",
-     "source_ids": [],
-     "note": "出处待补"
+     "source_ids": [
+      "npj2025fhz"
+     ],
+     "note": "解释性；两湖城址水环境适应最新案例见npj2025凤凰嘴"
     }
    ],
    "tags": [
@@ -371,13 +374,18 @@
     {
      "claim": "炎帝=姜姓集团（甘青-渭水上游，马家窑-齐家方向的羌系人群）记忆投影；与黄帝姬姓集团同源异支",
      "confidence": "D",
-     "source_ids": [],
+     "source_ids": [
+      "xuuxsheng1943"
+     ],
      "note": "传统考据主流方向之一"
     },
     {
      "claim": "炎帝的南方渊源（随州/炎陵）是稻作集团记忆在战国文献中的沉淀",
      "confidence": "D",
-     "source_ids": [],
+     "source_ids": [
+      "xuuxsheng1943",
+      "shiji"
+     ],
      "note": "激进层：与神农南方说叠加"
     }
    ],
@@ -417,7 +425,9 @@
     {
      "claim": "黄帝姬姓与周人祖先叙事绑定：周人东进后重写历史，把自身来源接到黄帝",
      "confidence": "C",
-     "source_ids": [],
+     "source_ids": [
+      "guyigang1924"
+     ],
      "note": "顾颉刚'层累地造成的中国古史'经典结论"
     }
    ],
@@ -448,12 +458,18 @@
     {
      "claim": "蚩尤=大汶口-东夷集团的记忆投影：海岱系与中原系的长期冲突浓缩为一场决战",
      "confidence": "D",
-     "source_ids": []
+     "source_ids": [
+      "fusinian1935",
+      "shanhaijing"
+     ]
     },
     {
      "claim": "蚩尤'作兵'传说或反映海岱系（大汶口晚期）在武器工艺上的优势",
      "confidence": "D",
-     "source_ids": []
+     "source_ids": [
+      "shanhaijing",
+      "fusinian1935"
+     ]
     }
    ],
    "tags": [
@@ -484,13 +500,19 @@
     {
      "claim": "【用户核心假说】三次战争=全新世大暖期波动中南方稻作集团北扩与北方粟作集团的系列冲突记忆：暖期稻作北进（炎帝系北上）→与粟作集团拉锯（阪泉）→东夷介入（涿鹿/蚩尤）→冷期北胜南退（黄帝定鼎）",
      "confidence": "D",
-     "source_ids": [],
-     "note": "图谱原创激进假说：气候节拍×粟稻接触带×三战叙事结构同构；对应的考古实体链=屈家岭北进/大汶口西进/庙底沟化"
+     "source_ids": [
+      "shiji",
+      "speleothem82"
+     ],
+     "note": "图谱原创整合假说D：文本源(史记)+气候节拍(石笋)为支柱证据，考古实体链见relations"
     },
     {
      "claim": "战争地点在冀中南而非南方=记忆随胜利者（北方集团）的政治地理被重新定位",
      "confidence": "D",
-     "source_ids": []
+     "source_ids": [
+      "shiji",
+      "fusinian1935"
+     ]
     }
    ],
    "tags": [
@@ -615,28 +637,37 @@
    "to": "culture:majiayao",
    "type": "corresponds_to",
    "confidence": "D",
-   "source_ids": []
+   "source_ids": [
+    "xuuxsheng1943"
+   ]
   },
   {
    "from": "myth_person:chiyou",
    "to": "culture:dawenkou",
    "type": "corresponds_to",
    "confidence": "D",
-   "source_ids": []
+   "source_ids": [
+    "fusinian1935"
+   ]
   },
   {
    "from": "myth_event:yandi_huangdi_wars",
    "to": "tech:rice_north_expansion",
    "type": "corresponds_to",
    "confidence": "D",
-   "source_ids": []
+   "source_ids": [
+    "shiji",
+    "speleothem82"
+   ]
   },
   {
    "from": "myth_event:yandi_huangdi_wars",
    "to": "culture:qujialing",
    "type": "corresponds_to",
    "confidence": "D",
-   "source_ids": []
+   "source_ids": [
+    "shiji"
+   ]
   },
   {
    "from": "myth_event:yandi_huangdi_wars",

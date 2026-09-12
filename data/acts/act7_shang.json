@@ -307,8 +307,10 @@
     {
      "claim": "姬周贵族起源于陕北黄土高原（与石峁-李家崖方向人群有关），后南迁关中融合——'周人北来说'",
      "confidence": "C",
-     "source_ids": [],
-     "note": "考古-基因证据渐增但未定论；出处待补"
+     "source_ids": [
+      "zhihu2024jizhou"
+     ],
+     "note": "⚠️N-F1998说非同行评审；与石峁-李家崖考古线索互持，C-保留"
     },
     {
      "claim": "周原甲骨显示周人早在克商前已系统学习商文字与占卜制度",
@@ -356,7 +358,10 @@
     {
      "claim": "'血流漂杵'与'前徒倒戈'是周人叙事的两面：敌方崩溃的道德化+武力征服的淡化",
      "confidence": "C",
-     "source_ids": []
+     "source_ids": [
+      "shangshu",
+      "yizhoushu"
+     ]
     }
    ],
    "tags": [
@@ -388,7 +393,9 @@
     {
      "claim": "纣王恶行清单随时代递增：春秋+酗酒，战国+炮烙，汉+蚕室，晋+剖心——顾颉刚层累说的经典案例",
      "confidence": "B",
-     "source_ids": []
+     "source_ids": [
+      "guyigang1924"
+     ]
     },
     {
      "claim": "帝辛的真实困境：长期征伐东夷（人方）消耗国力+王室内斗+气候恶化，牧野之战时主力仍在东方",
@@ -432,7 +439,10 @@
     {
      "claim": "《封神演义》的封神榜结构=把商周之际的真实族群战争（姜姓羌系助周）神化为两派仙神大战",
      "confidence": "D",
-     "source_ids": []
+     "source_ids": [
+      "fengshenYZL",
+      "shiji"
+     ]
     }
    ],
    "tags": [
@@ -568,7 +578,9 @@
    "to": "myth_event:muye",
    "type": "corresponds_to",
    "confidence": "E",
-   "source_ids": []
+   "source_ids": [
+    "shiji"
+   ]
   },
   {
    "from": "myth_event:fengshen",

@@ -1,278 +1,817 @@
 {
-  "act": 2,
-  "title": "农业起源：仙女木之后，稻与粟的两条道路",
-  "time": {"from": 13000, "to": 7000, "unit": "BP"},
-  "entities": [
+ "act": 2,
+ "title": "农业起源：仙女木之后，稻与粟的两条道路",
+ "time": {
+  "from": 13000,
+  "to": 7000,
+  "unit": "BP"
+ },
+ "entities": [
+  {
+   "id": "climate_event:younger_dryas",
+   "type": "climate_event",
+   "name": "仙女木冷事件",
+   "aliases": [
+    "Younger Dryas",
+    "新仙女木事件"
+   ],
+   "time": {
+    "from": 12900,
+    "to": 11700,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "全球性（北大西洋融水停摆驱动）"
+   },
+   "confidence": "A",
+   "summary": "末次冰期结束后的突然回冷期，全球气温在数十年内骤降、持续一千余年后骤然回暖，迫使狩猎采集人群改变觅食策略，被普遍视为全球农业起源的关键环境压力源。",
+   "claims": [
     {
-      "id": "climate_event:younger_dryas",
-      "type": "climate_event",
-      "name": "仙女木冷事件",
-      "aliases": ["Younger Dryas", "新仙女木事件"],
-      "time": {"from": 12900, "to": 11700, "unit": "BP"},
-      "location": {"type": "region", "desc": "全球性（北大西洋融水停摆驱动）"},
-      "confidence": "A",
-      "summary": "末次冰期结束后的突然回冷期，全球气温在数十年内骤降、持续一千余年后骤然回暖，迫使狩猎采集人群改变觅食策略，被普遍视为全球农业起源的关键环境压力源。",
-      "claims": [
-        {"claim": "仙女木事件造成的资源收缩迫使东亚人群转向 intensively 利用野生稻/粟（广谱革命→驯化启动）", "confidence": "C", "source_ids": ["science2024rice"], "note": "压力假说与'富裕狩猎采集者'机遇假说在学界并行，尚未定论"},
-        {"claim": "驯化是数千年渐进过程而非事件：上山植硅体序列显示前驯化阶段早于仙女木，冷事件起加速而非启动作用", "confidence": "B", "source_ids": ["science2024rice"]}
-      ],
-      "tags": ["气候", "主线"]
+     "claim": "仙女木事件造成的资源收缩迫使东亚人群转向 intensively 利用野生稻/粟（广谱革命→驯化启动）",
+     "confidence": "C",
+     "source_ids": [
+      "science2024rice"
+     ],
+     "note": "压力假说与'富裕狩猎采集者'机遇假说在学界并行，尚未定论"
     },
     {
-      "id": "site:xianrendong",
-      "type": "site",
-      "name": "仙人洞与吊桶环",
-      "aliases": ["江西万年仙人洞"],
-      "time": {"from": 20000, "to": 9000, "unit": "BP", "approx": true},
-      "location": {"type": "point", "lon": 117.06, "lat": 28.72},
-      "confidence": "A",
-      "summary": "长江中游南岸洞穴遗址，出土约2万年前世界最早陶器之一，植硅体显示从旧石器末期即持续采集野生稻，跨越末次盛冰期到全新世初期。",
-      "claims": [
-        {"claim": "陶器发明与冰期强化加工植物性食物（坚果/块茎/野生稻）直接相关", "confidence": "B", "source_ids": ["science2024rice"], "note": "断代出处待补强（2012 Science 测年）"},
-        {"claim": "吊桶环上层已出现近似栽培稻的植硅体组合，是稻驯化长过程的中游环节", "confidence": "C", "source_ids": ["science2024rice"]}
-      ],
-      "tags": ["陶器", "野生稻"]
-    },
-    {
-      "id": "site:yuchanyan",
-      "type": "site",
-      "name": "玉蟾岩",
-      "aliases": ["湖南道县玉蟾岩"],
-      "time": {"from": 18000, "to": 14000, "unit": "BP", "approx": true},
-      "location": {"type": "point", "lon": 111.53, "lat": 25.57},
-      "confidence": "A",
-      "summary": "湘南洞穴遗址，出土约1.8万年前陶器和具有早期驯化特征的稻壳植硅体，与仙人洞同属长江中游早陶器圈。",
-      "claims": [
-        {"claim": "玉蟾岩-仙人洞一系代表岭南-南岭通道人群：野生稻利用知识沿此通道北传长江下游", "confidence": "D", "source_ids": [], "note": "推演性假说，出处待补"}
-      ],
-      "tags": ["陶器", "野生稻", "南岭通道"]
-    },
-    {
-      "id": "site:zengpiyan",
-      "type": "site",
-      "name": "甑皮岩",
-      "aliases": ["桂林甑皮岩"],
-      "time": {"from": 12500, "to": 7000, "unit": "BP"},
-      "location": {"type": "point", "lon": 110.31, "lat": 25.27},
-      "confidence": "A",
-      "summary": "岭南洞穴-旷面复合遗址，文化层连续五千余年未见断裂，陶器工艺本土连续演化，人群古今连续性强——华南'土著连续'模式的标杆。",
-      "claims": [
-        {"claim": "甑皮岩人群是南线成分在岭南的长驻分支，与长江下游稻作人群同源分流", "confidence": "C", "source_ids": ["frontiers2022"]}
-      ],
-      "tags": ["岭南", "连续性"]
-    },
-    {
-      "id": "culture:shangshan",
-      "type": "culture",
-      "name": "上山文化",
-      "aliases": ["Shangshan"],
-      "time": {"from": 11000, "to": 9000, "unit": "BP"},
-      "location": {"type": "region", "desc": "钱塘江-灵江流域（浙江金衢盆地为中心）"},
-      "confidence": "A",
-      "summary": "长江下游最早的新石器文化：万年前的定居村落、环壕、定居谷物收割工具，2024年Science论文以植硅体+稻小穗基座建立'野生采集→前驯化→驯化'十万年连续序列，驯化性状固定约始于上山早期。",
-      "claims": [
-        {"claim": "上山=稻作农业起源地的实证标杆，'万年稻作史'成立", "confidence": "B", "source_ids": ["science2024rice", "shangshan2025zj"]},
-        {"claim": "上山人群包含南方沿海成分（act1南线的直系延续），并向丘陵-平原过渡带扩张", "confidence": "C", "source_ids": ["frontiers2022", "yang2020"]},
-        {"claim": "上山的夹炭红衣陶与稻作-定居绑定，是'南稻'技术包的第一次完整组装", "confidence": "B", "source_ids": ["shangshan2025zj"]}
-      ],
-      "tags": ["稻作", "定居", "主线", "A锚点"]
-    },
-    {
-      "id": "culture:kuahuqiao",
-      "type": "culture",
-      "name": "跨湖桥文化",
-      "aliases": ["Kuahuqiao"],
-      "time": {"from": 8200, "to": 7200, "unit": "BP"},
-      "location": {"type": "point", "lon": 120.23, "lat": 30.18},
-      "confidence": "A",
-      "summary": "杭州湾南岸文化：中国最早的独木舟与漆弓、成熟的稻作与家猪，海平面上升期低地适应的样本（8.2ka冷事件前后）。",
-      "claims": [
-        {"claim": "跨湖桥承接上山稻作传统并在海洋资源利用上分化——'稻+渔'低地混合生业模式", "confidence": "B", "source_ids": ["shangshan2025zj"]}
-      ],
-      "tags": ["稻作", "海洋"]
-    },
-    {
-      "id": "culture:peiligang",
-      "type": "culture",
-      "name": "裴李岗文化",
-      "aliases": ["Peiligang"],
-      "time": {"from": 9000, "to": 7000, "unit": "BP"},
-      "location": {"type": "region", "desc": "豫中平原（新郑-舞阳-长葛一带）"},
-      "confidence": "A",
-      "summary": "黄河中游最早的新石器文化之一：粟黍旱作+石磨盘/锯齿镰成套农具+半地穴聚落+龟甲占卜传统（贾湖类型），韩建业称之为'早期中国文化圈'的第一块拼图。",
-      "claims": [
-        {"claim": "裴李岗系统（含贾湖）≈8千年前'早期中国'文化基因的萌芽：以农为本、内容以礼", "confidence": "B", "source_ids": ["hanjianye2020"]},
-        {"claim": "裴李岗人群是O2系（黄河粟作人群前身）在豫中的早期载体", "confidence": "C", "source_ids": ["yang2020", "sciadv2025Y"]}
-      ],
-      "tags": ["粟作", "主线", "A锚点"]
-    },
-    {
-      "id": "site:jiahu",
-      "type": "site",
-      "name": "贾湖遗址",
-      "aliases": ["Jiahu"],
-      "time": {"from": 9000, "to": 7800, "unit": "BP"},
-      "location": {"type": "point", "lon": 113.61, "lat": 33.58},
-      "confidence": "A",
-      "summary": "裴李岗文化贾湖类型：世界最早骨笛（七孔可奏音阶）、龟甲契刻符号、稻粟混作区最早的稻作北界样本、发酵饮料证据——精神生活与复杂符号系统早于文字六千年。",
-      "claims": [
-        {"claim": "贾湖龟甲刻符与殷商甲骨占卜传统之间存在八千年级的观念连续性（数字卦/龟灵崇拜一脉）", "confidence": "C", "source_ids": ["qstheory2020", "hanjianye2020"], "note": "张政烺数字卦说等,未成定论但影响大"},
-        {"claim": "贾湖位于稻粟交汇带：南方稻作技术北上+本地粟作并存，是南北文化圈最早的接触界面", "confidence": "B", "source_ids": ["hanjianye2020", "qstheory2020"]}
-      ],
-      "tags": ["骨笛", "符号", "稻粟交汇"]
-    },
-    {
-      "id": "site:cishan",
-      "type": "site",
-      "name": "磁山遗址",
-      "aliases": ["河北武安磁山"],
-      "time": {"from": 8100, "to": 7600, "unit": "BP"},
-      "location": {"type": "point", "lon": 114.17, "lat": 36.75},
-      "confidence": "A",
-      "summary": "太行东麓遗址：数百座贮粮窖穴（粟灰堆积估算达十万斤级）、家鸡最早驯化证据之一、陶盂支架成套炊器——粟作农业已达规模化生产的里程碑。",
-      "claims": [
-        {"claim": "磁山窖穴规模证明8000年前粟作剩余产品常态化，为聚落分化(→act3仰韶)奠基", "confidence": "B", "source_ids": ["hanjianye2020"]}
-      ],
-      "tags": ["粟作", "仓储"]
-    },
-    {
-      "id": "site:dadiwan",
-      "type": "site",
-      "name": "大地湾遗址",
-      "aliases": ["甘肃秦安大地湾"],
-      "time": {"from": 7800, "to": 4800, "unit": "BP"},
-      "location": {"type": "point", "lon": 105.68, "lat": 35.09},
-      "confidence": "A",
-      "summary": "陇西黄土高原遗址：从前仰韶(7.8k BP)延续到仰韶晚期，黍作农业向西部高地扩张的前哨，晚期出现420㎡'殿堂式'大房子(F901)——黄土高原社会复杂化的长程标本。",
-      "claims": [
-        {"claim": "大地湾一系（大地湾-仰韶）≈汉藏语系人群西支（藏缅语族祖先）的考古对应候选", "confidence": "C", "source_ids": ["yang2020"], "note": "act4将展开：马家窑-宗日古DNA"}
-      ],
-      "tags": ["黍作", "黄土高原", "跨幕"]
-    },
-    {
-      "id": "culture:gaomiao",
-      "type": "culture",
-      "name": "高庙文化",
-      "aliases": ["Gaomiao"],
-      "time": {"from": 7800, "to": 6800, "unit": "BP"},
-      "location": {"type": "point", "lon": 110.12, "lat": 27.32},
-      "confidence": "A",
-      "summary": "沅水上游雪峰山麓：7800年前的高台祭坛与大型祭祀坑、白陶上中国最早的凤鸟纹与獠牙兽面神像体系——现存最早的成体系宗教艺术，白陶与纹样沿珠江-长江水系传播数千公里。",
-      "claims": [
-        {"claim": "高庙獠牙兽面纹是商周饕餮纹(兽面纹)的史前源头之一", "confidence": "C", "source_ids": ["gaomiao2026"]},
-        {"claim": "高庙神权体系（天界-水界二元）与祭祀高台传统南传岭南、北抵长江，是'南系'宗教观念的第一次大传播", "confidence": "B", "source_ids": ["gaomiao2026"]},
-        {"claim": "高庙-汤家岗白陶圈的传播≈南岛/壮侗系统观念语的早期流动（与O1沿海扩散耦合）", "confidence": "D", "source_ids": ["gaomiao2026", "fznews2020"]}
-      ],
-      "tags": ["白陶", "凤鸟", "神权", "激进层"]
-    },
-    {
-      "id": "tech:rice_domestication",
-      "type": "tech",
-      "name": "水稻驯化过程",
-      "aliases": ["稻作起源"],
-      "time": {"from": 100000, "to": 6000, "unit": "BP", "approx": true},
-      "location": {"type": "region", "desc": "长江中下游为核心"},
-      "confidence": "A",
-      "summary": "Science 2024 十万年序列：野生稻在十万年前已在长江下游活动，人类前驯化采集持续数万年，驯化性状（不落粒等）约从上山文化期(1.1万年)开始固定，至河姆渡-良渚时期完全驯化——'驯化是一个时代'而非一次发明。",
-      "claims": [
-        {"claim": "稻驯化单中心（长江下游）+快速扩散，与多中心渐变假说竞争", "confidence": "B", "source_ids": ["science2024rice"]}
-      ],
-      "tags": ["主线", "A锚点"]
-    },
-    {
-      "id": "tech:millet_domestication",
-      "type": "tech",
-      "name": "粟黍驯化过程",
-      "aliases": ["旱作农业起源"],
-      "time": {"from": 10000, "to": 7500, "unit": "BP", "approx": true},
-      "location": {"type": "region", "desc": "黄土高原东南缘-太行东麓"},
-      "confidence": "B",
-      "summary": "黍的驯化略早于粟，两者在裴李岗-磁山时期已成套构成华北旱作农业主体；粟黍耐寒耐瘠特性决定其与黄土环境绑定，并由此塑造此后八千年北方社会的'粟作性格'。",
-      "claims": [
-        {"claim": "粟黍驯化中心在华北山前平原带（磁山-裴李岗-大地湾一线），早于仰韶扩张一千余年完成技术包组装", "confidence": "B", "source_ids": ["hanjianye2020"]},
-        {"claim": "粟作产量劣势vs稻作（约1:2）是南北方人口密度与社会规模差异的物质基础", "confidence": "C", "source_ids": [], "note": "量化比较出处待补"}
-      ],
-      "tags": ["主线"]
-    },
-    {
-      "id": "pop:rice_farmer_groups",
-      "type": "population",
-      "name": "早期稻作人群",
-      "time": {"from": 11000, "to": 7000, "unit": "BP"},
-      "location": {"type": "region", "desc": "长江中下游-东南丘陵"},
-      "confidence": "B",
-      "summary": "以O1系为主、融合土著采集者的稻作社群，上山-跨湖桥-河姆渡一脉，兼营渔猎，向南向海扩散的势能蓄积中。",
-      "claims": [{"claim": "O1系随稻作扩散，是南岛语系人群扩张的父系底盘", "confidence": "B", "source_ids": ["yang2020", "fznews2020"]}]
-    },
-    {
-      "id": "pop:millet_farmer_groups",
-      "type": "population",
-      "name": "早期粟作人群",
-      "time": {"from": 9000, "to": 7000, "unit": "BP"},
-      "location": {"type": "region", "desc": "黄河中游-黄土高原"},
-      "confidence": "B",
-      "summary": "以O2系为主的旱作社群，裴李岗-磁山-大地湾一脉，聚落内聚力强、扩散缓慢但扎实，仰韶大扩张(act4)的引擎。",
-      "claims": [{"claim": "O2系粟作人群≈汉藏语系共同语的载体，act4随仰韶庙底沟扩张分裂为华夏与藏缅两支", "confidence": "B", "source_ids": ["yang2020", "sciadv2025Y"]}]
-    },
-    {
-      "id": "myth_person:shennong",
-      "type": "myth_person",
-      "name": "神农氏",
-      "aliases": ["炎帝神农氏", "神农"],
-      "time": {"from": null, "to": null, "unit": "BP"},
-      "location": {"type": "region", "desc": "文献层：姜水（宝鸡）/湖南炎陵等多地争源地"},
-      "confidence": "E",
-      "summary": "文献传统中教民耕种、尝百草的农神，战国文献成型，后世与炎帝合流。作为农业起源的'人民记忆投影'收录，非史实人物。",
-      "claims": [
-        {"claim": "神农传说是稻粟驯化数千年过程被压缩成'一位始祖'的神话表述", "confidence": "D", "source_ids": ["qstheory2020"]},
-        {"claim": "神农-炎帝的南方渊源说（湖南炎陵/连山）与稻作起源的南方重心存在记忆同构", "confidence": "D", "source_ids": [], "note": "激进层：act4'炎黄三次战争=稻作北扩'假说的伏笔"}
-      ],
-      "tags": ["神话投影", "激进层"]
+     "claim": "驯化是数千年渐进过程而非事件：上山植硅体序列显示前驯化阶段早于仙女木，冷事件起加速而非启动作用",
+     "confidence": "B",
+     "source_ids": [
+      "science2024rice"
+     ]
     }
-  ],
-  "relations": [
-    {"from": "tech:rice_domestication", "to": "climate_event:younger_dryas", "type": "driven_by", "confidence": "C", "source_ids": ["science2024rice"], "note": "压力加速假说，与机遇假说并行"},
-    {"from": "site:xianrendong", "to": "tech:rice_domestication", "type": "evidence_for", "confidence": "B", "source_ids": ["science2024rice"]},
-    {"from": "site:yuchanyan", "to": "tech:rice_domestication", "type": "evidence_for", "confidence": "C", "source_ids": ["science2024rice"]},
-    {"from": "culture:shangshan", "to": "tech:rice_domestication", "type": "evidence_for", "confidence": "A", "source_ids": ["science2024rice"]},
-    {"from": "culture:shangshan", "to": "pop:south_route", "type": "derives_from", "confidence": "C", "source_ids": ["frontiers2022"], "note": "跨幕引用act1实体"},
-    {"from": "culture:kuahuqiao", "to": "culture:shangshan", "type": "derives_from", "confidence": "B", "source_ids": ["shangshan2025zj"]},
-    {"from": "site:jiahu", "to": "culture:peiligang", "type": "derives_from", "confidence": "A", "source_ids": ["hanjianye2020"]},
-    {"from": "site:cishan", "to": "tech:millet_domestication", "type": "evidence_for", "confidence": "A", "source_ids": ["hanjianye2020"]},
-    {"from": "culture:peiligang", "to": "tech:millet_domestication", "type": "evidence_for", "confidence": "A", "source_ids": ["hanjianye2020"]},
-    {"from": "site:dadiwan", "to": "tech:millet_domestication", "type": "evidence_for", "confidence": "B", "source_ids": ["hanjianye2020"]},
-    {"from": "pop:rice_farmer_groups", "to": "pop:o_lineage", "type": "derives_from", "confidence": "C", "source_ids": ["yang2020"], "note": "跨幕引用act1"},
-    {"from": "pop:millet_farmer_groups", "to": "pop:o_lineage", "type": "derives_from", "confidence": "C", "source_ids": ["yang2020"], "note": "跨幕引用act1"},
-    {"from": "site:zengpiyan", "to": "pop:south_route", "type": "derives_from", "confidence": "C", "source_ids": ["frontiers2022"]},
-    {"from": "myth_person:shennong", "to": "tech:rice_domestication", "type": "corresponds_to", "confidence": "D", "source_ids": ["qstheory2020"]},
-    {"from": "myth_person:shennong", "to": "tech:millet_domestication", "type": "corresponds_to", "confidence": "D", "source_ids": ["qstheory2020"]},
-    {"from": "culture:gaomiao", "to": "pop:rice_farmer_groups", "type": "contemporary_with", "confidence": "B", "source_ids": ["gaomiao2026"]}
-  ],
-  "stories": [
+   ],
+   "tags": [
+    "气候",
+    "主线"
+   ]
+  },
+  {
+   "id": "site:xianrendong",
+   "type": "site",
+   "name": "仙人洞与吊桶环",
+   "aliases": [
+    "江西万年仙人洞"
+   ],
+   "time": {
+    "from": 20000,
+    "to": 9000,
+    "unit": "BP",
+    "approx": true
+   },
+   "location": {
+    "type": "point",
+    "lon": 117.06,
+    "lat": 28.72
+   },
+   "confidence": "A",
+   "summary": "长江中游南岸洞穴遗址，出土约2万年前世界最早陶器之一，植硅体显示从旧石器末期即持续采集野生稻，跨越末次盛冰期到全新世初期。",
+   "claims": [
     {
-      "id": "story:rice_road",
-      "title": "稻之路：一粒草籽的十万年",
-      "thread": ["site:xianrendong", "site:yuchanyan", "climate_event:younger_dryas", "culture:shangshan", "culture:kuahuqiao"],
-      "summary": "从洞穴里的野生稻采集，到仙女木时期的加压，再到上山盆地里驯化性状的固定——'南稻'技术包组装完成。",
-      "branch_points": [
-        {"at": "climate_event:younger_dryas", "question": "没有仙女木冷事件，驯化还会发生吗？", "alt": "story:no_pressure_domestication"}
-      ]
+     "claim": "陶器发明与冰期强化加工植物性食物（坚果/块茎/野生稻）直接相关",
+     "confidence": "B",
+     "source_ids": [
+      "science2024rice",
+      "science2012pottery",
+      "qi2017pottery"
+     ],
+     "note": "断代主证：Science 2012 仙人洞2万年陶器AMS测年"
     },
     {
-      "id": "story:millet_road",
-      "title": "粟之路：黄土上的耐心",
-      "thread": ["tech:millet_domestication", "culture:peiligang", "site:jiahu", "site:cishan", "site:dadiwan"],
-      "summary": "黍先粟后，裴李岗组装工具、贾湖点亮符号、磁山堆满粮仓、大地湾推向高原——'北粟'的千年长跑。",
-      "branch_points": []
-    },
-    {
-      "id": "story:shaman_early",
-      "title": "最早的通天者：高庙与贾湖",
-      "thread": ["culture:gaomiao", "site:jiahu", "myth_person:shennong"],
-      "summary": "沅水祭坛上的凤鸟与獠牙神面，舞水边龟甲上的契刻——神权与符号在农业 surplus 出现之前/同时登台，神农是这一切的民间记忆压缩包。",
-      "branch_points": [
-        {"at": "culture:gaomiao", "question": "獠牙兽面是饕餮的祖先吗？", "alt": "story:taotie_lineage"}
-      ]
+     "claim": "吊桶环上层已出现近似栽培稻的植硅体组合，是稻驯化长过程的中游环节",
+     "confidence": "C",
+     "source_ids": [
+      "science2024rice"
+     ]
     }
-  ]
+   ],
+   "tags": [
+    "陶器",
+    "野生稻"
+   ]
+  },
+  {
+   "id": "site:yuchanyan",
+   "type": "site",
+   "name": "玉蟾岩",
+   "aliases": [
+    "湖南道县玉蟾岩"
+   ],
+   "time": {
+    "from": 18000,
+    "to": 14000,
+    "unit": "BP",
+    "approx": true
+   },
+   "location": {
+    "type": "point",
+    "lon": 111.53,
+    "lat": 25.57
+   },
+   "confidence": "A",
+   "summary": "湘南洞穴遗址，出土约1.8万年前陶器和具有早期驯化特征的稻壳植硅体，与仙人洞同属长江中游早陶器圈。",
+   "claims": [
+    {
+     "claim": "玉蟾岩-仙人洞一系代表岭南-南岭通道人群：野生稻利用知识沿此通道北传长江下游",
+     "confidence": "D",
+     "source_ids": [
+      "qi2017pottery"
+     ],
+     "note": "推演性假说保留D；两洞穴早陶+稻利用实证见qi2017"
+    }
+   ],
+   "tags": [
+    "陶器",
+    "野生稻",
+    "南岭通道"
+   ]
+  },
+  {
+   "id": "site:zengpiyan",
+   "type": "site",
+   "name": "甑皮岩",
+   "aliases": [
+    "桂林甑皮岩"
+   ],
+   "time": {
+    "from": 12500,
+    "to": 7000,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "point",
+    "lon": 110.31,
+    "lat": 25.27
+   },
+   "confidence": "A",
+   "summary": "岭南洞穴-旷面复合遗址，文化层连续五千余年未见断裂，陶器工艺本土连续演化，人群古今连续性强——华南'土著连续'模式的标杆。",
+   "claims": [
+    {
+     "claim": "甑皮岩人群是南线成分在岭南的长驻分支，与长江下游稻作人群同源分流",
+     "confidence": "C",
+     "source_ids": [
+      "frontiers2022"
+     ]
+    }
+   ],
+   "tags": [
+    "岭南",
+    "连续性"
+   ]
+  },
+  {
+   "id": "culture:shangshan",
+   "type": "culture",
+   "name": "上山文化",
+   "aliases": [
+    "Shangshan"
+   ],
+   "time": {
+    "from": 11000,
+    "to": 9000,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "钱塘江-灵江流域（浙江金衢盆地为中心）"
+   },
+   "confidence": "A",
+   "summary": "长江下游最早的新石器文化：万年前的定居村落、环壕、定居谷物收割工具，2024年Science论文以植硅体+稻小穗基座建立'野生采集→前驯化→驯化'十万年连续序列，驯化性状固定约始于上山早期。",
+   "claims": [
+    {
+     "claim": "上山=稻作农业起源地的实证标杆，'万年稻作史'成立",
+     "confidence": "B",
+     "source_ids": [
+      "science2024rice",
+      "shangshan2025zj"
+     ]
+    },
+    {
+     "claim": "上山人群包含南方沿海成分（act1南线的直系延续），并向丘陵-平原过渡带扩张",
+     "confidence": "C",
+     "source_ids": [
+      "frontiers2022",
+      "yang2020"
+     ]
+    },
+    {
+     "claim": "上山的夹炭红衣陶与稻作-定居绑定，是'南稻'技术包的第一次完整组装",
+     "confidence": "B",
+     "source_ids": [
+      "shangshan2025zj"
+     ]
+    }
+   ],
+   "tags": [
+    "稻作",
+    "定居",
+    "主线",
+    "A锚点"
+   ]
+  },
+  {
+   "id": "culture:kuahuqiao",
+   "type": "culture",
+   "name": "跨湖桥文化",
+   "aliases": [
+    "Kuahuqiao"
+   ],
+   "time": {
+    "from": 8200,
+    "to": 7200,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "point",
+    "lon": 120.23,
+    "lat": 30.18
+   },
+   "confidence": "A",
+   "summary": "杭州湾南岸文化：中国最早的独木舟与漆弓、成熟的稻作与家猪，海平面上升期低地适应的样本（8.2ka冷事件前后）。",
+   "claims": [
+    {
+     "claim": "跨湖桥承接上山稻作传统并在海洋资源利用上分化——'稻+渔'低地混合生业模式",
+     "confidence": "B",
+     "source_ids": [
+      "shangshan2025zj"
+     ]
+    }
+   ],
+   "tags": [
+    "稻作",
+    "海洋"
+   ]
+  },
+  {
+   "id": "culture:peiligang",
+   "type": "culture",
+   "name": "裴李岗文化",
+   "aliases": [
+    "Peiligang"
+   ],
+   "time": {
+    "from": 9000,
+    "to": 7000,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "豫中平原（新郑-舞阳-长葛一带）"
+   },
+   "confidence": "A",
+   "summary": "黄河中游最早的新石器文化之一：粟黍旱作+石磨盘/锯齿镰成套农具+半地穴聚落+龟甲占卜传统（贾湖类型），韩建业称之为'早期中国文化圈'的第一块拼图。",
+   "claims": [
+    {
+     "claim": "裴李岗系统（含贾湖）≈8千年前'早期中国'文化基因的萌芽：以农为本、内容以礼",
+     "confidence": "B",
+     "source_ids": [
+      "hanjianye2020"
+     ]
+    },
+    {
+     "claim": "裴李岗人群是O2系（黄河粟作人群前身）在豫中的早期载体",
+     "confidence": "C",
+     "source_ids": [
+      "yang2020",
+      "sciadv2025Y"
+     ]
+    }
+   ],
+   "tags": [
+    "粟作",
+    "主线",
+    "A锚点"
+   ]
+  },
+  {
+   "id": "site:jiahu",
+   "type": "site",
+   "name": "贾湖遗址",
+   "aliases": [
+    "Jiahu"
+   ],
+   "time": {
+    "from": 9000,
+    "to": 7800,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "point",
+    "lon": 113.61,
+    "lat": 33.58
+   },
+   "confidence": "A",
+   "summary": "裴李岗文化贾湖类型：世界最早骨笛（七孔可奏音阶）、龟甲契刻符号、稻粟混作区最早的稻作北界样本、发酵饮料证据——精神生活与复杂符号系统早于文字六千年。",
+   "claims": [
+    {
+     "claim": "贾湖龟甲刻符与殷商甲骨占卜传统之间存在八千年级的观念连续性（数字卦/龟灵崇拜一脉）",
+     "confidence": "C",
+     "source_ids": [
+      "qstheory2020",
+      "hanjianye2020"
+     ],
+     "note": "张政烺数字卦说等,未成定论但影响大"
+    },
+    {
+     "claim": "贾湖位于稻粟交汇带：南方稻作技术北上+本地粟作并存，是南北文化圈最早的接触界面",
+     "confidence": "B",
+     "source_ids": [
+      "hanjianye2020",
+      "qstheory2020"
+     ]
+    }
+   ],
+   "tags": [
+    "骨笛",
+    "符号",
+    "稻粟交汇"
+   ]
+  },
+  {
+   "id": "site:cishan",
+   "type": "site",
+   "name": "磁山遗址",
+   "aliases": [
+    "河北武安磁山"
+   ],
+   "time": {
+    "from": 8100,
+    "to": 7600,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "point",
+    "lon": 114.17,
+    "lat": 36.75
+   },
+   "confidence": "A",
+   "summary": "太行东麓遗址：数百座贮粮窖穴（粟灰堆积估算达十万斤级）、家鸡最早驯化证据之一、陶盂支架成套炊器——粟作农业已达规模化生产的里程碑。",
+   "claims": [
+    {
+     "claim": "磁山窖穴规模证明8000年前粟作剩余产品常态化，为聚落分化(→act3仰韶)奠基",
+     "confidence": "B",
+     "source_ids": [
+      "hanjianye2020"
+     ]
+    }
+   ],
+   "tags": [
+    "粟作",
+    "仓储"
+   ]
+  },
+  {
+   "id": "site:dadiwan",
+   "type": "site",
+   "name": "大地湾遗址",
+   "aliases": [
+    "甘肃秦安大地湾"
+   ],
+   "time": {
+    "from": 7800,
+    "to": 4800,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "point",
+    "lon": 105.68,
+    "lat": 35.09
+   },
+   "confidence": "A",
+   "summary": "陇西黄土高原遗址：从前仰韶(7.8k BP)延续到仰韶晚期，黍作农业向西部高地扩张的前哨，晚期出现420㎡'殿堂式'大房子(F901)——黄土高原社会复杂化的长程标本。",
+   "claims": [
+    {
+     "claim": "大地湾一系（大地湾-仰韶）≈汉藏语系人群西支（藏缅语族祖先）的考古对应候选",
+     "confidence": "C",
+     "source_ids": [
+      "yang2020"
+     ],
+     "note": "act4将展开：马家窑-宗日古DNA"
+    }
+   ],
+   "tags": [
+    "黍作",
+    "黄土高原",
+    "跨幕"
+   ]
+  },
+  {
+   "id": "culture:gaomiao",
+   "type": "culture",
+   "name": "高庙文化",
+   "aliases": [
+    "Gaomiao"
+   ],
+   "time": {
+    "from": 7800,
+    "to": 6800,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "point",
+    "lon": 110.12,
+    "lat": 27.32
+   },
+   "confidence": "A",
+   "summary": "沅水上游雪峰山麓：7800年前的高台祭坛与大型祭祀坑、白陶上中国最早的凤鸟纹与獠牙兽面神像体系——现存最早的成体系宗教艺术，白陶与纹样沿珠江-长江水系传播数千公里。",
+   "claims": [
+    {
+     "claim": "高庙獠牙兽面纹是商周饕餮纹(兽面纹)的史前源头之一",
+     "confidence": "C",
+     "source_ids": [
+      "gaomiao2026"
+     ]
+    },
+    {
+     "claim": "高庙神权体系（天界-水界二元）与祭祀高台传统南传岭南、北抵长江，是'南系'宗教观念的第一次大传播",
+     "confidence": "B",
+     "source_ids": [
+      "gaomiao2026"
+     ]
+    },
+    {
+     "claim": "高庙-汤家岗白陶圈的传播≈南岛/壮侗系统观念语的早期流动（与O1沿海扩散耦合）",
+     "confidence": "D",
+     "source_ids": [
+      "gaomiao2026",
+      "fznews2020"
+     ]
+    }
+   ],
+   "tags": [
+    "白陶",
+    "凤鸟",
+    "神权",
+    "激进层"
+   ]
+  },
+  {
+   "id": "tech:rice_domestication",
+   "type": "tech",
+   "name": "水稻驯化过程",
+   "aliases": [
+    "稻作起源"
+   ],
+   "time": {
+    "from": 100000,
+    "to": 6000,
+    "unit": "BP",
+    "approx": true
+   },
+   "location": {
+    "type": "region",
+    "desc": "长江中下游为核心"
+   },
+   "confidence": "A",
+   "summary": "Science 2024 十万年序列：野生稻在十万年前已在长江下游活动，人类前驯化采集持续数万年，驯化性状（不落粒等）约从上山文化期(1.1万年)开始固定，至河姆渡-良渚时期完全驯化——'驯化是一个时代'而非一次发明。",
+   "claims": [
+    {
+     "claim": "稻驯化单中心（长江下游）+快速扩散，与多中心渐变假说竞争",
+     "confidence": "B",
+     "source_ids": [
+      "science2024rice"
+     ]
+    }
+   ],
+   "tags": [
+    "主线",
+    "A锚点"
+   ]
+  },
+  {
+   "id": "tech:millet_domestication",
+   "type": "tech",
+   "name": "粟黍驯化过程",
+   "aliases": [
+    "旱作农业起源"
+   ],
+   "time": {
+    "from": 10000,
+    "to": 7500,
+    "unit": "BP",
+    "approx": true
+   },
+   "location": {
+    "type": "region",
+    "desc": "黄土高原东南缘-太行东麓"
+   },
+   "confidence": "B",
+   "summary": "黍的驯化略早于粟，两者在裴李岗-磁山时期已成套构成华北旱作农业主体；粟黍耐寒耐瘠特性决定其与黄土环境绑定，并由此塑造此后八千年北方社会的'粟作性格'。",
+   "claims": [
+    {
+     "claim": "粟黍驯化中心在华北山前平原带（磁山-裴李岗-大地湾一线），早于仰韶扩张一千余年完成技术包组装",
+     "confidence": "B",
+     "source_ids": [
+      "hanjianye2020"
+     ]
+    },
+    {
+     "claim": "粟作产量劣势vs稻作（约1:2）是南北方人口密度与社会规模差异的物质基础",
+     "confidence": "C",
+     "source_ids": [],
+     "note": "量化比较出处待补"
+    }
+   ],
+   "tags": [
+    "主线"
+   ]
+  },
+  {
+   "id": "pop:rice_farmer_groups",
+   "type": "population",
+   "name": "早期稻作人群",
+   "time": {
+    "from": 11000,
+    "to": 7000,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "长江中下游-东南丘陵"
+   },
+   "confidence": "B",
+   "summary": "以O1系为主、融合土著采集者的稻作社群，上山-跨湖桥-河姆渡一脉，兼营渔猎，向南向海扩散的势能蓄积中。",
+   "claims": [
+    {
+     "claim": "O1系随稻作扩散，是南岛语系人群扩张的父系底盘",
+     "confidence": "B",
+     "source_ids": [
+      "yang2020",
+      "fznews2020"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pop:millet_farmer_groups",
+   "type": "population",
+   "name": "早期粟作人群",
+   "time": {
+    "from": 9000,
+    "to": 7000,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "黄河中游-黄土高原"
+   },
+   "confidence": "B",
+   "summary": "以O2系为主的旱作社群，裴李岗-磁山-大地湾一脉，聚落内聚力强、扩散缓慢但扎实，仰韶大扩张(act4)的引擎。",
+   "claims": [
+    {
+     "claim": "O2系粟作人群≈汉藏语系共同语的载体，act4随仰韶庙底沟扩张分裂为华夏与藏缅两支",
+     "confidence": "B",
+     "source_ids": [
+      "yang2020",
+      "sciadv2025Y"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "myth_person:shennong",
+   "type": "myth_person",
+   "name": "神农氏",
+   "aliases": [
+    "炎帝神农氏",
+    "神农"
+   ],
+   "time": {
+    "from": null,
+    "to": null,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "文献层：姜水（宝鸡）/湖南炎陵等多地争源地"
+   },
+   "confidence": "E",
+   "summary": "文献传统中教民耕种、尝百草的农神，战国文献成型，后世与炎帝合流。作为农业起源的'人民记忆投影'收录，非史实人物。",
+   "claims": [
+    {
+     "claim": "神农传说是稻粟驯化数千年过程被压缩成'一位始祖'的神话表述",
+     "confidence": "D",
+     "source_ids": [
+      "qstheory2020"
+     ]
+    },
+    {
+     "claim": "神农-炎帝的南方渊源说（湖南炎陵/连山）与稻作起源的南方重心存在记忆同构",
+     "confidence": "D",
+     "source_ids": [
+      "xuuxsheng1943",
+      "shiji"
+     ],
+     "note": "激进层：act4'炎黄三次战争=稻作北扩'假说的伏笔"
+    }
+   ],
+   "tags": [
+    "神话投影",
+    "激进层"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "from": "tech:rice_domestication",
+   "to": "climate_event:younger_dryas",
+   "type": "driven_by",
+   "confidence": "C",
+   "source_ids": [
+    "science2024rice"
+   ],
+   "note": "压力加速假说，与机遇假说并行"
+  },
+  {
+   "from": "site:xianrendong",
+   "to": "tech:rice_domestication",
+   "type": "evidence_for",
+   "confidence": "B",
+   "source_ids": [
+    "science2024rice"
+   ]
+  },
+  {
+   "from": "site:yuchanyan",
+   "to": "tech:rice_domestication",
+   "type": "evidence_for",
+   "confidence": "C",
+   "source_ids": [
+    "science2024rice"
+   ]
+  },
+  {
+   "from": "culture:shangshan",
+   "to": "tech:rice_domestication",
+   "type": "evidence_for",
+   "confidence": "A",
+   "source_ids": [
+    "science2024rice"
+   ]
+  },
+  {
+   "from": "culture:shangshan",
+   "to": "pop:south_route",
+   "type": "derives_from",
+   "confidence": "C",
+   "source_ids": [
+    "frontiers2022"
+   ],
+   "note": "跨幕引用act1实体"
+  },
+  {
+   "from": "culture:kuahuqiao",
+   "to": "culture:shangshan",
+   "type": "derives_from",
+   "confidence": "B",
+   "source_ids": [
+    "shangshan2025zj"
+   ]
+  },
+  {
+   "from": "site:jiahu",
+   "to": "culture:peiligang",
+   "type": "derives_from",
+   "confidence": "A",
+   "source_ids": [
+    "hanjianye2020"
+   ]
+  },
+  {
+   "from": "site:cishan",
+   "to": "tech:millet_domestication",
+   "type": "evidence_for",
+   "confidence": "A",
+   "source_ids": [
+    "hanjianye2020"
+   ]
+  },
+  {
+   "from": "culture:peiligang",
+   "to": "tech:millet_domestication",
+   "type": "evidence_for",
+   "confidence": "A",
+   "source_ids": [
+    "hanjianye2020"
+   ]
+  },
+  {
+   "from": "site:dadiwan",
+   "to": "tech:millet_domestication",
+   "type": "evidence_for",
+   "confidence": "B",
+   "source_ids": [
+    "hanjianye2020"
+   ]
+  },
+  {
+   "from": "pop:rice_farmer_groups",
+   "to": "pop:o_lineage",
+   "type": "derives_from",
+   "confidence": "C",
+   "source_ids": [
+    "yang2020"
+   ],
+   "note": "跨幕引用act1"
+  },
+  {
+   "from": "pop:millet_farmer_groups",
+   "to": "pop:o_lineage",
+   "type": "derives_from",
+   "confidence": "C",
+   "source_ids": [
+    "yang2020"
+   ],
+   "note": "跨幕引用act1"
+  },
+  {
+   "from": "site:zengpiyan",
+   "to": "pop:south_route",
+   "type": "derives_from",
+   "confidence": "C",
+   "source_ids": [
+    "frontiers2022"
+   ]
+  },
+  {
+   "from": "myth_person:shennong",
+   "to": "tech:rice_domestication",
+   "type": "corresponds_to",
+   "confidence": "D",
+   "source_ids": [
+    "qstheory2020"
+   ]
+  },
+  {
+   "from": "myth_person:shennong",
+   "to": "tech:millet_domestication",
+   "type": "corresponds_to",
+   "confidence": "D",
+   "source_ids": [
+    "qstheory2020"
+   ]
+  },
+  {
+   "from": "culture:gaomiao",
+   "to": "pop:rice_farmer_groups",
+   "type": "contemporary_with",
+   "confidence": "B",
+   "source_ids": [
+    "gaomiao2026"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "story:rice_road",
+   "title": "稻之路：一粒草籽的十万年",
+   "thread": [
+    "site:xianrendong",
+    "site:yuchanyan",
+    "climate_event:younger_dryas",
+    "culture:shangshan",
+    "culture:kuahuqiao"
+   ],
+   "summary": "从洞穴里的野生稻采集，到仙女木时期的加压，再到上山盆地里驯化性状的固定——'南稻'技术包组装完成。",
+   "branch_points": [
+    {
+     "at": "climate_event:younger_dryas",
+     "question": "没有仙女木冷事件，驯化还会发生吗？",
+     "alt": "story:no_pressure_domestication"
+    }
+   ]
+  },
+  {
+   "id": "story:millet_road",
+   "title": "粟之路：黄土上的耐心",
+   "thread": [
+    "tech:millet_domestication",
+    "culture:peiligang",
+    "site:jiahu",
+    "site:cishan",
+    "site:dadiwan"
+   ],
+   "summary": "黍先粟后，裴李岗组装工具、贾湖点亮符号、磁山堆满粮仓、大地湾推向高原——'北粟'的千年长跑。",
+   "branch_points": []
+  },
+  {
+   "id": "story:shaman_early",
+   "title": "最早的通天者：高庙与贾湖",
+   "thread": [
+    "culture:gaomiao",
+    "site:jiahu",
+    "myth_person:shennong"
+   ],
+   "summary": "沅水祭坛上的凤鸟与獠牙神面，舞水边龟甲上的契刻——神权与符号在农业 surplus 出现之前/同时登台，神农是这一切的民间记忆压缩包。",
+   "branch_points": [
+    {
+     "at": "culture:gaomiao",
+     "question": "獠牙兽面是饕餮的祖先吗？",
+     "alt": "story:taotie_lineage"
+    }
+   ]
+  }
+ ]
 }

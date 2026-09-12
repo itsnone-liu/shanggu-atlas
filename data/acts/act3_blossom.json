@@ -1,271 +1,778 @@
 {
-  "act": 3,
-  "title": "文化爆发：玉、城、符号——八方文明火花",
-  "time": {"from": 8500, "to": 5300, "unit": "BP"},
-  "entities": [
+ "act": 3,
+ "title": "文化爆发：玉、城、符号——八方文明火花",
+ "time": {
+  "from": 8500,
+  "to": 5300,
+  "unit": "BP"
+ },
+ "entities": [
+  {
+   "id": "climate_event:8_2ka",
+   "type": "climate_event",
+   "name": "8.2ka 冷事件",
+   "aliases": [
+    "8.2 ka event",
+    "全新世大暖期中断"
+   ],
+   "time": {
+    "from": 8300,
+    "to": 8100,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "全球性（劳伦泰冰盖崩解淡水注入）"
+   },
+   "confidence": "A",
+   "summary": "全新世大暖期中一次持续约200年的冷干回摆，东亚季风减弱、华北降温干旱。中国北方多个早期新石器文化在此前后发生聚落收缩或生业调整。",
+   "claims": [
     {
-      "id": "climate_event:8_2ka",
-      "type": "climate_event",
-      "name": "8.2ka 冷事件",
-      "aliases": ["8.2 ka event", "全新世大暖期中断"],
-      "time": {"from": 8300, "to": 8100, "unit": "BP"},
-      "location": {"type": "region", "desc": "全球性（劳伦泰冰盖崩解淡水注入）"},
-      "confidence": "A",
-      "summary": "全新世大暖期中一次持续约200年的冷干回摆，东亚季风减弱、华北降温干旱。中国北方多个早期新石器文化在此前后发生聚落收缩或生业调整。",
-      "claims": [
-        {"claim": "贾湖遗址在8.2ka前后出现生业结构调整与最终废弃的直接响应", "confidence": "B", "source_ids": ["jiahu82ka"]},
-        {"claim": "8.2ka的时空不均一性：不同区域响应强度与方向差异大，'一刀切'的气候决定论不成立", "confidence": "B", "source_ids": ["speleothem82"]}
-      ],
-      "tags": ["气候", "主线"]
+     "claim": "贾湖遗址在8.2ka前后出现生业结构调整与最终废弃的直接响应",
+     "confidence": "B",
+     "source_ids": [
+      "jiahu82ka"
+     ]
     },
     {
-      "id": "culture:xinglongwa",
-      "type": "culture",
-      "name": "兴隆洼文化",
-      "aliases": ["Xinglongwa"],
-      "time": {"from": 8200, "to": 7400, "unit": "BP"},
-      "location": {"type": "region", "desc": "西辽河流域（敖汉旗为核心）"},
-      "confidence": "A",
-      "summary": "中国北方最早的成熟定居文化之一：大型环壕聚落（房址逾百座成排）、世界最早的玉玦、人工栽培粟黍（西辽河独立驯化说与南传说并存）、人猪合葬——'北玉'与'北粟'传统的起点。",
-      "claims": [
-        {"claim": "兴隆洼人群包含N系与C系成分，是act1北线人群在东北亚的直接定居化后裔", "confidence": "B", "source_ids": ["niuheliangDNA", "jlubaikal"]},
-        {"claim": "西辽河流域是粟黍驯化独立中心之一（与华北山前带并行）", "confidence": "C", "source_ids": ["xiliaohe2025"]}
-      ],
-      "tags": ["西辽河", "玉", "主线"]
-    },
-    {
-      "id": "culture:zhaobaogou",
-      "type": "culture",
-      "name": "赵宝沟文化",
-      "aliases": ["Zhaobaogou"],
-      "time": {"from": 7400, "to": 6700, "unit": "BP"},
-      "location": {"type": "region", "desc": "西辽河流域-燕山南北"},
-      "confidence": "A",
-      "summary": "兴隆洼的继承者：尊形器上的鹿-猪-鸟复合神兽刻划纹被视为红山神兽图像先声，农业比重上升，聚落规划性更强。",
-      "claims": [
-        {"claim": "赵宝沟刻划神兽纹→红山玉猪龙/勾云形器的图像谱系连续", "confidence": "C", "source_ids": ["xiliaohe2025"]}
-      ],
-      "tags": ["西辽河", "图像谱系"]
-    },
-    {
-      "id": "culture:hongshan",
-      "type": "culture",
-      "name": "红山文化",
-      "aliases": ["Hongshan"],
-      "time": {"from": 6700, "to": 5000, "unit": "BP"},
-      "location": {"type": "region", "desc": "西辽河-大凌河流域（牛河梁仪式中心）"},
-      "confidence": "A",
-      "summary": "中国史前第一个大型神权文明高峰：牛河梁坛-庙-冢三位一体仪式建筑群、女神庙泥塑、C形玉龙、玉猪龙、斜口筒形器；居址规模远逊仪式中心——一个'仪式大于聚居'的社会。",
-      "claims": [
-        {"claim": "牛河梁古DNA：4个体属N-M231下游支系（非N1a1/N1a2a主流支），红山核心人群N系占比显著", "confidence": "A", "source_ids": ["niuheliangDNA"]},
-        {"claim": "红山神权体系（祭坛-女神-玉礼器）经赵宝沟上承兴隆洼玉传统，是act5凌家滩-良渚玉礼系统的北方源头之一", "confidence": "B", "source_ids": ["xiliaohe2025"]},
-        {"claim": "'红山=中华文明主根'表述是当代身份叙事，学术上红山是多元源头之一（苏秉琦'满天星斗'框架）", "confidence": "B", "source_ids": ["niuheliangDNA"], "note": "对 nationalist 叙事保持警惕的元claim"}
-      ],
-      "tags": ["西辽河", "玉", "神权", "主线", "A锚点"]
-    },
-    {
-      "id": "site:niuheliang",
-      "type": "site",
-      "name": "牛河梁遗址",
-      "aliases": ["Niuheliang"],
-      "time": {"from": 5800, "to": 5300, "unit": "BP"},
-      "location": {"type": "point", "lon": 119.09, "lat": 41.32},
-      "confidence": "A",
-      "summary": "红山文化晚期仪式中心：16个地点的积石冢群、三重圆祭坛（与后世圜丘结构同构）、女神庙与孕妇泥塑、唯玉为葬的等级制度——无城墙无大居址，却调动了跨区域协作的巨量劳动。",
-      "claims": [
-        {"claim": "牛河梁三重圆坛与明清天坛圜丘的形制同构=中国'天圆'祭祀传统五千年连续", "confidence": "C", "source_ids": ["xiliaohe2025"]},
-        {"claim": "积石冢墓主经鉴定部分为N系个体，葬俗与人群构成一致", "confidence": "B", "source_ids": ["niuheliangDNA"]}
-      ],
-      "tags": ["仪式中心", "A锚点"]
-    },
-    {
-      "id": "culture:houli",
-      "type": "culture",
-      "name": "后李文化",
-      "aliases": ["Houli"],
-      "time": {"from": 8500, "to": 7500, "unit": "BP"},
-      "location": {"type": "region", "desc": "泰沂山北麓（淄博-章丘）"},
-      "confidence": "A",
-      "summary": "海岱地区最早的新石器文化：深腹圜底釜系陶传统自此发端，环壕聚落，粟作+渔猎混合——此后北辛-大汶口-龙山一脉相承的'海岱系'起点。",
-      "claims": [
-        {"claim": "后李-北辛-大汶口-龙山是连续演化的地方谱系（海岱文化区），人群连续性高", "confidence": "B", "source_ids": ["hanjianye2020"], "note": "海岱系aDNA细节出处待补"}
-      ],
-      "tags": ["海岱"]
-    },
-    {
-      "id": "culture:beixin",
-      "type": "culture",
-      "name": "北辛文化",
-      "aliases": ["Beixin"],
-      "time": {"from": 7400, "to": 6200, "unit": "BP"},
-      "location": {"type": "region", "desc": "泰沂山南侧-苏北"},
-      "confidence": "A",
-      "summary": "后李与大汶口之间的桥梁阶段：鼎的雏形（釜+足）出现在此，农业比重显著上升，为海岱系'鼎文化'定型奠基。",
-      "claims": [
-        {"claim": "陶鼎诞生于海岱系（北辛→大汶口定型），后反向成为中原仰韶-龙山礼器的核心器类——'鼎立中国'的技术传播方向是东→西", "confidence": "B", "source_ids": ["hanjianye2020"]}
-      ],
-      "tags": ["海岱", "鼎"]
-    },
-    {
-      "id": "culture:dawenkou",
-      "type": "culture",
-      "name": "大汶口文化",
-      "aliases": ["Dawenkou"],
-      "time": {"from": 6300, "to": 4500, "unit": "BP"},
-      "location": {"type": "region", "desc": "海岱全境，晚期扩至豫东皖北"},
-      "confidence": "A",
-      "summary": "海岱系主体（跨幕文化，早中期属本幕）：拔牙习俗、獐牙器、酒器成组（鬶+杯+盉）、大墓棺椁分化明显；陵阳河陶尊刻文（日-月-山等组合符号）被视为汉字远源候选之一。",
-      "claims": [
-        {"claim": "陵阳河/大朱村陶文与良渚刻符、贾湖龟甲构成'汉字前史'的三个候选源，其中大汶口符号与甲骨文联系争议最大", "confidence": "C", "source_ids": ["hanjianye2020"]},
-        {"claim": "太昊-少昊传说=海岱系（东夷）史后记忆的投影", "confidence": "D", "source_ids": [], "note": "激进层：act4蚩尤/act5后羿同属东夷投影群"}
-      ],
-      "tags": ["海岱", "符号", "跨幕", "主线"]
-    },
-    {
-      "id": "culture:daxi",
-      "type": "culture",
-      "name": "大溪文化",
-      "aliases": ["Daxi"],
-      "time": {"from": 6400, "to": 5300, "unit": "BP"},
-      "location": {"type": "region", "desc": "长江中游两湖平原-峡江"},
-      "confidence": "A",
-      "summary": "长江中游稻作文化：城头山古城（约6.3k BP，中国最早的城之一）、稻田灌溉系统彩陶白陶并行（白陶承高庙）、屈肢葬与瓮棺葬并存。",
-      "claims": [
-        {"claim": "大溪人群=高庙-汤家岗观念传统的继承者+稻作扩张人群，构成act5屈家岭-石家河谱系的前身", "confidence": "B", "source_ids": ["gaomiao2026", "hanjianye2020"]}
-      ],
-      "tags": ["长江中游", "城", "主线"]
-    },
-    {
-      "id": "site:chengtoushan",
-      "type": "site",
-      "name": "城头山古城",
-      "aliases": ["Chengtoushan"],
-      "time": {"from": 6300, "to": 5300, "unit": "BP"},
-      "location": {"type": "point", "lon": 111.68, "lat": 29.72},
-      "confidence": "A",
-      "summary": "澧阳平原上中国最早的成型城址：夯土城墙+环壕+祭坛+稻田系统，历经四期筑城——'城'作为社会工程五百年前于两湖先行。",
-      "claims": [
-        {"claim": "城的最初功能是防洪+祭礼边界而非军事防御（两湖平原水文环境决定）", "confidence": "C", "source_ids": [], "note": "与act5石家河水城网络呼应；出处待补"}
-      ],
-      "tags": ["城", "A锚点"]
-    },
-    {
-      "id": "culture:tangjiagang",
-      "type": "culture",
-      "name": "汤家岗文化",
-      "aliases": ["Tangjiagang"],
-      "time": {"from": 7000, "to": 6000, "unit": "BP"},
-      "location": {"type": "region", "desc": "洞庭湖西南"},
-      "confidence": "A",
-      "summary": "高庙白陶传统的直接继承者：戳印篦点纹白陶盘继续远播，八角星纹开始成型——此后跨大半个中国出现的八角星纹母题（大汶口-崧泽-凌家滩）的源头候选。",
-      "claims": [
-        {"claim": "八角星纹自洞庭湖圈向海岱与太湖圈传播，是中国最早跨区域纹样网络", "confidence": "C", "source_ids": ["gaomiao2026"]}
-      ],
-      "tags": ["长江中游", "白陶"]
-    },
-    {
-      "id": "culture:majiabang",
-      "type": "culture",
-      "name": "马家浜文化",
-      "aliases": ["Majiabang"],
-      "time": {"from": 7000, "to": 5900, "unit": "BP"},
-      "location": {"type": "region", "desc": "太湖流域"},
-      "confidence": "A",
-      "summary": "太湖圈稻作文化：跨湖桥之后的低地适应继续——干栏-地面式建筑并存、玉玦传统（与兴隆洼玉玦或有同源关系）、家猪驯化成熟。",
-      "claims": [
-        {"claim": "马家浜玉玦与兴隆洼玉玦形制同源，8500-7000 BP间存在'玉玦之路'（东北-东南沿海交流或共同北方源头）", "confidence": "D", "source_ids": [], "note": "邓聪'玉玦圈'假说；激进层"}
-      ],
-      "tags": ["太湖", "玉"]
-    },
-    {
-      "id": "culture:songze",
-      "type": "culture",
-      "name": "崧泽文化",
-      "aliases": ["Songze"],
-      "time": {"from": 6000, "to": 5300, "unit": "BP"},
-      "location": {"type": "region", "desc": "太湖流域"},
-      "confidence": "A",
-      "summary": "马家浜与良渚之间：石器犁耕初现、玉璜礼器成型、人牲埋于祭台——社会分层加速，良渚所有关键要素在此预演。",
-      "claims": [
-        {"claim": "崧泽期太湖人口密度跃升=水稻田灌溉技术成熟释放产能", "confidence": "C", "source_ids": [], "note": "出处待补；act4展开"}
-      ],
-      "tags": ["太湖", "良渚前夜"]
-    },
-    {
-      "id": "culture:hemudu",
-      "type": "culture",
-      "name": "河姆渡文化",
-      "aliases": ["Hemudu"],
-      "time": {"from": 7000, "to": 5300, "unit": "BP"},
-      "location": {"type": "point", "lon": 121.36, "lat": 29.96},
-      "confidence": "A",
-      "summary": "宁绍平原稻作文化巅峰之一：大量稻谷堆积、骨耜农具、干栏长屋、朱漆木碗、双鸟朝阳象牙雕——驯化性状在此阶段接近完成，海洋资源兼营。",
-      "claims": [
-        {"claim": "河姆渡+马家浜=act1 O1系稻作人群的成熟形态，为act4良渚国家化储备了技术与人口", "confidence": "B", "source_ids": ["yang2020", "science2024rice"]}
-      ],
-      "tags": ["稻作", "主线"]
-    },
-    {
-      "id": "myth_person:taihao",
-      "type": "myth_person",
-      "name": "太昊（伏羲）",
-      "aliases": ["太皞", "伏羲氏"],
-      "time": {"from": null, "to": null, "unit": "BP"},
-      "location": {"type": "region", "desc": "文献层：陈（淮阳）为中心的东方系"},
-      "confidence": "E",
-      "summary": "文献中的东方古帝王，战国时与伏羲合流。与少昊同属'夷系'帝王叙事，其风姓系统指向海岱-淮泗区域记忆。",
-      "claims": [
-        {"claim": "太昊传说=海岱系（后李-北辛-大汶口）文化扩张期的史后记忆投影", "confidence": "D", "source_ids": []},
-        {"claim": "伏羲女娲人首蛇身/交尾图像的南方渊源（楚帛书系统）与淮阳北方叙事是两个来源的层累合并", "confidence": "D", "source_ids": [], "note": "层累造成的古史（顾颉刚）方法论适用"}
-      ],
-      "tags": ["神话投影", "激进层"]
+     "claim": "8.2ka的时空不均一性：不同区域响应强度与方向差异大，'一刀切'的气候决定论不成立",
+     "confidence": "B",
+     "source_ids": [
+      "speleothem82"
+     ]
     }
-  ],
-  "relations": [
-    {"from": "culture:xinglongwa", "to": "climate_event:8_2ka", "type": "contemporary_with", "confidence": "A", "source_ids": ["xiliaohe2025"], "note": "8.2ka前后兴隆洼聚落调整期"},
-    {"from": "site:jiahu", "to": "climate_event:8_2ka", "type": "driven_by", "confidence": "B", "source_ids": ["jiahu82ka"], "note": "贾湖晚期衰落与废弃响应8.2ka"},
-    {"from": "culture:zhaobaogou", "to": "culture:xinglongwa", "type": "derives_from", "confidence": "A", "source_ids": ["xiliaohe2025"]},
-    {"from": "culture:hongshan", "to": "culture:zhaobaogou", "type": "derives_from", "confidence": "A", "source_ids": ["xiliaohe2025"]},
-    {"from": "site:niuheliang", "to": "culture:hongshan", "type": "located_at", "confidence": "A", "source_ids": ["xiliaohe2025"]},
-    {"from": "site:niuheliang", "to": "pop:n_lineage", "type": "evidence_for", "confidence": "A", "source_ids": ["niuheliangDNA"]},
-    {"from": "culture:xinglongwa", "to": "pop:north_route", "type": "derives_from", "confidence": "B", "source_ids": ["niuheliangDNA", "jlubaikal"]},
-    {"from": "culture:beixin", "to": "culture:houli", "type": "derives_from", "confidence": "A", "source_ids": ["hanjianye2020"]},
-    {"from": "culture:dawenkou", "to": "culture:beixin", "type": "derives_from", "confidence": "A", "source_ids": ["hanjianye2020"]},
-    {"from": "culture:daxi", "to": "culture:gaomiao", "type": "derives_from", "confidence": "B", "source_ids": ["gaomiao2026"]},
-    {"from": "site:chengtoushan", "to": "culture:daxi", "type": "located_at", "confidence": "A", "source_ids": ["hanjianye2020"]},
-    {"from": "culture:tangjiagang", "to": "culture:gaomiao", "type": "derives_from", "confidence": "A", "source_ids": ["gaomiao2026"]},
-    {"from": "culture:majiabang", "to": "culture:kuahuqiao", "type": "derives_from", "confidence": "B", "source_ids": ["shangshan2025zj"]},
-    {"from": "culture:songze", "to": "culture:majiabang", "type": "derives_from", "confidence": "A", "source_ids": ["shangshan2025zj"]},
-    {"from": "culture:hemudu", "to": "culture:kuahuqiao", "type": "derives_from", "confidence": "B", "source_ids": ["science2024rice"]},
-    {"from": "culture:hemudu", "to": "pop:rice_farmer_groups", "type": "derives_from", "confidence": "B", "source_ids": ["yang2020"]},
-    {"from": "culture:majiabang", "to": "culture:xinglongwa", "type": "contemporary_with", "confidence": "B", "source_ids": [], "note": "玉玦同源假说的两端，act4'玉玦之路'展开"},
-    {"from": "myth_person:taihao", "to": "culture:dawenkou", "type": "corresponds_to", "confidence": "D", "source_ids": []}
-  ],
-  "stories": [
+   ],
+   "tags": [
+    "气候",
+    "主线"
+   ]
+  },
+  {
+   "id": "culture:xinglongwa",
+   "type": "culture",
+   "name": "兴隆洼文化",
+   "aliases": [
+    "Xinglongwa"
+   ],
+   "time": {
+    "from": 8200,
+    "to": 7400,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "西辽河流域（敖汉旗为核心）"
+   },
+   "confidence": "A",
+   "summary": "中国北方最早的成熟定居文化之一：大型环壕聚落（房址逾百座成排）、世界最早的玉玦、人工栽培粟黍（西辽河独立驯化说与南传说并存）、人猪合葬——'北玉'与'北粟'传统的起点。",
+   "claims": [
     {
-      "id": "story:north_jade",
-      "title": "北玉长歌：从玉玦到玉龙",
-      "thread": ["culture:xinglongwa", "culture:zhaobaogou", "culture:hongshan", "site:niuheliang"],
-      "summary": "八千年前西辽河畔的第一对玉玦，经赵宝沟神兽纹的酝酿，五千年在牛河梁凝成C形玉龙与唯玉为葬的神权之国——N系人群的冰雪审美长卷。",
-      "branch_points": [
-        {"at": "site:niuheliang", "question": "牛河梁没有城没有大居址——这是神权联盟还是季节性朝圣经济？", "alt": "story:ritual_economy"}
-      ]
+     "claim": "兴隆洼人群包含N系与C系成分，是act1北线人群在东北亚的直接定居化后裔",
+     "confidence": "B",
+     "source_ids": [
+      "niuheliangDNA",
+      "jlubaikal"
+     ]
     },
     {
-      "id": "story:first_cities",
-      "title": "第一批城：水的政治",
-      "thread": ["culture:tangjiagang", "site:chengtoushan", "culture:daxi"],
-      "summary": "高庙的白陶观念沿沅水入洞庭，汤家岗的八角星纹铺开，六千三百年前城头山夯起第一版城墙——城先在南方、因水而生。",
-      "branch_points": []
-    },
-    {
-      "id": "story:8ka_shock",
-      "title": "寒潮三响",
-      "thread": ["climate_event:8_2ka", "site:jiahu", "culture:xinglongwa", "culture:songze"],
-      "summary": "8.2ka冷干回摆扫过东亚：贾湖人调整生业最终离乡，西辽河聚落重组，太湖人群却借低地扩张逆势上行——同一寒潮，三种命运。",
-      "branch_points": [
-        {"at": "climate_event:8_2ka", "question": "气候事件决定文化命运，还是只是背景噪音？", "alt": "story:climate_determinism"}
-      ]
+     "claim": "西辽河流域是粟黍驯化独立中心之一（与华北山前带并行）",
+     "confidence": "C",
+     "source_ids": [
+      "xiliaohe2025"
+     ]
     }
-  ]
+   ],
+   "tags": [
+    "西辽河",
+    "玉",
+    "主线"
+   ]
+  },
+  {
+   "id": "culture:zhaobaogou",
+   "type": "culture",
+   "name": "赵宝沟文化",
+   "aliases": [
+    "Zhaobaogou"
+   ],
+   "time": {
+    "from": 7400,
+    "to": 6700,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "西辽河流域-燕山南北"
+   },
+   "confidence": "A",
+   "summary": "兴隆洼的继承者：尊形器上的鹿-猪-鸟复合神兽刻划纹被视为红山神兽图像先声，农业比重上升，聚落规划性更强。",
+   "claims": [
+    {
+     "claim": "赵宝沟刻划神兽纹→红山玉猪龙/勾云形器的图像谱系连续",
+     "confidence": "C",
+     "source_ids": [
+      "xiliaohe2025"
+     ]
+    }
+   ],
+   "tags": [
+    "西辽河",
+    "图像谱系"
+   ]
+  },
+  {
+   "id": "culture:hongshan",
+   "type": "culture",
+   "name": "红山文化",
+   "aliases": [
+    "Hongshan"
+   ],
+   "time": {
+    "from": 6700,
+    "to": 5000,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "西辽河-大凌河流域（牛河梁仪式中心）"
+   },
+   "confidence": "A",
+   "summary": "中国史前第一个大型神权文明高峰：牛河梁坛-庙-冢三位一体仪式建筑群、女神庙泥塑、C形玉龙、玉猪龙、斜口筒形器；居址规模远逊仪式中心——一个'仪式大于聚居'的社会。",
+   "claims": [
+    {
+     "claim": "牛河梁古DNA：4个体属N-M231下游支系（非N1a1/N1a2a主流支），红山核心人群N系占比显著",
+     "confidence": "A",
+     "source_ids": [
+      "niuheliangDNA"
+     ]
+    },
+    {
+     "claim": "红山神权体系（祭坛-女神-玉礼器）经赵宝沟上承兴隆洼玉传统，是act5凌家滩-良渚玉礼系统的北方源头之一",
+     "confidence": "B",
+     "source_ids": [
+      "xiliaohe2025"
+     ]
+    },
+    {
+     "claim": "'红山=中华文明主根'表述是当代身份叙事，学术上红山是多元源头之一（苏秉琦'满天星斗'框架）",
+     "confidence": "B",
+     "source_ids": [
+      "niuheliangDNA"
+     ],
+     "note": "对 nationalist 叙事保持警惕的元claim"
+    }
+   ],
+   "tags": [
+    "西辽河",
+    "玉",
+    "神权",
+    "主线",
+    "A锚点"
+   ]
+  },
+  {
+   "id": "site:niuheliang",
+   "type": "site",
+   "name": "牛河梁遗址",
+   "aliases": [
+    "Niuheliang"
+   ],
+   "time": {
+    "from": 5800,
+    "to": 5300,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "point",
+    "lon": 119.09,
+    "lat": 41.32
+   },
+   "confidence": "A",
+   "summary": "红山文化晚期仪式中心：16个地点的积石冢群、三重圆祭坛（与后世圜丘结构同构）、女神庙与孕妇泥塑、唯玉为葬的等级制度——无城墙无大居址，却调动了跨区域协作的巨量劳动。",
+   "claims": [
+    {
+     "claim": "牛河梁三重圆坛与明清天坛圜丘的形制同构=中国'天圆'祭祀传统五千年连续",
+     "confidence": "C",
+     "source_ids": [
+      "xiliaohe2025"
+     ]
+    },
+    {
+     "claim": "积石冢墓主经鉴定部分为N系个体，葬俗与人群构成一致",
+     "confidence": "B",
+     "source_ids": [
+      "niuheliangDNA"
+     ]
+    }
+   ],
+   "tags": [
+    "仪式中心",
+    "A锚点"
+   ]
+  },
+  {
+   "id": "culture:houli",
+   "type": "culture",
+   "name": "后李文化",
+   "aliases": [
+    "Houli"
+   ],
+   "time": {
+    "from": 8500,
+    "to": 7500,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "泰沂山北麓（淄博-章丘）"
+   },
+   "confidence": "A",
+   "summary": "海岱地区最早的新石器文化：深腹圜底釜系陶传统自此发端，环壕聚落，粟作+渔猎混合——此后北辛-大汶口-龙山一脉相承的'海岱系'起点。",
+   "claims": [
+    {
+     "claim": "后李-北辛-大汶口-龙山是连续演化的地方谱系（海岱文化区），人群连续性高",
+     "confidence": "B",
+     "source_ids": [
+      "hanjianye2020"
+     ],
+     "note": "海岱系aDNA细节出处待补"
+    }
+   ],
+   "tags": [
+    "海岱"
+   ]
+  },
+  {
+   "id": "culture:beixin",
+   "type": "culture",
+   "name": "北辛文化",
+   "aliases": [
+    "Beixin"
+   ],
+   "time": {
+    "from": 7400,
+    "to": 6200,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "泰沂山南侧-苏北"
+   },
+   "confidence": "A",
+   "summary": "后李与大汶口之间的桥梁阶段：鼎的雏形（釜+足）出现在此，农业比重显著上升，为海岱系'鼎文化'定型奠基。",
+   "claims": [
+    {
+     "claim": "陶鼎诞生于海岱系（北辛→大汶口定型），后反向成为中原仰韶-龙山礼器的核心器类——'鼎立中国'的技术传播方向是东→西",
+     "confidence": "B",
+     "source_ids": [
+      "hanjianye2020"
+     ]
+    }
+   ],
+   "tags": [
+    "海岱",
+    "鼎"
+   ]
+  },
+  {
+   "id": "culture:dawenkou",
+   "type": "culture",
+   "name": "大汶口文化",
+   "aliases": [
+    "Dawenkou"
+   ],
+   "time": {
+    "from": 6300,
+    "to": 4500,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "海岱全境，晚期扩至豫东皖北"
+   },
+   "confidence": "A",
+   "summary": "海岱系主体（跨幕文化，早中期属本幕）：拔牙习俗、獐牙器、酒器成组（鬶+杯+盉）、大墓棺椁分化明显；陵阳河陶尊刻文（日-月-山等组合符号）被视为汉字远源候选之一。",
+   "claims": [
+    {
+     "claim": "陵阳河/大朱村陶文与良渚刻符、贾湖龟甲构成'汉字前史'的三个候选源，其中大汶口符号与甲骨文联系争议最大",
+     "confidence": "C",
+     "source_ids": [
+      "hanjianye2020"
+     ]
+    },
+    {
+     "claim": "太昊-少昊传说=海岱系（东夷）史后记忆的投影",
+     "confidence": "D",
+     "source_ids": [
+      "fusinian1935"
+     ],
+     "note": "激进层：act4蚩尤/act5后羿同属东夷投影群"
+    }
+   ],
+   "tags": [
+    "海岱",
+    "符号",
+    "跨幕",
+    "主线"
+   ]
+  },
+  {
+   "id": "culture:daxi",
+   "type": "culture",
+   "name": "大溪文化",
+   "aliases": [
+    "Daxi"
+   ],
+   "time": {
+    "from": 6400,
+    "to": 5300,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "长江中游两湖平原-峡江"
+   },
+   "confidence": "A",
+   "summary": "长江中游稻作文化：城头山古城（约6.3k BP，中国最早的城之一）、稻田灌溉系统彩陶白陶并行（白陶承高庙）、屈肢葬与瓮棺葬并存。",
+   "claims": [
+    {
+     "claim": "大溪人群=高庙-汤家岗观念传统的继承者+稻作扩张人群，构成act5屈家岭-石家河谱系的前身",
+     "confidence": "B",
+     "source_ids": [
+      "gaomiao2026",
+      "hanjianye2020"
+     ]
+    }
+   ],
+   "tags": [
+    "长江中游",
+    "城",
+    "主线"
+   ]
+  },
+  {
+   "id": "site:chengtoushan",
+   "type": "site",
+   "name": "城头山古城",
+   "aliases": [
+    "Chengtoushan"
+   ],
+   "time": {
+    "from": 6300,
+    "to": 5300,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "point",
+    "lon": 111.68,
+    "lat": 29.72
+   },
+   "confidence": "A",
+   "summary": "澧阳平原上中国最早的成型城址：夯土城墙+环壕+祭坛+稻田系统，历经四期筑城——'城'作为社会工程五百年前于两湖先行。",
+   "claims": [
+    {
+     "claim": "城的最初功能是防洪+祭礼边界而非军事防御（两湖平原水文环境决定）",
+     "confidence": "C",
+     "source_ids": [
+      "ctsreport"
+     ],
+     "note": "解释性假说保留C；发掘报告提供四期筑城与水环境语境"
+    }
+   ],
+   "tags": [
+    "城",
+    "A锚点"
+   ]
+  },
+  {
+   "id": "culture:tangjiagang",
+   "type": "culture",
+   "name": "汤家岗文化",
+   "aliases": [
+    "Tangjiagang"
+   ],
+   "time": {
+    "from": 7000,
+    "to": 6000,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "洞庭湖西南"
+   },
+   "confidence": "A",
+   "summary": "高庙白陶传统的直接继承者：戳印篦点纹白陶盘继续远播，八角星纹开始成型——此后跨大半个中国出现的八角星纹母题（大汶口-崧泽-凌家滩）的源头候选。",
+   "claims": [
+    {
+     "claim": "八角星纹自洞庭湖圈向海岱与太湖圈传播，是中国最早跨区域纹样网络",
+     "confidence": "C",
+     "source_ids": [
+      "gaomiao2026"
+     ]
+    }
+   ],
+   "tags": [
+    "长江中游",
+    "白陶"
+   ]
+  },
+  {
+   "id": "culture:majiabang",
+   "type": "culture",
+   "name": "马家浜文化",
+   "aliases": [
+    "Majiabang"
+   ],
+   "time": {
+    "from": 7000,
+    "to": 5900,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "太湖流域"
+   },
+   "confidence": "A",
+   "summary": "太湖圈稻作文化：跨湖桥之后的低地适应继续——干栏-地面式建筑并存、玉玦传统（与兴隆洼玉玦或有同源关系）、家猪驯化成熟。",
+   "claims": [
+    {
+     "claim": "马家浜玉玦与兴隆洼玉玦形制同源，8500-7000 BP间存在'玉玦之路'（东北-东南沿海交流或共同北方源头）",
+     "confidence": "D",
+     "source_ids": [
+      "dengchong2024"
+     ],
+     "note": "邓聪玉玦圈假说"
+    }
+   ],
+   "tags": [
+    "太湖",
+    "玉"
+   ]
+  },
+  {
+   "id": "culture:songze",
+   "type": "culture",
+   "name": "崧泽文化",
+   "aliases": [
+    "Songze"
+   ],
+   "time": {
+    "from": 6000,
+    "to": 5300,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "太湖流域"
+   },
+   "confidence": "A",
+   "summary": "马家浜与良渚之间：石器犁耕初现、玉璜礼器成型、人牲埋于祭台——社会分层加速，良渚所有关键要素在此预演。",
+   "claims": [
+    {
+     "claim": "崧泽期太湖人口密度跃升=水稻田灌溉技术成熟释放产能",
+     "confidence": "C",
+     "source_ids": [],
+     "note": "出处待补；act4展开"
+    }
+   ],
+   "tags": [
+    "太湖",
+    "良渚前夜"
+   ]
+  },
+  {
+   "id": "culture:hemudu",
+   "type": "culture",
+   "name": "河姆渡文化",
+   "aliases": [
+    "Hemudu"
+   ],
+   "time": {
+    "from": 7000,
+    "to": 5300,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "point",
+    "lon": 121.36,
+    "lat": 29.96
+   },
+   "confidence": "A",
+   "summary": "宁绍平原稻作文化巅峰之一：大量稻谷堆积、骨耜农具、干栏长屋、朱漆木碗、双鸟朝阳象牙雕——驯化性状在此阶段接近完成，海洋资源兼营。",
+   "claims": [
+    {
+     "claim": "河姆渡+马家浜=act1 O1系稻作人群的成熟形态，为act4良渚国家化储备了技术与人口",
+     "confidence": "B",
+     "source_ids": [
+      "yang2020",
+      "science2024rice"
+     ]
+    }
+   ],
+   "tags": [
+    "稻作",
+    "主线"
+   ]
+  },
+  {
+   "id": "myth_person:taihao",
+   "type": "myth_person",
+   "name": "太昊（伏羲）",
+   "aliases": [
+    "太皞",
+    "伏羲氏"
+   ],
+   "time": {
+    "from": null,
+    "to": null,
+    "unit": "BP"
+   },
+   "location": {
+    "type": "region",
+    "desc": "文献层：陈（淮阳）为中心的东方系"
+   },
+   "confidence": "E",
+   "summary": "文献中的东方古帝王，战国时与伏羲合流。与少昊同属'夷系'帝王叙事，其风姓系统指向海岱-淮泗区域记忆。",
+   "claims": [
+    {
+     "claim": "太昊传说=海岱系（后李-北辛-大汶口）文化扩张期的史后记忆投影",
+     "confidence": "D",
+     "source_ids": [
+      "fusinian1935",
+      "shiji"
+     ]
+    },
+    {
+     "claim": "伏羲女娲人首蛇身/交尾图像的南方渊源（楚帛书系统）与淮阳北方叙事是两个来源的层累合并",
+     "confidence": "D",
+     "source_ids": [
+      "zidanku1942",
+      "fusinian1935"
+     ],
+     "note": "层累造成的古史（顾颉刚）方法论适用"
+    }
+   ],
+   "tags": [
+    "神话投影",
+    "激进层"
+   ]
+  }
+ ],
+ "relations": [
+  {
+   "from": "culture:xinglongwa",
+   "to": "climate_event:8_2ka",
+   "type": "contemporary_with",
+   "confidence": "A",
+   "source_ids": [
+    "xiliaohe2025"
+   ],
+   "note": "8.2ka前后兴隆洼聚落调整期"
+  },
+  {
+   "from": "site:jiahu",
+   "to": "climate_event:8_2ka",
+   "type": "driven_by",
+   "confidence": "B",
+   "source_ids": [
+    "jiahu82ka"
+   ],
+   "note": "贾湖晚期衰落与废弃响应8.2ka"
+  },
+  {
+   "from": "culture:zhaobaogou",
+   "to": "culture:xinglongwa",
+   "type": "derives_from",
+   "confidence": "A",
+   "source_ids": [
+    "xiliaohe2025"
+   ]
+  },
+  {
+   "from": "culture:hongshan",
+   "to": "culture:zhaobaogou",
+   "type": "derives_from",
+   "confidence": "A",
+   "source_ids": [
+    "xiliaohe2025"
+   ]
+  },
+  {
+   "from": "site:niuheliang",
+   "to": "culture:hongshan",
+   "type": "located_at",
+   "confidence": "A",
+   "source_ids": [
+    "xiliaohe2025"
+   ]
+  },
+  {
+   "from": "site:niuheliang",
+   "to": "pop:n_lineage",
+   "type": "evidence_for",
+   "confidence": "A",
+   "source_ids": [
+    "niuheliangDNA"
+   ]
+  },
+  {
+   "from": "culture:xinglongwa",
+   "to": "pop:north_route",
+   "type": "derives_from",
+   "confidence": "B",
+   "source_ids": [
+    "niuheliangDNA",
+    "jlubaikal"
+   ]
+  },
+  {
+   "from": "culture:beixin",
+   "to": "culture:houli",
+   "type": "derives_from",
+   "confidence": "A",
+   "source_ids": [
+    "hanjianye2020"
+   ]
+  },
+  {
+   "from": "culture:dawenkou",
+   "to": "culture:beixin",
+   "type": "derives_from",
+   "confidence": "A",
+   "source_ids": [
+    "hanjianye2020"
+   ]
+  },
+  {
+   "from": "culture:daxi",
+   "to": "culture:gaomiao",
+   "type": "derives_from",
+   "confidence": "B",
+   "source_ids": [
+    "gaomiao2026"
+   ]
+  },
+  {
+   "from": "site:chengtoushan",
+   "to": "culture:daxi",
+   "type": "located_at",
+   "confidence": "A",
+   "source_ids": [
+    "hanjianye2020"
+   ]
+  },
+  {
+   "from": "culture:tangjiagang",
+   "to": "culture:gaomiao",
+   "type": "derives_from",
+   "confidence": "A",
+   "source_ids": [
+    "gaomiao2026"
+   ]
+  },
+  {
+   "from": "culture:majiabang",
+   "to": "culture:kuahuqiao",
+   "type": "derives_from",
+   "confidence": "B",
+   "source_ids": [
+    "shangshan2025zj"
+   ]
+  },
+  {
+   "from": "culture:songze",
+   "to": "culture:majiabang",
+   "type": "derives_from",
+   "confidence": "A",
+   "source_ids": [
+    "shangshan2025zj"
+   ]
+  },
+  {
+   "from": "culture:hemudu",
+   "to": "culture:kuahuqiao",
+   "type": "derives_from",
+   "confidence": "B",
+   "source_ids": [
+    "science2024rice"
+   ]
+  },
+  {
+   "from": "culture:hemudu",
+   "to": "pop:rice_farmer_groups",
+   "type": "derives_from",
+   "confidence": "B",
+   "source_ids": [
+    "yang2020"
+   ]
+  },
+  {
+   "from": "culture:majiabang",
+   "to": "culture:xinglongwa",
+   "type": "contemporary_with",
+   "confidence": "B",
+   "source_ids": [
+    "dengchong2024"
+   ],
+   "note": "玉玦同源假说的两端，act4'玉玦之路'展开"
+  },
+  {
+   "from": "myth_person:taihao",
+   "to": "culture:dawenkou",
+   "type": "corresponds_to",
+   "confidence": "D",
+   "source_ids": [
+    "fusinian1935"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "id": "story:north_jade",
+   "title": "北玉长歌：从玉玦到玉龙",
+   "thread": [
+    "culture:xinglongwa",
+    "culture:zhaobaogou",
+    "culture:hongshan",
+    "site:niuheliang"
+   ],
+   "summary": "八千年前西辽河畔的第一对玉玦，经赵宝沟神兽纹的酝酿，五千年在牛河梁凝成C形玉龙与唯玉为葬的神权之国——N系人群的冰雪审美长卷。",
+   "branch_points": [
+    {
+     "at": "site:niuheliang",
+     "question": "牛河梁没有城没有大居址——这是神权联盟还是季节性朝圣经济？",
+     "alt": "story:ritual_economy"
+    }
+   ]
+  },
+  {
+   "id": "story:first_cities",
+   "title": "第一批城：水的政治",
+   "thread": [
+    "culture:tangjiagang",
+    "site:chengtoushan",
+    "culture:daxi"
+   ],
+   "summary": "高庙的白陶观念沿沅水入洞庭，汤家岗的八角星纹铺开，六千三百年前城头山夯起第一版城墙——城先在南方、因水而生。",
+   "branch_points": []
+  },
+  {
+   "id": "story:8ka_shock",
+   "title": "寒潮三响",
+   "thread": [
+    "climate_event:8_2ka",
+    "site:jiahu",
+    "culture:xinglongwa",
+    "culture:songze"
+   ],
+   "summary": "8.2ka冷干回摆扫过东亚：贾湖人调整生业最终离乡，西辽河聚落重组，太湖人群却借低地扩张逆势上行——同一寒潮，三种命运。",
+   "branch_points": [
+    {
+     "at": "climate_event:8_2ka",
+     "question": "气候事件决定文化命运，还是只是背景噪音？",
+     "alt": "story:climate_determinism"
+    }
+   ]
+  }
+ ]
 }

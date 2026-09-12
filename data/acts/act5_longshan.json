@@ -174,7 +174,9 @@
     {
      "claim": "王城岗小城+大城两期结构对应'鲧作城'→'禹都'的文献层累",
      "confidence": "D",
-     "source_ids": []
+     "source_ids": [
+      "wangchenggang2008"
+     ]
     }
    ],
    "tags": [
@@ -307,7 +309,10 @@
     {
      "claim": "有虞氏（舜集团）=海岱龙山政治体的记忆投影",
      "confidence": "D",
-     "source_ids": []
+     "source_ids": [
+      "zhangld2025yu",
+      "mengzi"
+     ]
     }
    ],
    "tags": [
@@ -387,7 +392,10 @@
     {
      "claim": "'治水社会'作为国家起源动因（魏特夫式水利国家假说）在考古上不成立：良渚水利远早于国家成型、二里头无大型水利工程",
      "confidence": "C",
-     "source_ids": [],
+     "source_ids": [
+      "wittfogel1957",
+      "lzmuseum42ka"
+     ],
      "note": "对流行叙事的反思claim；出处待补"
     }
    ],
@@ -452,7 +460,10 @@
     {
      "claim": "舜=海岱系（有虞氏）政治体与中原集团联盟的记忆投影：尧舜联盟=晋南-海岱双中心结构的神化",
      "confidence": "D",
-     "source_ids": []
+     "source_ids": [
+      "mengzi",
+      "zhangld2025yu"
+     ]
     }
    ],
    "tags": [
@@ -530,7 +541,10 @@
     {
      "claim": "禅让叙事的地理结构（晋南-豫东-豫西轮替）反映的是'多元共主联盟'而非单线王朝",
      "confidence": "D",
-     "source_ids": []
+     "source_ids": [
+      "zhushu",
+      "guyigang1924"
+     ]
     }
    ],
    "tags": [
@@ -639,7 +653,10 @@
    "to": "culture:shandong_longshan",
    "type": "corresponds_to",
    "confidence": "D",
-   "source_ids": []
+   "source_ids": [
+    "mengzi",
+    "zhangld2025yu"
+   ]
   },
   {
    "from": "myth_person:yu",
