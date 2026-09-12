@@ -1,68 +1,108 @@
 {
-  "sources": [
-    {
-      "id": "sciadv2025Y",
-      "kind": "paper",
-      "title": "Complex peopling history and expansion events inferred from large-scale modern and ancient Y chromosome sequences",
-      "url": "https://www.science.org/doi/10.1126/sciadv.adu7935",
-      "year": 2025,
-      "note": "东亚古DNA大样本Y序列：167个N系古个体（含92个N1a），N支系扩张年代与路线的核心证据"
-    },
-    {
-      "id": "yang2020",
-      "kind": "news",
-      "title": "中国科学家揭开南北方人群迁徙与混合之历史（付巧妹团队，古脊椎所）",
-      "url": "https://www.ivpp.ac.cn/kxcb/kpdt/202005/t20200519_5583051.html",
-      "year": 2020,
-      "note": "9500BP前南北人群分家、8300BP起融合；福建及南方沿海古人群≈南岛语系人群祖先"
-    },
-    {
-      "id": "xinhua2020",
-      "kind": "news",
-      "title": "研究显示：东亚南北方人群8300年前开始融合（新华网）",
-      "url": "http://www.xinhuanet.com/politics/2020-06/02/c_1126061940.htm",
-      "year": 2020,
-      "note": "付巧妹团队成果的权威媒体版本，南北融合时间点8300BP"
-    },
-    {
-      "id": "thepaper2020",
-      "kind": "news",
-      "title": "人之初、分南北，9500年前南北方人就分家了（澎湃新闻）",
-      "url": "https://www.thepaper.cn/newsDetail_forward_7411882",
-      "year": 2020,
-      "note": "南北分家9500BP的科普细节版"
-    },
-    {
-      "id": "siska2017",
-      "kind": "paper",
-      "title": "Ancient genome from Devil's Gate (East Asia), 5700 BP 俄罗斯远东鬼门洞基因组",
-      "url": "https://www.ebi.ac.uk/ena/browser/view/PRJEB14817",
-      "year": 2017,
-      "note": "新石器东北亚狩猎采集女性基因组，与今通古斯语族（如Ulchi）直接连续；北线人群晚至5.7kBP仍保持狩猎采集成分的直接证据"
-    },
-    {
-      "id": "ndichotomy",
-      "kind": "paper",
-      "title": "The dichotomy structure of Y chromosome Haplogroup N",
-      "url": "https://ui.adsabs.harvard.edu/abs/2015arXiv150406463H/abstract",
-      "year": 2015,
-      "note": "N单倍群南北二分结构：南方古老支系与北方扩张支系分家的早期系统性研究"
-    },
-    {
-      "id": "frontiers2022",
-      "kind": "paper",
-      "title": "Ancient genomes reveal the origin and evolutionary history of Chinese populations (Frontiers in Earth Science 综述)",
-      "url": "https://www.frontiersin.org/journals/earth-science/articles/10.3389/feart.2022.1059196/full",
-      "year": 2022,
-      "note": "中国古基因组5年发展综述：田园洞、南方沿海、黄河流域、南北混合框架"
-    },
-    {
-      "id": "fznews2020",
-      "kind": "news",
-      "title": "研究确认：福建及周边古南方人群是南岛语系人群祖先（福州新闻网）",
-      "url": "https://news.fznews.com.cn/dsxw/20200515/5ebe422c919c5_2.shtml",
-      "year": 2020,
-      "note": "南方沿海古人群与南岛语系联系的确认"
-    }
-  ]
+ "sources": [
+  {
+   "id": "sciadv2025Y",
+   "kind": "paper",
+   "title": "Complex peopling history and expansion events inferred from large-scale modern and ancient Y chromosome sequences",
+   "url": "https://www.science.org/doi/10.1126/sciadv.adu7935",
+   "year": 2025,
+   "note": "东亚古DNA大样本Y序列：167个N系古个体（含92个N1a），N支系扩张年代与路线的核心证据"
+  },
+  {
+   "id": "yang2020",
+   "kind": "news",
+   "title": "中国科学家揭开南北方人群迁徙与混合之历史（付巧妹团队，古脊椎所）",
+   "url": "https://www.ivpp.ac.cn/kxcb/kpdt/202005/t20200519_5583051.html",
+   "year": 2020,
+   "note": "9500BP前南北人群分家、8300BP起融合；福建及南方沿海古人群≈南岛语系人群祖先"
+  },
+  {
+   "id": "xinhua2020",
+   "kind": "news",
+   "title": "研究显示：东亚南北方人群8300年前开始融合（新华网）",
+   "url": "http://www.xinhuanet.com/politics/2020-06/02/c_1126061940.htm",
+   "year": 2020,
+   "note": "付巧妹团队成果的权威媒体版本，南北融合时间点8300BP"
+  },
+  {
+   "id": "thepaper2020",
+   "kind": "news",
+   "title": "人之初、分南北，9500年前南北方人就分家了（澎湃新闻）",
+   "url": "https://www.thepaper.cn/newsDetail_forward_7411882",
+   "year": 2020,
+   "note": "南北分家9500BP的科普细节版"
+  },
+  {
+   "id": "siska2017",
+   "kind": "paper",
+   "title": "Ancient genome from Devil's Gate (East Asia), 5700 BP 俄罗斯远东鬼门洞基因组",
+   "url": "https://www.ebi.ac.uk/ena/browser/view/PRJEB14817",
+   "year": 2017,
+   "note": "新石器东北亚狩猎采集女性基因组，与今通古斯语族（如Ulchi）直接连续；北线人群晚至5.7kBP仍保持狩猎采集成分的直接证据"
+  },
+  {
+   "id": "ndichotomy",
+   "kind": "paper",
+   "title": "The dichotomy structure of Y chromosome Haplogroup N",
+   "url": "https://ui.adsabs.harvard.edu/abs/2015arXiv150406463H/abstract",
+   "year": 2015,
+   "note": "N单倍群南北二分结构：南方古老支系与北方扩张支系分家的早期系统性研究"
+  },
+  {
+   "id": "frontiers2022",
+   "kind": "paper",
+   "title": "Ancient genomes reveal the origin and evolutionary history of Chinese populations (Frontiers in Earth Science 综述)",
+   "url": "https://www.frontiersin.org/journals/earth-science/articles/10.3389/feart.2022.1059196/full",
+   "year": 2022,
+   "note": "中国古基因组5年发展综述：田园洞、南方沿海、黄河流域、南北混合框架"
+  },
+  {
+   "id": "fznews2020",
+   "kind": "news",
+   "title": "研究确认：福建及周边古南方人群是南岛语系人群祖先（福州新闻网）",
+   "url": "https://news.fznews.com.cn/dsxw/20200515/5ebe422c919c5_2.shtml",
+   "year": 2020,
+   "note": "南方沿海古人群与南岛语系联系的确认"
+  },
+  {
+   "id": "science2024rice",
+   "kind": "paper",
+   "title": "Rice’s long journey from wild to domesticated over 100,000 years at the Shangshan site（张健平/吕厚远等, Science）",
+   "url": "http://paleomag.ac.cn/cutting_edge/202406/t20240614_513881.html",
+   "year": 2024,
+   "note": "上山遗址植硅体十万年序列：野生稻采集→前驯化→驯化固定，稻作起源的世界级实证"
+  },
+  {
+   "id": "shangshan2025zj",
+   "kind": "news",
+   "title": "浦江上山文化把中华文化历史向前推进到一万年左右（浙江省文物局/浙江日报）",
+   "url": "http://wwj.zj.gov.cn/art/2025/7/21/art_1641242_59064702.html",
+   "year": 2025,
+   "note": "上山=万年稻作+定居村落+最早彩陶之一的官方叙事"
+  },
+  {
+   "id": "gaomiao2026",
+   "kind": "news",
+   "title": "7000年前的文化纽带：高庙遗址与史前区域互动（湖南日报）",
+   "url": "https://www.hunantoday.cn/news/xhn/202606/32891335.html",
+   "year": 2026,
+   "note": "高庙白陶与凤鸟纹的区域传播网络"
+  },
+  {
+   "id": "hanjianye2020",
+   "kind": "paper",
+   "title": "韩建业：从考古发现看八千年以来早期中国的文化基因（新华网）",
+   "url": "http://www.news.cn/politics/2020-11/04/c_1126695556.htm",
+   "year": 2020,
+   "note": "裴李岗-贾湖系统与'早期中国文化圈'的萌芽；内容以礼、以农为本"
+  },
+  {
+   "id": "qstheory2020",
+   "kind": "paper",
+   "title": "中华文明的宏大进程孕育多元一体、协和万邦的文明基因（求是）",
+   "url": "https://www.qstheory.cn/qshyjx/2020-09/23/c_1126812906.htm",
+   "year": 2020,
+   "note": "贾湖骨笛/龟甲刻符/农业起源在文明进程框架中的位置"
+  }
+ ]
 }

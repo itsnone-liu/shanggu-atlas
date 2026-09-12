@@ -81,6 +81,26 @@
 }
 ```
 
+## 叙事线 Story（幕文件顶层 `"stories"` 数组，v0.1.1 新增）
+
+独立于关系图的"讲故事"层——网页动态分支叙事直接消费它：
+
+```json
+{
+  "id": "story:rice_road",
+  "title": "稻之路",
+  "thread": ["site:xianrendong", "site:yuchanyan", "culture:shangshan", "culture:hemudu"],
+  "summary": "一粒野生稻十万年驯化长河",
+  "branch_points": [
+    {"at": "culture:shangshan", "question": "如果仙女木没有发生，驯化还会启动吗？", "alt": "story:no_yd_rice"}
+  ]
+}
+```
+
+- `thread` 按叙事顺序排列实体 id（时间轴动画的"脚本"）；
+- `branch_points` 是分支互动点：网页在此暂停提问，观众选择后跳到另一条 story——同一史实不同假说的平行宇宙；
+- 幕与幕之间 story 可同名续接（如"稻之路"贯穿 act2→act5）。
+
 ## ID 规范
 
 `类型前缀:短名`，全库唯一。幕文件只存实体与关系，出处集中在 sources.json。
