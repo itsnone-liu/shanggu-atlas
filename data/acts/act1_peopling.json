@@ -1,0 +1,198 @@
+{
+  "act": 1,
+  "title": "深古：南北两条线进入东亚",
+  "time": {"from": 50000, "to": 12000, "unit": "BP"},
+  "entities": [
+    {
+      "id": "event:ooa_east_asia",
+      "type": "population",
+      "name": "现代人进入东亚",
+      "aliases": ["Out of Africa into East Asia"],
+      "time": {"from": 50000, "to": 40000, "unit": "BP", "approx": true},
+      "location": {"type": "route", "desc": "西亚-南亚→东南亚沿海(南线)；中亚-西伯利亚(北线)"},
+      "confidence": "B",
+      "summary": "解剖学现代人约5-4万年前已出现在东亚，分南方沿海与北方内陆两条主要通道进入，构成此后所有故事的起点。",
+      "claims": [
+        {
+          "claim": "南线（沿海快速通道）与北线（内陆）两波进入构成东亚现代人群的两大源头",
+          "confidence": "B",
+          "source_ids": ["frontiers2022", "sciadv2025Y"]
+        }
+      ],
+      "tags": ["框架"]
+    },
+    {
+      "id": "pop:south_route",
+      "type": "population",
+      "name": "南线人群",
+      "aliases": ["南方沿海路线", "Southern Route"],
+      "time": {"from": 50000, "to": 30000, "unit": "BP", "approx": true},
+      "location": {"type": "route", "desc": "东南亚沿海→华南→长江流域"},
+      "confidence": "C",
+      "summary": "经东南亚沿海北上的早期人群，携带Y染色体O系（及更早的C/D成分）祖先、mtDNA B/R9等南方标记，后续在长江-珠江流域扩张为稻作人群主体。",
+      "claims": [
+        {
+          "claim": "南线是O单倍群祖先的进入通道；O系后来分化出O1(东南沿海-南岛系)与O2(黄河-汉藏系)",
+          "confidence": "C",
+          "source_ids": ["sciadv2025Y", "frontiers2022"],
+          "note": "O1/O2的分化地点（华南vs长江中游）仍有竞争假说"
+        }
+      ],
+      "tags": ["Y-DNA:O", "南线"]
+    },
+    {
+      "id": "pop:north_route",
+      "type": "population",
+      "name": "北线人群",
+      "aliases": ["北方内陆路线", "Northern Route"],
+      "time": {"from": 45000, "to": 25000, "unit": "BP", "approx": true},
+      "location": {"type": "route", "desc": "中亚/蒙古高原→华北-东北亚"},
+      "confidence": "C",
+      "summary": "经内陆通道东进的早期人群，携带Y染色体N、Q、C2北支等成分，适应高纬度狩猎采集生活，末次盛冰期中被压缩至避难所。",
+      "claims": [
+        {
+          "claim": "北线是N与Q单倍群祖先进入东北亚的通道；N后来在中纬度以北扩张并西进乌拉尔",
+          "confidence": "C",
+          "source_ids": ["sciadv2025Y", "ndichotomy"]
+        }
+      ],
+      "tags": ["Y-DNA:N", "Y-DNA:Q", "北线"]
+    },
+    {
+      "id": "site:tianyuan",
+      "type": "site",
+      "name": "田园洞人",
+      "aliases": ["Tianyuan man"],
+      "time": {"from": 42000, "to": 39000, "unit": "BP", "approx": true},
+      "location": {"type": "point", "lon": 115.85, "lat": 39.6},
+      "confidence": "A",
+      "summary": "北京周口店田园洞出土的早期现代人，东亚最古老的古DNA样本之一：已与现代欧洲人分家、含古南方成分，但不是任何现代人群的直系祖先。",
+      "claims": [
+        {
+          "claim": "田园洞人代表4万年前东亚人群已经南北分化前的古老形态",
+          "confidence": "B",
+          "source_ids": ["frontiers2022"]
+        }
+      ],
+      "tags": ["古DNA", "北京"]
+    },
+    {
+      "id": "event:lgm",
+      "type": "climate_event",
+      "name": "末次盛冰期",
+      "aliases": ["Last Glacial Maximum", "LGM"],
+      "time": {"from": 26500, "to": 19000, "unit": "BP"},
+      "location": {"type": "region", "desc": "全球性事件"},
+      "confidence": "A",
+      "summary": "末次冰期最寒冷阶段，海平面下降约130米，华北-东北亚人群被压缩到少数避难所，有效人口规模骤降，构成最强的早期瓶颈。",
+      "claims": [
+        {
+          "claim": "LGM避难所分化奠定了此后东亚人群的南北底色：北方成分与南方成分分别在不同的避难所中重组",
+          "confidence": "B",
+          "source_ids": ["frontiers2022", "sciadv2025Y"]
+        }
+      ],
+      "tags": ["气候", "瓶颈"]
+    },
+    {
+      "id": "event:north_south_split",
+      "type": "population",
+      "name": "东亚南北方人群分家",
+      "aliases": ["南北分化"],
+      "time": {"from": 9500, "to": 8300, "unit": "BP"},
+      "location": {"type": "region", "desc": "以秦岭-淮河为界的南北两大遗传区块"},
+      "confidence": "A",
+      "summary": "付巧妹团队古DNA显示：至少9500年前东亚南北方人群已遗传分家（早于农业扩张），8300年前起随农业扩张开始大规模融合，今南方汉族携带的北方成分正是这波融合的遗产。",
+      "claims": [
+        {
+          "claim": "南北分家先于稻粟农业大扩张，说明早全新世狩猎采集人群已经区域化定居",
+          "confidence": "B",
+          "source_ids": ["yang2020", "xinhua2020", "thepaper2020"]
+        },
+        {
+          "claim": "南方沿海古人群（福建奇和洞-亮岛一系）是南岛语系人群的祖先，农业化后向台湾-岛屿东南亚扩散",
+          "confidence": "B",
+          "source_ids": ["fznews2020", "yang2020"]
+        }
+      ],
+      "tags": ["古DNA", "分家", "融合"]
+    },
+    {
+      "id": "pop:ne_asian_hg",
+      "type": "population",
+      "name": "东北亚狩猎采集人群",
+      "aliases": ["鬼门洞人群", "Devil's Gate"],
+      "time": {"from": 7000, "to": 5000, "unit": "BP", "approx": true},
+      "location": {"type": "point", "lon": 131.6, "lat": 43.4},
+      "confidence": "A",
+      "summary": "俄罗斯远东鬼门洞5700BP女性基因组：与今天通古斯语族（如乌尔奇人）高度连续，代表北线成分在东北亚的长期存续——直到历史时期仍是当地人群的底盘。",
+      "claims": [
+        {
+          "claim": "鬼门洞人群属于N系（N1c）扩张后的东北亚狩猎采集带，是后来东北亚渔猎民族与部分北方汉族父系成分的源头之一",
+          "confidence": "B",
+          "source_ids": ["siska2017", "sciadv2025Y"]
+        }
+      ],
+      "tags": ["古DNA", "东北亚", "Y-DNA:N"]
+    },
+    {
+      "id": "pop:n_lineage",
+      "type": "population",
+      "name": "Y-N单倍群支系",
+      "aliases": ["Haplogroup N"],
+      "time": {"from": 36000, "to": 4000, "unit": "BP", "approx": true},
+      "location": {"type": "route", "desc": "东亚起源→LGM后北上东北亚-西伯利亚→西进乌拉尔；部分支系南下回流"},
+      "confidence": "B",
+      "summary": "N单倍群约3.6万年前在东亚诞生（NO分化），LGM后沿东北亚扩张，一支西迁成为乌拉尔语系人群（芬兰-萨米-涅涅茨）主要父系，一支留居东北亚并参与红山-兴隆洼文化人群构成；中国北方今存N1a2、N1b等支系。",
+      "claims": [
+        {
+          "claim": "N的南北二分结构（南方古老支系vs北方扩张支系）说明其东亚起源后双向扩散",
+          "confidence": "B",
+          "source_ids": ["ndichotomy", "sciadv2025Y"]
+        },
+        {
+          "claim": "红山文化（西辽河流域）人群中N系占显著比例，N系是辽河流域文化人群的重要父系成分",
+          "confidence": "C",
+          "source_ids": ["sciadv2025Y"],
+          "note": "红山古DNA样本量仍少，比例与来源方向待act3补强证据"
+        }
+      ],
+      "tags": ["Y-DNA:N", "主线"]
+    },
+    {
+      "id": "pop:o_lineage",
+      "type": "population",
+      "name": "Y-O单倍群支系",
+      "aliases": ["Haplogroup O"],
+      "time": {"from": 35000, "to": 4000, "unit": "BP", "approx": true},
+      "location": {"type": "route", "desc": "长江-西南起源→O1东南沿海扩张、O2黄河流域扩张"},
+      "confidence": "B",
+      "summary": "东亚-东南亚最繁盛的父系支系（今汉族60%+）：O1系随稻作南下沿海并衍生南岛语系人群，O2系随粟作在黄河流域扩张并衍生汉藏语系人群——两条农业路线分别塑造了南岛与汉藏两大语言文化世界。",
+      "claims": [
+        {
+          "claim": "O2（黄河粟作人群）≈汉藏语系起源与扩散的父系载体",
+          "confidence": "B",
+          "source_ids": ["yang2020", "sciadv2025Y"]
+        },
+        {
+          "claim": "O1（长江-东南沿海稻作人群）≈南岛-壮侗-苗瑶系统的父系成分之一",
+          "confidence": "C",
+          "source_ids": ["fznews2020", "yang2020"],
+          "note": "壮侗/苗瑶的父系构成是多源混合，O1只是成分之一"
+        }
+      ],
+      "tags": ["Y-DNA:O", "主线"]
+    }
+  ],
+  "relations": [
+    {"from": "pop:south_route", "to": "event:ooa_east_asia", "type": "derives_from", "confidence": "B", "source_ids": ["frontiers2022"]},
+    {"from": "pop:north_route", "to": "event:ooa_east_asia", "type": "derives_from", "confidence": "B", "source_ids": ["frontiers2022"]},
+    {"from": "site:tianyuan", "to": "event:ooa_east_asia", "type": "evidence_for", "confidence": "A", "source_ids": ["frontiers2022"]},
+    {"from": "pop:n_lineage", "to": "pop:north_route", "type": "derives_from", "confidence": "C", "source_ids": ["sciadv2025Y", "ndichotomy"]},
+    {"from": "pop:o_lineage", "to": "pop:south_route", "type": "derives_from", "confidence": "C", "source_ids": ["sciadv2025Y"]},
+    {"from": "pop:ne_asian_hg", "to": "pop:n_lineage", "type": "derives_from", "confidence": "B", "source_ids": ["siska2017", "sciadv2025Y"]},
+    {"from": "event:lgm", "to": "event:north_south_split", "type": "driven_by", "confidence": "B", "source_ids": ["frontiers2022", "yang2020"], "note": "冰期避难所分化为南北遗传区块奠基"},
+    {"from": "event:north_south_split", "to": "pop:o_lineage", "type": "contemporary_with", "confidence": "B", "source_ids": ["yang2020"]},
+    {"from": "event:north_south_split", "to": "pop:n_lineage", "type": "contemporary_with", "confidence": "B", "source_ids": ["yang2020"]}
+  ]
+}
